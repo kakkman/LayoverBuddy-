@@ -1,0 +1,8 @@
+{
+  "name": "LayoverBuddy",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
