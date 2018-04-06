@@ -1,0 +1,5372 @@
+[
+ {
+   "name": "Kenneth Kaunda International Airport Lusaka",
+   "latitude_deg": -15.33080006,
+   "longitude_deg": 28.45260048,
+   "continent": "AF",
+   "iso_country": "ZM",
+   "iso_region": "ZM-09",
+   "municipality": "Lusaka",
+   "iata_code": "LUN"
+ },
+ {
+   "name": "Cape Town International Airport",
+   "latitude_deg": -33.96480179,
+   "longitude_deg": 18.60169983,
+   "continent": "AF",
+   "iso_country": "ZA",
+   "iso_region": "ZA-WC",
+   "municipality": "Cape Town",
+   "iata_code": "CPT"
+ },
+ {
+   "name": "George Airport",
+   "latitude_deg": -34.0056,
+   "longitude_deg": 22.378902,
+   "continent": "AF",
+   "iso_country": "ZA",
+   "iso_region": "ZA-WC",
+   "municipality": "George",
+   "iata_code": "GRJ"
+ },
+ {
+   "name": "OR Tambo International Airport",
+   "latitude_deg": -26.1392,
+   "longitude_deg": 28.246,
+   "continent": "AF",
+   "iso_country": "ZA",
+   "iso_region": "ZA-GT",
+   "municipality": "Johannesburg",
+   "iata_code": "JNB"
+ },
+ {
+   "name": "King Shaka International Airport",
+   "latitude_deg": -29.61444444,
+   "longitude_deg": 31.11972222,
+   "continent": "AF",
+   "iso_country": "ZA",
+   "iso_region": "ZA-NL",
+   "municipality": "Durban",
+   "iata_code": "DUR"
+ },
+ {
+   "name": "OR Tambo International Airport",
+   "latitude_deg": -26.1392,
+   "longitude_deg": 28.246,
+   "continent": "AF",
+   "iso_country": "ZA",
+   "iso_region": "ZA-GT",
+   "municipality": "Johannesburg",
+   "iata_code": "JNB"
+ },
+ {
+   "name": "Priština International Airport",
+   "latitude_deg": 42.5728,
+   "longitude_deg": 21.035801,
+   "continent": "EU",
+   "iso_country": "XK",
+   "iso_region": "XK-01",
+   "municipality": "Prishtina",
+   "iata_code": "PRN"
+ },
+ {
+   "name": "Da Nang International Airport",
+   "latitude_deg": 16.04389954,
+   "longitude_deg": 108.1989975,
+   "continent": "AS",
+   "iso_country": "VN",
+   "iso_region": "VN-60",
+   "municipality": "Da Nang",
+   "iata_code": "DAD"
+ },
+ {
+   "name": "Noi Bai International Airport",
+   "latitude_deg": 21.22120094,
+   "longitude_deg": 105.8069992,
+   "continent": "AS",
+   "iso_country": "VN",
+   "iso_region": "VN-15",
+   "municipality": "Hanoi",
+   "iata_code": "HAN"
+ },
+ {
+   "name": "Tan Son Nhat International Airport",
+   "latitude_deg": 10.81879997,
+   "longitude_deg": 106.6520004,
+   "continent": "AS",
+   "iso_country": "VN",
+   "iso_region": "VN-23",
+   "municipality": "Ho Chi Minh City",
+   "iata_code": "SGN"
+ },
+ {
+   "name": "General José Antonio Anzoategui International Airport",
+   "latitude_deg": 10.11111111,
+   "longitude_deg": -64.69222222,
+   "continent": "SA",
+   "iso_country": "VE",
+   "iso_region": "VE-B",
+   "municipality": "Barcelona",
+   "iata_code": "BLA"
+ },
+ {
+   "name": "Simón Bolívar International Airport",
+   "latitude_deg": 10.601194,
+   "longitude_deg": -66.991222,
+   "continent": "SA",
+   "iso_country": "VE",
+   "iso_region": "VE-X",
+   "municipality": "Caracas",
+   "iata_code": "CCS"
+ },
+ {
+   "name": "Tashkent International Airport",
+   "latitude_deg": 41.25790024,
+   "longitude_deg": 69.28119659,
+   "continent": "AS",
+   "iso_country": "UZ",
+   "iso_region": "UZ-TO",
+   "municipality": "Tashkent",
+   "iata_code": "TAS"
+ },
+ {
+   "name": "Carrasco International /General C L Berisso Airport",
+   "latitude_deg": -34.838402,
+   "longitude_deg": -56.0308,
+   "continent": "SA",
+   "iso_country": "UY",
+   "iso_region": "UY-CA",
+   "municipality": "Montevideo",
+   "iata_code": "MVD"
+ },
+ {
+   "name": "Albuquerque International Sunport Airport",
+   "latitude_deg": 35.040199,
+   "longitude_deg": -106.609001,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NM",
+   "municipality": "Albuquerque",
+   "iata_code": "ABQ"
+ },
+ {
+   "name": "Augusta Regional At Bush Field",
+   "latitude_deg": 33.36989975,
+   "longitude_deg": -81.96450043,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-GA",
+   "municipality": "Augusta",
+   "iata_code": "AGS"
+ },
+ {
+   "name": "Rick Husband Amarillo International Airport",
+   "latitude_deg": 35.219398,
+   "longitude_deg": -101.706001,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TX",
+   "municipality": "Amarillo",
+   "iata_code": "AMA"
+ },
+ {
+   "name": "Hartsfield Jackson Atlanta International Airport",
+   "latitude_deg": 33.63669968,
+   "longitude_deg": -84.42810059,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-GA",
+   "municipality": "Atlanta",
+   "iata_code": "ATL"
+ },
+ {
+   "name": "Austin Bergstrom International Airport",
+   "latitude_deg": 30.19449997,
+   "longitude_deg": -97.66989899,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TX",
+   "municipality": "Austin",
+   "iata_code": "AUS"
+ },
+ {
+   "name": "Asheville Regional Airport",
+   "latitude_deg": 35.43619919,
+   "longitude_deg": -82.54180145,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NC",
+   "municipality": "Asheville",
+   "iata_code": "AVL"
+ },
+ {
+   "name": "Bradley International Airport",
+   "latitude_deg": 41.93889999,
+   "longitude_deg": -72.68319702,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-CT",
+   "municipality": "Hartford",
+   "iata_code": "BDL"
+ },
+ {
+   "name": "Boeing Field King County International Airport",
+   "latitude_deg": 47.52999878,
+   "longitude_deg": -122.302002,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-WA",
+   "municipality": "Seattle",
+   "iata_code": "BFI"
+ },
+ {
+   "name": "Bangor International Airport",
+   "latitude_deg": 44.80739975,
+   "longitude_deg": -68.82810211,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-ME",
+   "municipality": "Bangor",
+   "iata_code": "BGR"
+ },
+ {
+   "name": "Birmingham-Shuttlesworth International Airport",
+   "latitude_deg": 33.56290054,
+   "longitude_deg": -86.75350189,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-AL",
+   "municipality": "Birmingham",
+   "iata_code": "BHM"
+ },
+ {
+   "name": "Billings Logan International Airport",
+   "latitude_deg": 45.80770111,
+   "longitude_deg": -108.5429993,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MT",
+   "municipality": "Billings",
+   "iata_code": "BIL"
+ },
+ {
+   "name": "Scott AFB/Midamerica Airport",
+   "latitude_deg": 38.5452,
+   "longitude_deg": -89.835197,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IL",
+   "municipality": "Belleville",
+   "iata_code": "BLV"
+ },
+ {
+   "name": "Central Illinois Regional Airport at Bloomington-Normal",
+   "latitude_deg": 40.47710037,
+   "longitude_deg": -88.91590118,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IL",
+   "municipality": "Bloomington/Normal",
+   "iata_code": "BMI"
+ },
+ {
+   "name": "Nashville International Airport",
+   "latitude_deg": 36.12450027,
+   "longitude_deg": -86.67819977,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TN",
+   "municipality": "Nashville",
+   "iata_code": "BNA"
+ },
+ {
+   "name": "Boise Air Terminal/Gowen field",
+   "latitude_deg": 43.56439972,
+   "longitude_deg": -116.2229996,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-ID",
+   "municipality": "Boise",
+   "iata_code": "BOI"
+ },
+ {
+   "name": "General Edward Lawrence Logan International Airport",
+   "latitude_deg": 42.36429977,
+   "longitude_deg": -71.00520325,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MA",
+   "municipality": "Boston",
+   "iata_code": "BOS"
+ },
+ {
+   "name": "Baton Rouge Metropolitan, Ryan Field",
+   "latitude_deg": 30.53319931,
+   "longitude_deg": -91.14959717,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-LA",
+   "municipality": "Baton Rouge",
+   "iata_code": "BTR"
+ },
+ {
+   "name": "Buffalo Niagara International Airport",
+   "latitude_deg": 42.94049835,
+   "longitude_deg": -78.73220062,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NY",
+   "municipality": "Buffalo",
+   "iata_code": "BUF"
+ },
+ {
+   "name": "Baltimore/Washington International Thurgood Marshall Airport",
+   "latitude_deg": 39.17539978,
+   "longitude_deg": -76.66829681,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MD",
+   "municipality": "Baltimore",
+   "iata_code": "BWI"
+ },
+ {
+   "name": "Columbia Metropolitan Airport",
+   "latitude_deg": 33.93880081,
+   "longitude_deg": -81.11949921,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-SC",
+   "municipality": "Columbia",
+   "iata_code": "CAE"
+ },
+ {
+   "name": "Lovell Field",
+   "latitude_deg": 35.03530121,
+   "longitude_deg": -85.20379639,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TN",
+   "municipality": "Chattanooga",
+   "iata_code": "CHA"
+ },
+ {
+   "name": "Charleston Air Force Base-International Airport",
+   "latitude_deg": 32.89860153,
+   "longitude_deg": -80.04049683,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-SC",
+   "municipality": "Charleston",
+   "iata_code": "CHS"
+ },
+ {
+   "name": "The Eastern Iowa Airport",
+   "latitude_deg": 41.88470078,
+   "longitude_deg": -91.71080017,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IA",
+   "municipality": "Cedar Rapids",
+   "iata_code": "CID"
+ },
+ {
+   "name": "Cleveland Hopkins International Airport",
+   "latitude_deg": 41.4117012,
+   "longitude_deg": -81.84980011,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-OH",
+   "municipality": "Cleveland",
+   "iata_code": "CLE"
+ },
+ {
+   "name": "Charlotte Douglas International Airport",
+   "latitude_deg": 35.2140007,
+   "longitude_deg": -80.94309998,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NC",
+   "municipality": "Charlotte",
+   "iata_code": "CLT"
+ },
+ {
+   "name": "Port Columbus International Airport",
+   "latitude_deg": 39.9980011,
+   "longitude_deg": -82.89189911,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-OH",
+   "municipality": "Columbus",
+   "iata_code": "CMH"
+ },
+ {
+   "name": "City of Colorado Springs Municipal Airport",
+   "latitude_deg": 38.80580139,
+   "longitude_deg": -104.7009964,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-CO",
+   "municipality": "Colorado Springs",
+   "iata_code": "COS"
+ },
+ {
+   "name": "Casper-Natrona County International Airport",
+   "latitude_deg": 42.90800095,
+   "longitude_deg": -106.4639969,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-WY",
+   "municipality": "Casper",
+   "iata_code": "CPR"
+ },
+ {
+   "name": "Corpus Christi International Airport",
+   "latitude_deg": 27.77039909,
+   "longitude_deg": -97.50119781,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TX",
+   "municipality": "Corpus Christi",
+   "iata_code": "CRP"
+ },
+ {
+   "name": "Yeager Airport",
+   "latitude_deg": 38.37310028,
+   "longitude_deg": -81.59320068,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-WV",
+   "municipality": "Charleston",
+   "iata_code": "CRW"
+ },
+ {
+   "name": "Cincinnati Northern Kentucky International Airport",
+   "latitude_deg": 39.04880142,
+   "longitude_deg": -84.6678009,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-KY",
+   "municipality": "Cincinnati",
+   "iata_code": "CVG"
+ },
+ {
+   "name": "Daytona Beach International Airport",
+   "latitude_deg": 29.179899,
+   "longitude_deg": -81.058098,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-FL",
+   "municipality": "Daytona Beach",
+   "iata_code": "DAB"
+ },
+ {
+   "name": "Dallas Love Field",
+   "latitude_deg": 32.847099,
+   "longitude_deg": -96.851799,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TX",
+   "municipality": "Dallas",
+   "iata_code": "DAL"
+ },
+ {
+   "name": "James M Cox Dayton International Airport",
+   "latitude_deg": 39.90240097,
+   "longitude_deg": -84.2193985,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-OH",
+   "municipality": "Dayton",
+   "iata_code": "DAY"
+ },
+ {
+   "name": "Dubuque Regional Airport",
+   "latitude_deg": 42.40200043,
+   "longitude_deg": -90.70950317,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IA",
+   "municipality": "Dubuque",
+   "iata_code": "DBQ"
+ },
+ {
+   "name": "Ronald Reagan Washington National Airport",
+   "latitude_deg": 38.8521,
+   "longitude_deg": -77.037697,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-DC",
+   "municipality": "Washington",
+   "iata_code": "DCA"
+ },
+ {
+   "name": "Denver International Airport",
+   "latitude_deg": 39.86169815,
+   "longitude_deg": -104.6729965,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-CO",
+   "municipality": "Denver",
+   "iata_code": "DEN"
+ },
+ {
+   "name": "Dallas Fort Worth International Airport",
+   "latitude_deg": 32.89680099,
+   "longitude_deg": -97.03800201,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TX",
+   "municipality": "Dallas-Fort Worth",
+   "iata_code": "DFW"
+ },
+ {
+   "name": "Duluth International Airport",
+   "latitude_deg": 46.84209824,
+   "longitude_deg": -92.19360352,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MN",
+   "municipality": "Duluth",
+   "iata_code": "DLH"
+ },
+ {
+   "name": "Des Moines International Airport",
+   "latitude_deg": 41.5340004,
+   "longitude_deg": -93.6631012,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IA",
+   "municipality": "Des Moines",
+   "iata_code": "DSM"
+ },
+ {
+   "name": "Detroit Metropolitan Wayne County Airport",
+   "latitude_deg": 42.21239853,
+   "longitude_deg": -83.35340118,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MI",
+   "municipality": "Detroit",
+   "iata_code": "DTW"
+ },
+ {
+   "name": "Erie International Tom Ridge Field",
+   "latitude_deg": 42.08312701,
+   "longitude_deg": -80.17386675,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-PA",
+   "municipality": "Erie",
+   "iata_code": "ERI"
+ },
+ {
+   "name": "Newark Liberty International Airport",
+   "latitude_deg": 40.69250107,
+   "longitude_deg": -74.16870117,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NJ",
+   "municipality": "Newark",
+   "iata_code": "EWR"
+ },
+ {
+   "name": "Fort Lauderdale Hollywood International Airport",
+   "latitude_deg": 26.07259941,
+   "longitude_deg": -80.15270233,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-FL",
+   "municipality": "Fort Lauderdale",
+   "iata_code": "FLL"
+ },
+ {
+   "name": "Fort Smith Regional Airport",
+   "latitude_deg": 35.33660126,
+   "longitude_deg": -94.36740112,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-AR",
+   "municipality": "Fort Smith",
+   "iata_code": "FSM"
+ },
+ {
+   "name": "Fort Wayne International Airport",
+   "latitude_deg": 40.97850037,
+   "longitude_deg": -85.19509888,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IN",
+   "municipality": "Fort Wayne",
+   "iata_code": "FWA"
+ },
+ {
+   "name": "Spokane International Airport",
+   "latitude_deg": 47.61989975,
+   "longitude_deg": -117.5339966,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-WA",
+   "municipality": "Spokane",
+   "iata_code": "GEG"
+ },
+ {
+   "name": "Gulfport Biloxi International Airport",
+   "latitude_deg": 30.40730095,
+   "longitude_deg": -89.07009888,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MS",
+   "municipality": "Gulfport",
+   "iata_code": "GPT"
+ },
+ {
+   "name": "Austin Straubel International Airport",
+   "latitude_deg": 44.48509979,
+   "longitude_deg": -88.12960052,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-WI",
+   "municipality": "Green Bay",
+   "iata_code": "GRB"
+ },
+ {
+   "name": "Piedmont Triad International Airport",
+   "latitude_deg": 36.09780121,
+   "longitude_deg": -79.93730164,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NC",
+   "municipality": "Greensboro",
+   "iata_code": "GSO"
+ },
+ {
+   "name": "Greenville Spartanburg International Airport",
+   "latitude_deg": 34.89569855,
+   "longitude_deg": -82.21890259,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-SC",
+   "municipality": "Greenville",
+   "iata_code": "GSP"
+ },
+ {
+   "name": "Range Regional Airport",
+   "latitude_deg": 47.38660049,
+   "longitude_deg": -92.83899689,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MN",
+   "municipality": "Hibbing",
+   "iata_code": "HIB"
+ },
+ {
+   "name": "William P Hobby Airport",
+   "latitude_deg": 29.64539909,
+   "longitude_deg": -95.27890015,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TX",
+   "municipality": "Houston",
+   "iata_code": "HOU"
+ },
+ {
+   "name": "Huntsville International Carl T Jones Field",
+   "latitude_deg": 34.6371994,
+   "longitude_deg": -86.77510071,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-AL",
+   "municipality": "Huntsville",
+   "iata_code": "HSV"
+ },
+ {
+   "name": "Tri-State/Milton J. Ferguson Field",
+   "latitude_deg": 38.36669922,
+   "longitude_deg": -82.55799866,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-WV",
+   "municipality": "Huntington",
+   "iata_code": "HTS"
+ },
+ {
+   "name": "Washington Dulles International Airport",
+   "latitude_deg": 38.94449997,
+   "longitude_deg": -77.45580292,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-DC",
+   "municipality": "Washington",
+   "iata_code": "IAD"
+ },
+ {
+   "name": "George Bush Intercontinental Houston Airport",
+   "latitude_deg": 29.9843998,
+   "longitude_deg": -95.34140015,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TX",
+   "municipality": "Houston",
+   "iata_code": "IAH"
+ },
+ {
+   "name": "Wichita Mid Continent Airport",
+   "latitude_deg": 37.64989853,
+   "longitude_deg": -97.43309784,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-KS",
+   "municipality": "Wichita",
+   "iata_code": "ICT"
+ },
+ {
+   "name": "Indianapolis International Airport",
+   "latitude_deg": 39.7173,
+   "longitude_deg": -86.294403,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IN",
+   "municipality": "Indianapolis",
+   "iata_code": "IND"
+ },
+ {
+   "name": "Jackson-Medgar Wiley Evers International Airport",
+   "latitude_deg": 32.31119919,
+   "longitude_deg": -90.07589722,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MS",
+   "municipality": "Jackson",
+   "iata_code": "JAN"
+ },
+ {
+   "name": "Jacksonville International Airport",
+   "latitude_deg": 30.49410057,
+   "longitude_deg": -81.68789673,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-FL",
+   "municipality": "Jacksonville",
+   "iata_code": "JAX"
+ },
+ {
+   "name": "John F Kennedy International Airport",
+   "latitude_deg": 40.63980103,
+   "longitude_deg": -73.77890015,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NY",
+   "municipality": "New York",
+   "iata_code": "JFK"
+ },
+ {
+   "name": "Joplin Regional Airport",
+   "latitude_deg": 37.15179825,
+   "longitude_deg": -94.49829865,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MO",
+   "municipality": "Joplin",
+   "iata_code": "JLN"
+ },
+ {
+   "name": "McCarran International Airport",
+   "latitude_deg": 36.08010101,
+   "longitude_deg": -115.1520004,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NV",
+   "municipality": "Las Vegas",
+   "iata_code": "LAS"
+ },
+ {
+   "name": "Los Angeles International Airport",
+   "latitude_deg": 33.94250107,
+   "longitude_deg": -118.4079971,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-CA",
+   "municipality": "Los Angeles",
+   "iata_code": "LAX"
+ },
+ {
+   "name": "Lubbock Preston Smith International Airport",
+   "latitude_deg": 33.663601,
+   "longitude_deg": -101.822998,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TX",
+   "municipality": "Lubbock",
+   "iata_code": "LBB"
+ },
+ {
+   "name": "Rickenbacker International Airport",
+   "latitude_deg": 39.813801,
+   "longitude_deg": -82.927803,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-OH",
+   "municipality": "Columbus",
+   "iata_code": "LCK"
+ },
+ {
+   "name": "Blue Grass Airport",
+   "latitude_deg": 38.03649902,
+   "longitude_deg": -84.60590363,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-KY",
+   "municipality": "Lexington",
+   "iata_code": "LEX"
+ },
+ {
+   "name": "Lafayette Regional Airport",
+   "latitude_deg": 30.20529938,
+   "longitude_deg": -91.98760223,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-LA",
+   "municipality": "Lafayette",
+   "iata_code": "LFT"
+ },
+ {
+   "name": "La Guardia Airport",
+   "latitude_deg": 40.77719879,
+   "longitude_deg": -73.87259674,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NY",
+   "municipality": "New York",
+   "iata_code": "LGA"
+ },
+ {
+   "name": "Bill & Hillary Clinton National Airport/Adams Field",
+   "latitude_deg": 34.72940063,
+   "longitude_deg": -92.22429657,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-AR",
+   "municipality": "Little Rock",
+   "iata_code": "LIT"
+ },
+ {
+   "name": "MBS International Airport",
+   "latitude_deg": 43.53290176,
+   "longitude_deg": -84.07959747,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MI",
+   "municipality": "Saginaw",
+   "iata_code": "MBS"
+ },
+ {
+   "name": "Kansas City International Airport",
+   "latitude_deg": 39.2976,
+   "longitude_deg": -94.713898,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MO",
+   "municipality": "Kansas City",
+   "iata_code": "MCI"
+ },
+ {
+   "name": "Orlando International Airport",
+   "latitude_deg": 28.42939949,
+   "longitude_deg": -81.30899811,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-FL",
+   "municipality": "Orlando",
+   "iata_code": "MCO"
+ },
+ {
+   "name": "Chicago Midway International Airport",
+   "latitude_deg": 41.7859993,
+   "longitude_deg": -87.75240326,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IL",
+   "municipality": "Chicago",
+   "iata_code": "MDW"
+ },
+ {
+   "name": "Memphis International Airport",
+   "latitude_deg": 35.04240036,
+   "longitude_deg": -89.97669983,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TN",
+   "municipality": "Memphis",
+   "iata_code": "MEM"
+ },
+ {
+   "name": "Montgomery Regional (Dannelly Field) Airport",
+   "latitude_deg": 32.30059814,
+   "longitude_deg": -86.39399719,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-AL",
+   "municipality": "Montgomery",
+   "iata_code": "MGM"
+ },
+ {
+   "name": "Manchester Airport",
+   "latitude_deg": 42.93259811,
+   "longitude_deg": -71.43569946,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NH",
+   "municipality": "Manchester",
+   "iata_code": "MHT"
+ },
+ {
+   "name": "Miami International Airport",
+   "latitude_deg": 25.79319954,
+   "longitude_deg": -80.29060364,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-FL",
+   "municipality": "Miami",
+   "iata_code": "MIA"
+ },
+ {
+   "name": "General Mitchell International Airport",
+   "latitude_deg": 42.94720078,
+   "longitude_deg": -87.89659882,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-WI",
+   "municipality": "Milwaukee",
+   "iata_code": "MKE"
+ },
+ {
+   "name": "Quad City International Airport",
+   "latitude_deg": 41.44850159,
+   "longitude_deg": -90.50749969,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IL",
+   "municipality": "Moline",
+   "iata_code": "MLI"
+ },
+ {
+   "name": "Monroe Regional Airport",
+   "latitude_deg": 32.51089859,
+   "longitude_deg": -92.03769684,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-LA",
+   "municipality": "Monroe",
+   "iata_code": "MLU"
+ },
+ {
+   "name": "Mobile Regional Airport",
+   "latitude_deg": 30.69120026,
+   "longitude_deg": -88.24279785,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-AL",
+   "municipality": "Mobile",
+   "iata_code": "MOB"
+ },
+ {
+   "name": "Dane County Regional Truax Field",
+   "latitude_deg": 43.13990021,
+   "longitude_deg": -89.33750153,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-WI",
+   "municipality": "Madison",
+   "iata_code": "MSN"
+ },
+ {
+   "name": "Minneapolis-St Paul International/Wold-Chamberlain Airport",
+   "latitude_deg": 44.88199997,
+   "longitude_deg": -93.22180176,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MN",
+   "municipality": "Minneapolis",
+   "iata_code": "MSP"
+ },
+ {
+   "name": "Louis Armstrong New Orleans International Airport",
+   "latitude_deg": 29.99340057,
+   "longitude_deg": -90.25800323,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-LA",
+   "municipality": "New Orleans",
+   "iata_code": "MSY"
+ },
+ {
+   "name": "Metropolitan Oakland International Airport",
+   "latitude_deg": 37.721298,
+   "longitude_deg": -122.221001,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-CA",
+   "municipality": "Oakland",
+   "iata_code": "OAK"
+ },
+ {
+   "name": "Will Rogers World Airport",
+   "latitude_deg": 35.39310074,
+   "longitude_deg": -97.60070038,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-OK",
+   "municipality": "Oklahoma City",
+   "iata_code": "OKC"
+ },
+ {
+   "name": "Ontario International Airport",
+   "latitude_deg": 34.05599976,
+   "longitude_deg": -117.6009979,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-CA",
+   "municipality": "Ontario",
+   "iata_code": "ONT"
+ },
+ {
+   "name": "Chicago O'Hare International Airport",
+   "latitude_deg": 41.97859955,
+   "longitude_deg": -87.90480042,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IL",
+   "municipality": "Chicago",
+   "iata_code": "ORD"
+ },
+ {
+   "name": "Norfolk International Airport",
+   "latitude_deg": 36.89459991,
+   "longitude_deg": -76.20120239,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-VA",
+   "municipality": "Norfolk",
+   "iata_code": "ORF"
+ },
+ {
+   "name": "Palm Beach International Airport",
+   "latitude_deg": 26.68320084,
+   "longitude_deg": -80.09559631,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-FL",
+   "municipality": "West Palm Beach",
+   "iata_code": "PBI"
+ },
+ {
+   "name": "Portland International Airport",
+   "latitude_deg": 45.58869934,
+   "longitude_deg": -122.5979996,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-OR",
+   "municipality": "Portland",
+   "iata_code": "PDX"
+ },
+ {
+   "name": "Newport News Williamsburg International Airport",
+   "latitude_deg": 37.13190079,
+   "longitude_deg": -76.49299622,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-VA",
+   "municipality": "Newport News",
+   "iata_code": "PHF"
+ },
+ {
+   "name": "Philadelphia International Airport",
+   "latitude_deg": 39.87189865,
+   "longitude_deg": -75.2410965,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-PA",
+   "municipality": "Philadelphia",
+   "iata_code": "PHL"
+ },
+ {
+   "name": "Phoenix Sky Harbor International Airport",
+   "latitude_deg": 33.43429947,
+   "longitude_deg": -112.012001,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-AZ",
+   "municipality": "Phoenix",
+   "iata_code": "PHX"
+ },
+ {
+   "name": "General Wayne A. Downing Peoria International Airport",
+   "latitude_deg": 40.66419983,
+   "longitude_deg": -89.69329834,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IL",
+   "municipality": "Peoria",
+   "iata_code": "PIA"
+ },
+ {
+   "name": "Pittsburgh International Airport",
+   "latitude_deg": 40.49150085,
+   "longitude_deg": -80.23290253,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-PA",
+   "municipality": "Pittsburgh",
+   "iata_code": "PIT"
+ },
+ {
+   "name": "Portland International Jetport Airport",
+   "latitude_deg": 43.64619827,
+   "longitude_deg": -70.30930328,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-ME",
+   "municipality": "Portland",
+   "iata_code": "PWM"
+ },
+ {
+   "name": "Raleigh Durham International Airport",
+   "latitude_deg": 35.87760162,
+   "longitude_deg": -78.78749847,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NC",
+   "municipality": "Raleigh/Durham",
+   "iata_code": "RDU"
+ },
+ {
+   "name": "Chicago Rockford International Airport",
+   "latitude_deg": 42.19540024,
+   "longitude_deg": -89.09719849,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IL",
+   "municipality": "Chicago/Rockford",
+   "iata_code": "RFD"
+ },
+ {
+   "name": "Richmond International Airport",
+   "latitude_deg": 37.50519943,
+   "longitude_deg": -77.31970215,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-VA",
+   "municipality": "Richmond",
+   "iata_code": "RIC"
+ },
+ {
+   "name": "Reno Tahoe International Airport",
+   "latitude_deg": 39.49909973,
+   "longitude_deg": -119.7679977,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NV",
+   "municipality": "Reno",
+   "iata_code": "RNO"
+ },
+ {
+   "name": "Roanoke–Blacksburg Regional Airport",
+   "latitude_deg": 37.3255,
+   "longitude_deg": -79.975403,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-VA",
+   "municipality": "Roanoke",
+   "iata_code": "ROA"
+ },
+ {
+   "name": "Greater Rochester International Airport",
+   "latitude_deg": 43.1189003,
+   "longitude_deg": -77.67240143,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NY",
+   "municipality": "Rochester",
+   "iata_code": "ROC"
+ },
+ {
+   "name": "Rochester International Airport",
+   "latitude_deg": 43.90829849,
+   "longitude_deg": -92.5,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MN",
+   "municipality": "Rochester",
+   "iata_code": "RST"
+ },
+ {
+   "name": "Southwest Florida International Airport",
+   "latitude_deg": 26.53619957,
+   "longitude_deg": -81.75520325,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-FL",
+   "municipality": "Fort Myers",
+   "iata_code": "RSW"
+ },
+ {
+   "name": "San Diego International Airport",
+   "latitude_deg": 32.73360062,
+   "longitude_deg": -117.1900024,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-CA",
+   "municipality": "San Diego",
+   "iata_code": "SAN"
+ },
+ {
+   "name": "San Antonio International Airport",
+   "latitude_deg": 29.53370094,
+   "longitude_deg": -98.46980286,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TX",
+   "municipality": "San Antonio",
+   "iata_code": "SAT"
+ },
+ {
+   "name": "Savannah Hilton Head International Airport",
+   "latitude_deg": 32.12760162,
+   "longitude_deg": -81.20210266,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-GA",
+   "municipality": "Savannah",
+   "iata_code": "SAV"
+ },
+ {
+   "name": "South Bend Regional Airport",
+   "latitude_deg": 41.70869827,
+   "longitude_deg": -86.31729889,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IN",
+   "municipality": "South Bend",
+   "iata_code": "SBN"
+ },
+ {
+   "name": "Louisville International Standiford Field",
+   "latitude_deg": 38.1744,
+   "longitude_deg": -85.736,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-KY",
+   "municipality": "Louisville",
+   "iata_code": "SDF"
+ },
+ {
+   "name": "Seattle Tacoma International Airport",
+   "latitude_deg": 47.44900131,
+   "longitude_deg": -122.3089981,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-WA",
+   "municipality": "Seattle",
+   "iata_code": "SEA"
+ },
+ {
+   "name": "Orlando Sanford International Airport",
+   "latitude_deg": 28.77759933,
+   "longitude_deg": -81.23750305,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-FL",
+   "municipality": "Orlando",
+   "iata_code": "SFB"
+ },
+ {
+   "name": "San Francisco International Airport",
+   "latitude_deg": 37.61899948,
+   "longitude_deg": -122.375,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-CA",
+   "municipality": "San Francisco",
+   "iata_code": "SFO"
+ },
+ {
+   "name": "Springfield Branson National Airport",
+   "latitude_deg": 37.24570084,
+   "longitude_deg": -93.38860321,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MO",
+   "municipality": "Springfield",
+   "iata_code": "SGF"
+ },
+ {
+   "name": "Shreveport Regional Airport",
+   "latitude_deg": 32.44660187,
+   "longitude_deg": -93.82559967,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-LA",
+   "municipality": "Shreveport",
+   "iata_code": "SHV"
+ },
+ {
+   "name": "Norman Y. Mineta San Jose International Airport",
+   "latitude_deg": 37.362598,
+   "longitude_deg": -121.929001,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-CA",
+   "municipality": "San Jose",
+   "iata_code": "SJC"
+ },
+ {
+   "name": "Salt Lake City International Airport",
+   "latitude_deg": 40.78839874,
+   "longitude_deg": -111.9779968,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-UT",
+   "municipality": "Salt Lake City",
+   "iata_code": "SLC"
+ },
+ {
+   "name": "Sacramento International Airport",
+   "latitude_deg": 38.69540024,
+   "longitude_deg": -121.5910034,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-CA",
+   "municipality": "Sacramento",
+   "iata_code": "SMF"
+ },
+ {
+   "name": "John Wayne Airport-Orange County Airport",
+   "latitude_deg": 33.67570114,
+   "longitude_deg": -117.8679962,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-CA",
+   "municipality": "Santa Ana",
+   "iata_code": "SNA"
+ },
+ {
+   "name": "Abraham Lincoln Capital Airport",
+   "latitude_deg": 39.84410095,
+   "longitude_deg": -89.67790222,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IL",
+   "municipality": "Springfield",
+   "iata_code": "SPI"
+ },
+ {
+   "name": "Sheppard Air Force Base-Wichita Falls Municipal Airport",
+   "latitude_deg": 33.9888,
+   "longitude_deg": -98.491898,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TX",
+   "municipality": "Wichita Falls",
+   "iata_code": "SPS"
+ },
+ {
+   "name": "Sarasota Bradenton International Airport",
+   "latitude_deg": 27.39539909,
+   "longitude_deg": -82.55439758,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-FL",
+   "municipality": "Sarasota/Bradenton",
+   "iata_code": "SRQ"
+ },
+ {
+   "name": "St Louis Lambert International Airport",
+   "latitude_deg": 38.748697,
+   "longitude_deg": -90.370003,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-MO",
+   "municipality": "St Louis",
+   "iata_code": "STL"
+ },
+ {
+   "name": "Sioux Gateway Col. Bud Day Field",
+   "latitude_deg": 42.40259933,
+   "longitude_deg": -96.38439941,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-IA",
+   "municipality": "Sioux City",
+   "iata_code": "SUX"
+ },
+ {
+   "name": "Syracuse Hancock International Airport",
+   "latitude_deg": 43.11119843,
+   "longitude_deg": -76.10630035,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-NY",
+   "municipality": "Syracuse",
+   "iata_code": "SYR"
+ },
+ {
+   "name": "Tallahassee Regional Airport",
+   "latitude_deg": 30.39649963,
+   "longitude_deg": -84.35030365,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-FL",
+   "municipality": "Tallahassee",
+   "iata_code": "TLH"
+ },
+ {
+   "name": "Toledo Express Airport",
+   "latitude_deg": 41.58679962,
+   "longitude_deg": -83.80780029,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-OH",
+   "municipality": "Toledo",
+   "iata_code": "TOL"
+ },
+ {
+   "name": "Tampa International Airport",
+   "latitude_deg": 27.97550011,
+   "longitude_deg": -82.53320313,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-FL",
+   "municipality": "Tampa",
+   "iata_code": "TPA"
+ },
+ {
+   "name": "Tri-Cities Regional TN/VA Airport",
+   "latitude_deg": 36.475201,
+   "longitude_deg": -82.407401,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TN",
+   "municipality": "Bristol/Johnson/Kingsport",
+   "iata_code": "TRI"
+ },
+ {
+   "name": "Tulsa International Airport",
+   "latitude_deg": 36.19839859,
+   "longitude_deg": -95.88809967,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-OK",
+   "municipality": "Tulsa",
+   "iata_code": "TUL"
+ },
+ {
+   "name": "Tucson International Airport",
+   "latitude_deg": 32.11610031,
+   "longitude_deg": -110.9410019,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-AZ",
+   "municipality": "Tucson",
+   "iata_code": "TUS"
+ },
+ {
+   "name": "McGhee Tyson Airport",
+   "latitude_deg": 35.81100082,
+   "longitude_deg": -83.9940033,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-TN",
+   "municipality": "Knoxville",
+   "iata_code": "TYS"
+ },
+ {
+   "name": "Destin-Ft Walton Beach Airport",
+   "latitude_deg": 30.4832,
+   "longitude_deg": -86.525398,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-FL",
+   "municipality": "Valparaiso",
+   "iata_code": "VPS"
+ },
+ {
+   "name": "Fairbanks International Airport",
+   "latitude_deg": 64.81510162,
+   "longitude_deg": -147.8560028,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-AK",
+   "municipality": "Fairbanks",
+   "iata_code": "FAI"
+ },
+ {
+   "name": "Ted Stevens Anchorage International Airport",
+   "latitude_deg": 61.17440033,
+   "longitude_deg": -149.9960022,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-AK",
+   "municipality": "Anchorage",
+   "iata_code": "ANC"
+ },
+ {
+   "name": "Daniel K Inouye International Airport",
+   "latitude_deg": 21.32062,
+   "longitude_deg": -157.924228,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-HI",
+   "municipality": "Honolulu",
+   "iata_code": "HNL"
+ },
+ {
+   "name": "atl",
+   "latitude_deg": 33.137551,
+   "longitude_deg": -84.375,
+   "continent": "NA",
+   "iso_country": "US",
+   "iso_region": "US-U-A",
+   "municipality": "",
+   "iata_code": ""
+ },
+ {
+   "name": "Boryspil International Airport",
+   "latitude_deg": 50.34500122,
+   "longitude_deg": 30.8946991,
+   "continent": "EU",
+   "iso_country": "UA",
+   "iso_region": "UA-32",
+   "municipality": "Kiev",
+   "iata_code": "KBP"
+ },
+ {
+   "name": "Simferopol International Airport",
+   "latitude_deg": 45.05220032,
+   "longitude_deg": 33.97510147,
+   "continent": "EU",
+   "iso_country": "UA",
+   "iso_region": "UA-43",
+   "municipality": "Simferopol",
+   "iata_code": "SIP"
+ },
+ {
+   "name": "Kharkiv International Airport",
+   "latitude_deg": 49.92480087,
+   "longitude_deg": 36.29000092,
+   "continent": "EU",
+   "iso_country": "UA",
+   "iso_region": "UA-63",
+   "municipality": "Kharkiv",
+   "iata_code": "HRK"
+ },
+ {
+   "name": "Odessa International Airport",
+   "latitude_deg": 46.42679977,
+   "longitude_deg": 30.67650032,
+   "continent": "EU",
+   "iso_country": "UA",
+   "iso_region": "UA-51",
+   "municipality": "Odessa",
+   "iata_code": "ODS"
+ },
+ {
+   "name": "Julius Nyerere International Airport",
+   "latitude_deg": -6.87811,
+   "longitude_deg": 39.202599,
+   "continent": "AF",
+   "iso_country": "TZ",
+   "iso_region": "TZ-02",
+   "municipality": "Dar es Salaam",
+   "iata_code": "DAR"
+ },
+ {
+   "name": "Kinmen Airport",
+   "latitude_deg": 24.4279,
+   "longitude_deg": 118.359001,
+   "continent": "AS",
+   "iso_country": "TW",
+   "iso_region": "TW-X-KM",
+   "municipality": "Shang-I",
+   "iata_code": "KNH"
+ },
+ {
+   "name": "Kaohsiung International Airport",
+   "latitude_deg": 22.57710075,
+   "longitude_deg": 120.3499985,
+   "continent": "AS",
+   "iso_country": "TW",
+   "iso_region": "TW-KHH",
+   "municipality": "Kaohsiung City",
+   "iata_code": "KHH"
+ },
+ {
+   "name": "Taiwan Taoyuan International Airport",
+   "latitude_deg": 25.0777,
+   "longitude_deg": 121.233002,
+   "continent": "AS",
+   "iso_country": "TW",
+   "iso_region": "TW-TAO",
+   "municipality": "Taipei",
+   "iata_code": "TPE"
+ },
+ {
+   "name": "Esenboğa International Airport",
+   "latitude_deg": 40.12810135,
+   "longitude_deg": 32.99509811,
+   "continent": "AS",
+   "iso_country": "TR",
+   "iso_region": "TR-06",
+   "municipality": "Ankara",
+   "iata_code": "ESB"
+ },
+ {
+   "name": "Adana Airport",
+   "latitude_deg": 36.98220062,
+   "longitude_deg": 35.28039932,
+   "continent": "AS",
+   "iso_country": "TR",
+   "iso_region": "TR-01",
+   "municipality": "Adana",
+   "iata_code": "ADA"
+ },
+ {
+   "name": "Antalya International Airport",
+   "latitude_deg": 36.898701,
+   "longitude_deg": 30.800501,
+   "continent": "AS",
+   "iso_country": "TR",
+   "iso_region": "TR-07",
+   "municipality": "Antalya",
+   "iata_code": "AYT"
+ },
+ {
+   "name": "Gaziantep International Airport",
+   "latitude_deg": 36.94720078,
+   "longitude_deg": 37.47869873,
+   "continent": "AS",
+   "iso_country": "TR",
+   "iso_region": "TR-27",
+   "municipality": "Gaziantep",
+   "iata_code": "GZT"
+ },
+ {
+   "name": "Atatürk International Airport",
+   "latitude_deg": 40.97689819,
+   "longitude_deg": 28.81459999,
+   "continent": "EU",
+   "iso_country": "TR",
+   "iso_region": "TR-34",
+   "municipality": "Istanbul",
+   "iata_code": "IST"
+ },
+ {
+   "name": "Adnan Menderes International Airport",
+   "latitude_deg": 38.29240036,
+   "longitude_deg": 27.15699959,
+   "continent": "AS",
+   "iso_country": "TR",
+   "iso_region": "TR-35",
+   "municipality": "İzmir",
+   "iata_code": "ADB"
+ },
+ {
+   "name": "Dalaman International Airport",
+   "latitude_deg": 36.71310043,
+   "longitude_deg": 28.79249954,
+   "continent": "AS",
+   "iso_country": "TR",
+   "iso_region": "TR-48",
+   "municipality": "Dalaman",
+   "iata_code": "DLM"
+ },
+ {
+   "name": "Erzurum International Airport",
+   "latitude_deg": 39.95650101,
+   "longitude_deg": 41.17020035,
+   "continent": "AS",
+   "iso_country": "TR",
+   "iso_region": "TR-25",
+   "municipality": "Erzurum",
+   "iata_code": "ERZ"
+ },
+ {
+   "name": "Trabzon International Airport",
+   "latitude_deg": 40.99509811,
+   "longitude_deg": 39.78969955,
+   "continent": "AS",
+   "iso_country": "TR",
+   "iso_region": "TR-61",
+   "municipality": "Trabzon",
+   "iata_code": "TZX"
+ },
+ {
+   "name": "Süleyman Demirel International Airport",
+   "latitude_deg": 37.85540009,
+   "longitude_deg": 30.36840057,
+   "continent": "AS",
+   "iso_country": "TR",
+   "iso_region": "TR-32",
+   "municipality": "Isparta",
+   "iata_code": "ISE"
+ },
+ {
+   "name": "Milas Bodrum International Airport",
+   "latitude_deg": 37.25059891,
+   "longitude_deg": 27.66430092,
+   "continent": "AS",
+   "iso_country": "TR",
+   "iso_region": "TR-48",
+   "municipality": "Bodrum",
+   "iata_code": "BJV"
+ },
+ {
+   "name": "Sabiha Gökçen International Airport",
+   "latitude_deg": 40.89860153,
+   "longitude_deg": 29.30920029,
+   "continent": "AS",
+   "iso_country": "TR",
+   "iso_region": "TR-34",
+   "municipality": "Istanbul",
+   "iata_code": "SAW"
+ },
+ {
+   "name": "Tunis Carthage International Airport",
+   "latitude_deg": 36.85100174,
+   "longitude_deg": 10.22719955,
+   "continent": "AF",
+   "iso_country": "TN",
+   "iso_region": "TN-11",
+   "municipality": "Tunis",
+   "iata_code": "TUN"
+ },
+ {
+   "name": "Enfidha - Hammamet International Airport",
+   "latitude_deg": 36.075833,
+   "longitude_deg": 10.438611,
+   "continent": "AF",
+   "iso_country": "TN",
+   "iso_region": "TN-51",
+   "municipality": "Enfidha",
+   "iata_code": "NBE"
+ },
+ {
+   "name": "Don Mueang International Airport",
+   "latitude_deg": 13.91259956,
+   "longitude_deg": 100.6070023,
+   "continent": "AS",
+   "iso_country": "TH",
+   "iso_region": "TH-10",
+   "municipality": "Bangkok",
+   "iata_code": "DMK"
+ },
+ {
+   "name": "Suvarnabhumi Airport",
+   "latitude_deg": 13.68109989,
+   "longitude_deg": 100.7470016,
+   "continent": "AS",
+   "iso_country": "TH",
+   "iso_region": "TH-10",
+   "municipality": "Bangkok",
+   "iata_code": "BKK"
+ },
+ {
+   "name": "Chiang Mai International Airport",
+   "latitude_deg": 18.76679993,
+   "longitude_deg": 98.96260071,
+   "continent": "AS",
+   "iso_country": "TH",
+   "iso_region": "TH-50",
+   "municipality": "Chiang Mai",
+   "iata_code": "CNX"
+ },
+ {
+   "name": "Phuket International Airport",
+   "latitude_deg": 8.1132,
+   "longitude_deg": 98.316902,
+   "continent": "AS",
+   "iso_country": "TH",
+   "iso_region": "TH-83",
+   "municipality": "Phuket",
+   "iata_code": "HKT"
+ },
+ {
+   "name": "Aleppo International Airport",
+   "latitude_deg": 36.18069839,
+   "longitude_deg": 37.22439957,
+   "continent": "AS",
+   "iso_country": "SY",
+   "iso_region": "SY-HL",
+   "municipality": "Aleppo",
+   "iata_code": "ALP"
+ },
+ {
+   "name": "Damascus International Airport",
+   "latitude_deg": 33.41149902,
+   "longitude_deg": 36.5155983,
+   "continent": "AS",
+   "iso_country": "SY",
+   "iso_region": "SY-DI",
+   "municipality": "Damascus",
+   "iata_code": "DAM"
+ },
+ {
+   "name": "Bassel Al-Assad International Airport",
+   "latitude_deg": 35.40110016,
+   "longitude_deg": 35.94869995,
+   "continent": "AS",
+   "iso_country": "SY",
+   "iso_region": "SY-LA",
+   "municipality": "Latakia",
+   "iata_code": "LTK"
+ },
+ {
+   "name": "Princess Juliana International Airport",
+   "latitude_deg": 18.04100037,
+   "longitude_deg": -63.10889816,
+   "continent": "NA",
+   "iso_country": "SX",
+   "iso_region": "SX-U-A",
+   "municipality": "Saint Martin",
+   "iata_code": "SXM"
+ },
+ {
+   "name": "Monseñor Óscar Arnulfo Romero International Airport",
+   "latitude_deg": 13.4409,
+   "longitude_deg": -89.055702,
+   "continent": "NA",
+   "iso_country": "SV",
+   "iso_region": "SV-PA",
+   "municipality": "San Salvador (San Luis Talpa)",
+   "iata_code": "SAL"
+ },
+ {
+   "name": "Juba International Airport",
+   "latitude_deg": 4.872010231,
+   "longitude_deg": 31.60110092,
+   "continent": "AF",
+   "iso_country": "SS",
+   "iso_region": "SS-17",
+   "municipality": "Juba",
+   "iata_code": "JUB"
+ },
+ {
+   "name": "Diass-Thies Blaise Diagne International Airport",
+   "latitude_deg": 14.67,
+   "longitude_deg": -17.07333333,
+   "continent": "AF",
+   "iso_country": "SN",
+   "iso_region": "SN-DK",
+   "municipality": "Dakar",
+   "iata_code": "DSS"
+ },
+ {
+   "name": "Léopold Sédar Senghor International Airport",
+   "latitude_deg": 14.73970032,
+   "longitude_deg": -17.49020004,
+   "continent": "AF",
+   "iso_country": "SN",
+   "iso_region": "SN-DK",
+   "municipality": "Dakar",
+   "iata_code": "DKR"
+ },
+ {
+   "name": "M. R. Štefánik Airport",
+   "latitude_deg": 48.17020035,
+   "longitude_deg": 17.21269989,
+   "continent": "EU",
+   "iso_country": "SK",
+   "iso_region": "SK-BL",
+   "municipality": "Bratislava",
+   "iata_code": "BTS"
+ },
+ {
+   "name": "Ljubljana Jože Pučnik Airport",
+   "latitude_deg": 46.223701,
+   "longitude_deg": 14.4576,
+   "continent": "EU",
+   "iso_country": "SI",
+   "iso_region": "SI-061",
+   "municipality": "Ljubljana",
+   "iata_code": "LJU"
+ },
+ {
+   "name": "Singapore Changi Airport",
+   "latitude_deg": 1.35019,
+   "longitude_deg": 103.994003,
+   "continent": "AS",
+   "iso_country": "SG",
+   "iso_region": "SG-04",
+   "municipality": "Singapore",
+   "iata_code": "SIN"
+ },
+ {
+   "name": "Gothenburg-Landvetter Airport",
+   "latitude_deg": 57.66279984,
+   "longitude_deg": 12.27980042,
+   "continent": "EU",
+   "iso_country": "SE",
+   "iso_region": "SE-Q",
+   "municipality": "Gothenburg",
+   "iata_code": "GOT"
+ },
+ {
+   "name": "Malmö Sturup Airport",
+   "latitude_deg": 55.53630536,
+   "longitude_deg": 13.37619781,
+   "continent": "EU",
+   "iso_country": "SE",
+   "iso_region": "SE-M",
+   "municipality": "Malmö",
+   "iata_code": "MMX"
+ },
+ {
+   "name": "Luleå Airport",
+   "latitude_deg": 65.54380035,
+   "longitude_deg": 22.12199974,
+   "continent": "EU",
+   "iso_country": "SE",
+   "iso_region": "SE-BD",
+   "municipality": "Luleå",
+   "iata_code": "LLA"
+ },
+ {
+   "name": "Stockholm-Arlanda Airport",
+   "latitude_deg": 59.65190125,
+   "longitude_deg": 17.91860008,
+   "continent": "EU",
+   "iso_country": "SE",
+   "iso_region": "SE-AB",
+   "municipality": "Stockholm",
+   "iata_code": "ARN"
+ },
+ {
+   "name": "Khartoum International Airport",
+   "latitude_deg": 15.58950043,
+   "longitude_deg": 32.55319977,
+   "continent": "AF",
+   "iso_country": "SD",
+   "iso_region": "SD-03",
+   "municipality": "Khartoum",
+   "iata_code": "KRT"
+ },
+ {
+   "name": "King Fahd International Airport",
+   "latitude_deg": 26.47120094,
+   "longitude_deg": 49.79790115,
+   "continent": "AS",
+   "iso_country": "SA",
+   "iso_region": "SA-04",
+   "municipality": "Ad Dammam",
+   "iata_code": "DMM"
+ },
+ {
+   "name": "King Abdulaziz International Airport",
+   "latitude_deg": 21.6796,
+   "longitude_deg": 39.156502,
+   "continent": "AS",
+   "iso_country": "SA",
+   "iso_region": "SA-02",
+   "municipality": "Jeddah",
+   "iata_code": "JED"
+ },
+ {
+   "name": "Prince Mohammad Bin Abdulaziz Airport",
+   "latitude_deg": 24.5534,
+   "longitude_deg": 39.705101,
+   "continent": "AS",
+   "iso_country": "SA",
+   "iso_region": "SA-03",
+   "municipality": "Medina",
+   "iata_code": "MED"
+ },
+ {
+   "name": "King Khaled International Airport",
+   "latitude_deg": 24.95759964,
+   "longitude_deg": 46.69879913,
+   "continent": "AS",
+   "iso_country": "SA",
+   "iso_region": "SA-01",
+   "municipality": "Riyadh",
+   "iata_code": "RUH"
+ },
+ {
+   "name": "Grozny North Airport",
+   "latitude_deg": 43.388302,
+   "longitude_deg": 45.698601,
+   "continent": "EU",
+   "iso_country": "RU",
+   "iso_region": "RU-CE",
+   "municipality": "Grozny",
+   "iata_code": "GRV"
+ },
+ {
+   "name": "Khabarovsk-Novy Airport",
+   "latitude_deg": 48.52799988,
+   "longitude_deg": 135.1880035,
+   "continent": "AS",
+   "iso_country": "RU",
+   "iso_region": "RU-KHA",
+   "municipality": "Khabarovsk",
+   "iata_code": "KHV"
+ },
+ {
+   "name": "Pulkovo Airport",
+   "latitude_deg": 59.8003006,
+   "longitude_deg": 30.26250076,
+   "continent": "EU",
+   "iso_country": "RU",
+   "iso_region": "RU-SPE",
+   "municipality": "St. Petersburg",
+   "iata_code": "LED"
+ },
+ {
+   "name": "Yemelyanovo Airport",
+   "latitude_deg": 56.17290115,
+   "longitude_deg": 92.49330139,
+   "continent": "AS",
+   "iso_country": "RU",
+   "iso_region": "RU-KYA",
+   "municipality": "Krasnoyarsk",
+   "iata_code": "KJA"
+ },
+ {
+   "name": "Tolmachevo Airport",
+   "latitude_deg": 55.01259995,
+   "longitude_deg": 82.65070343,
+   "continent": "AS",
+   "iso_country": "RU",
+   "iso_region": "RU-NVS",
+   "municipality": "Novosibirsk",
+   "iata_code": "OVB"
+ },
+ {
+   "name": "Platov International Airport",
+   "latitude_deg": 47.493888,
+   "longitude_deg": 39.924722,
+   "continent": "EU",
+   "iso_country": "RU",
+   "iso_region": "RU-ROS",
+   "municipality": "Rostov-on-Don",
+   "iata_code": "ROV"
+ },
+ {
+   "name": "Sochi International Airport",
+   "latitude_deg": 43.449902,
+   "longitude_deg": 39.9566,
+   "continent": "EU",
+   "iso_country": "RU",
+   "iso_region": "RU-KDA",
+   "municipality": "Sochi",
+   "iata_code": "AER"
+ },
+ {
+   "name": "Koltsovo Airport",
+   "latitude_deg": 56.74309921,
+   "longitude_deg": 60.80270004,
+   "continent": "AS",
+   "iso_country": "RU",
+   "iso_region": "RU-SVE",
+   "municipality": "Yekaterinburg",
+   "iata_code": "SVX"
+ },
+ {
+   "name": "Zhukovsky International Airport",
+   "latitude_deg": 55.553299,
+   "longitude_deg": 38.150002,
+   "continent": "EU",
+   "iso_country": "RU",
+   "iso_region": "RU-MOS",
+   "municipality": "Zhukovsky",
+   "iata_code": "ZIA"
+ },
+ {
+   "name": "Domodedovo International Airport",
+   "latitude_deg": 55.40879822,
+   "longitude_deg": 37.90629959,
+   "continent": "EU",
+   "iso_country": "RU",
+   "iso_region": "RU-MOS",
+   "municipality": "Moscow",
+   "iata_code": "DME"
+ },
+ {
+   "name": "Sheremetyevo International Airport",
+   "latitude_deg": 55.972599,
+   "longitude_deg": 37.4146,
+   "continent": "EU",
+   "iso_country": "RU",
+   "iso_region": "RU-MOS",
+   "municipality": "Moscow",
+   "iata_code": "SVO"
+ },
+ {
+   "name": "Vnukovo International Airport",
+   "latitude_deg": 55.59149933,
+   "longitude_deg": 37.26150131,
+   "continent": "EU",
+   "iso_country": "RU",
+   "iso_region": "RU-MOS",
+   "municipality": "Moscow",
+   "iata_code": "VKO"
+ },
+ {
+   "name": "Kazan International Airport",
+   "latitude_deg": 55.60620117,
+   "longitude_deg": 49.27870178,
+   "continent": "EU",
+   "iso_country": "RU",
+   "iso_region": "RU-TA",
+   "municipality": "Kazan",
+   "iata_code": "KZN"
+ },
+ {
+   "name": "Ufa International Airport",
+   "latitude_deg": 54.55749893,
+   "longitude_deg": 55.87440109,
+   "continent": "EU",
+   "iso_country": "RU",
+   "iso_region": "RU-BA",
+   "municipality": "Ufa",
+   "iata_code": "UFA"
+ },
+ {
+   "name": "Kurumoch International Airport",
+   "latitude_deg": 53.50490189,
+   "longitude_deg": 50.16429901,
+   "continent": "EU",
+   "iso_country": "RU",
+   "iso_region": "RU-SAM",
+   "municipality": "Samara",
+   "iata_code": "KUF"
+ },
+ {
+   "name": "Belgrade Nikola Tesla Airport",
+   "latitude_deg": 44.81840134,
+   "longitude_deg": 20.3090992,
+   "continent": "EU",
+   "iso_country": "RS",
+   "iso_region": "RS-00",
+   "municipality": "Belgrade",
+   "iata_code": "BEG"
+ },
+ {
+   "name": "Henri Coandă International Airport",
+   "latitude_deg": 44.5711111,
+   "longitude_deg": 26.085,
+   "continent": "EU",
+   "iso_country": "RO",
+   "iso_region": "RO-B",
+   "municipality": "Bucharest",
+   "iata_code": "OTP"
+ },
+ {
+   "name": "Hamad International Airport",
+   "latitude_deg": 25.273056,
+   "longitude_deg": 51.608056,
+   "continent": "AS",
+   "iso_country": "QA",
+   "iso_region": "QA-DA",
+   "municipality": "Doha",
+   "iata_code": "DOH"
+ },
+ {
+   "name": "Faro Airport",
+   "latitude_deg": 37.01440048,
+   "longitude_deg": -7.965909958,
+   "continent": "EU",
+   "iso_country": "PT",
+   "iso_region": "PT-08",
+   "municipality": "Faro",
+   "iata_code": "FAO"
+ },
+ {
+   "name": "Lajes Airport",
+   "latitude_deg": 38.761799,
+   "longitude_deg": -27.090799,
+   "continent": "EU",
+   "iso_country": "PT",
+   "iso_region": "PT-20",
+   "municipality": "Praia da Vitória",
+   "iata_code": "TER"
+ },
+ {
+   "name": "João Paulo II Airport",
+   "latitude_deg": 37.74119949,
+   "longitude_deg": -25.69790077,
+   "continent": "EU",
+   "iso_country": "PT",
+   "iso_region": "PT-20",
+   "municipality": "Ponta Delgada",
+   "iata_code": "PDL"
+ },
+ {
+   "name": "Francisco de Sá Carneiro Airport",
+   "latitude_deg": 41.24810028,
+   "longitude_deg": -8.681389809,
+   "continent": "EU",
+   "iso_country": "PT",
+   "iso_region": "PT-13",
+   "municipality": "Porto",
+   "iata_code": "OPO"
+ },
+ {
+   "name": "Humberto Delgado Airport (Lisbon Portela Airport)",
+   "latitude_deg": 38.7813,
+   "longitude_deg": -9.13592,
+   "continent": "EU",
+   "iso_country": "PT",
+   "iso_region": "PT-11",
+   "municipality": "Lisbon",
+   "iata_code": "LIS"
+ },
+ {
+   "name": "Luis Munoz Marin International Airport",
+   "latitude_deg": 18.43939972,
+   "longitude_deg": -66.00180054,
+   "continent": "NA",
+   "iso_country": "PR",
+   "iso_region": "PR-U-A",
+   "municipality": "San Juan",
+   "iata_code": "SJU"
+ },
+ {
+   "name": "Gdańsk Lech Wałęsa Airport",
+   "latitude_deg": 54.37760162,
+   "longitude_deg": 18.46619987,
+   "continent": "EU",
+   "iso_country": "PL",
+   "iso_region": "PL-PM",
+   "municipality": "Gdańsk",
+   "iata_code": "GDN"
+ },
+ {
+   "name": "John Paul II International Airport Kraków-Balice Airport",
+   "latitude_deg": 50.07770157,
+   "longitude_deg": 19.78479958,
+   "continent": "EU",
+   "iso_country": "PL",
+   "iso_region": "PL-MA",
+   "municipality": "Kraków",
+   "iata_code": "KRK"
+ },
+ {
+   "name": "Katowice International Airport",
+   "latitude_deg": 50.4743,
+   "longitude_deg": 19.08,
+   "continent": "EU",
+   "iso_country": "PL",
+   "iso_region": "PL-SL",
+   "municipality": "Katowice",
+   "iata_code": "KTW"
+ },
+ {
+   "name": "Modlin Airport",
+   "latitude_deg": 52.4510994,
+   "longitude_deg": 20.65180016,
+   "continent": "EU",
+   "iso_country": "PL",
+   "iso_region": "PL-MZ",
+   "municipality": "Warsaw",
+   "iata_code": "WMI"
+ },
+ {
+   "name": "Poznań-Ławica Airport",
+   "latitude_deg": 52.42100143,
+   "longitude_deg": 16.82629967,
+   "continent": "EU",
+   "iso_country": "PL",
+   "iso_region": "PL-WP",
+   "municipality": "Poznań",
+   "iata_code": "POZ"
+ },
+ {
+   "name": "Warsaw Chopin Airport",
+   "latitude_deg": 52.16569901,
+   "longitude_deg": 20.96710014,
+   "continent": "EU",
+   "iso_country": "PL",
+   "iso_region": "PL-MZ",
+   "municipality": "Warsaw",
+   "iata_code": "WAW"
+ },
+ {
+   "name": "Copernicus Wrocław Airport",
+   "latitude_deg": 51.10269928,
+   "longitude_deg": 16.88579941,
+   "continent": "EU",
+   "iso_country": "PL",
+   "iso_region": "PL-DS",
+   "municipality": "Wrocław",
+   "iata_code": "WRO"
+ },
+ {
+   "name": "Benazir Bhutto International Airport",
+   "latitude_deg": 33.61669922,
+   "longitude_deg": 73.09919739,
+   "continent": "AS",
+   "iso_country": "PK",
+   "iso_region": "PK-IS",
+   "municipality": "Islamabad",
+   "iata_code": "ISB"
+ },
+ {
+   "name": "Sialkot Airport",
+   "latitude_deg": 32.53555679,
+   "longitude_deg": 74.3638916,
+   "continent": "AS",
+   "iso_country": "PK",
+   "iso_region": "PK-PB",
+   "municipality": "Sialkot",
+   "iata_code": "SKT"
+ },
+ {
+   "name": "Laguindingan Airport",
+   "latitude_deg": 8.612203,
+   "longitude_deg": 124.456496,
+   "continent": "AS",
+   "iso_country": "PH",
+   "iso_region": "PH-MSR",
+   "municipality": "Cagayan de Oro City",
+   "iata_code": "CGY"
+ },
+ {
+   "name": "Northern Cagayan International Airport",
+   "latitude_deg": 18.182388,
+   "longitude_deg": 121.745853,
+   "continent": "AS",
+   "iso_country": "PH",
+   "iso_region": "PH-CAG",
+   "municipality": "Lal-lo",
+   "iata_code": ""
+ },
+ {
+   "name": "Diosdado Macapagal International Airport",
+   "latitude_deg": 15.186,
+   "longitude_deg": 120.559998,
+   "continent": "AS",
+   "iso_country": "PH",
+   "iso_region": "PH-PAM",
+   "municipality": "Angeles/Mabalacat",
+   "iata_code": "CRK"
+ },
+ {
+   "name": "Ninoy Aquino International Airport",
+   "latitude_deg": 14.5086,
+   "longitude_deg": 121.019997,
+   "continent": "AS",
+   "iso_country": "PH",
+   "iso_region": "PH-U-A",
+   "municipality": "Manila",
+   "iata_code": "MNL"
+ },
+ {
+   "name": "Francisco Bangoy International Airport",
+   "latitude_deg": 7.125520229,
+   "longitude_deg": 125.6460037,
+   "continent": "AS",
+   "iso_country": "PH",
+   "iso_region": "PH-DAV",
+   "municipality": "Davao City",
+   "iata_code": "DVO"
+ },
+ {
+   "name": "Mactan Cebu International Airport",
+   "latitude_deg": 10.30749989,
+   "longitude_deg": 123.9789963,
+   "continent": "AS",
+   "iso_country": "PH",
+   "iso_region": "PH-CEB",
+   "municipality": "Lapu-Lapu City",
+   "iata_code": "CEB"
+ },
+ {
+   "name": "Port Moresby Jacksons International Airport",
+   "latitude_deg": -9.443380356,
+   "longitude_deg": 147.2200012,
+   "continent": "OC",
+   "iso_country": "PG",
+   "iso_region": "PG-NCD",
+   "municipality": "Port Moresby",
+   "iata_code": "POM"
+ },
+ {
+   "name": "Jorge Chávez International Airport",
+   "latitude_deg": -12.0219,
+   "longitude_deg": -77.114304,
+   "continent": "SA",
+   "iso_country": "PE",
+   "iso_region": "PE-LIM",
+   "municipality": "Lima",
+   "iata_code": "LIM"
+ },
+ {
+   "name": "Alejandro Velasco Astete International Airport",
+   "latitude_deg": -13.53569984,
+   "longitude_deg": -71.938797,
+   "continent": "SA",
+   "iso_country": "PE",
+   "iso_region": "PE-CUS",
+   "municipality": "Cusco",
+   "iata_code": "CUZ"
+ },
+ {
+   "name": "Tocumen International Airport",
+   "latitude_deg": 9.071359634,
+   "longitude_deg": -79.38349915,
+   "continent": "NA",
+   "iso_country": "PA",
+   "iso_region": "PA-8",
+   "municipality": "Tocumen",
+   "iata_code": "PTY"
+ },
+ {
+   "name": "Duqm Jaaluni Airport",
+   "latitude_deg": 19.5,
+   "longitude_deg": 57.6428,
+   "continent": "AS",
+   "iso_country": "OM",
+   "iso_region": "OM-WU",
+   "municipality": "Duqm",
+   "iata_code": "JNJ"
+ },
+ {
+   "name": "Muscat International Airport",
+   "latitude_deg": 23.59329987,
+   "longitude_deg": 58.28440094,
+   "continent": "AS",
+   "iso_country": "OM",
+   "iso_region": "OM-MA",
+   "municipality": "Muscat",
+   "iata_code": "MCT"
+ },
+ {
+   "name": "Auckland International Airport",
+   "latitude_deg": -37.0080986,
+   "longitude_deg": 174.7920074,
+   "continent": "OC",
+   "iso_country": "NZ",
+   "iso_region": "NZ-AUK",
+   "municipality": "Auckland",
+   "iata_code": "AKL"
+ },
+ {
+   "name": "Christchurch International Airport",
+   "latitude_deg": -43.48939896,
+   "longitude_deg": 172.5319977,
+   "continent": "OC",
+   "iso_country": "NZ",
+   "iso_region": "NZ-CAN",
+   "municipality": "Christchurch",
+   "iata_code": "CHC"
+ },
+ {
+   "name": "Wellington International Airport",
+   "latitude_deg": -41.32720184,
+   "longitude_deg": 174.8049927,
+   "continent": "OC",
+   "iso_country": "NZ",
+   "iso_region": "NZ-WGN",
+   "municipality": "Wellington",
+   "iata_code": "WLG"
+ },
+ {
+   "name": "Bodø Airport",
+   "latitude_deg": 67.26920319,
+   "longitude_deg": 14.36530018,
+   "continent": "EU",
+   "iso_country": "NO",
+   "iso_region": "NO-18",
+   "municipality": "Bodø",
+   "iata_code": "BOO"
+ },
+ {
+   "name": "Bergen Airport Flesland",
+   "latitude_deg": 60.29339981,
+   "longitude_deg": 5.218140125,
+   "continent": "EU",
+   "iso_country": "NO",
+   "iso_region": "NO-12",
+   "municipality": "Bergen",
+   "iata_code": "BGO"
+ },
+ {
+   "name": "Oslo Gardermoen Airport",
+   "latitude_deg": 60.19390106,
+   "longitude_deg": 11.10039997,
+   "continent": "EU",
+   "iso_country": "NO",
+   "iso_region": "NO-02",
+   "municipality": "Oslo",
+   "iata_code": "OSL"
+ },
+ {
+   "name": "Tromsø Airport",
+   "latitude_deg": 69.6832962,
+   "longitude_deg": 18.91889954,
+   "continent": "EU",
+   "iso_country": "NO",
+   "iso_region": "NO-19",
+   "municipality": "Tromsø",
+   "iata_code": "TOS"
+ },
+ {
+   "name": "Trondheim Airport Værnes",
+   "latitude_deg": 63.4578018,
+   "longitude_deg": 10.9239998,
+   "continent": "EU",
+   "iso_country": "NO",
+   "iso_region": "NO-17",
+   "municipality": "Trondheim",
+   "iata_code": "TRD"
+ },
+ {
+   "name": "Stavanger Airport Sola",
+   "latitude_deg": 58.87670135,
+   "longitude_deg": 5.63778019,
+   "continent": "EU",
+   "iso_country": "NO",
+   "iso_region": "NO-11",
+   "municipality": "Stavanger",
+   "iata_code": "SVG"
+ },
+ {
+   "name": "Amsterdam Airport Schiphol",
+   "latitude_deg": 52.30860138,
+   "longitude_deg": 4.76388979,
+   "continent": "EU",
+   "iso_country": "NL",
+   "iso_region": "NL-NH",
+   "municipality": "Amsterdam",
+   "iata_code": "AMS"
+ },
+ {
+   "name": "Maastricht Aachen Airport",
+   "latitude_deg": 50.9117012,
+   "longitude_deg": 5.770140171,
+   "continent": "EU",
+   "iso_country": "NL",
+   "iso_region": "NL-LI",
+   "municipality": "Maastricht",
+   "iata_code": "MST"
+ },
+ {
+   "name": "Eindhoven Airport",
+   "latitude_deg": 51.45009995,
+   "longitude_deg": 5.374529839,
+   "continent": "EU",
+   "iso_country": "NL",
+   "iso_region": "NL-NB",
+   "municipality": "Eindhoven",
+   "iata_code": "EIN"
+ },
+ {
+   "name": "Nnamdi Azikiwe International Airport",
+   "latitude_deg": 9.006790161,
+   "longitude_deg": 7.263169765,
+   "continent": "AF",
+   "iso_country": "NG",
+   "iso_region": "NG-FC",
+   "municipality": "Abuja",
+   "iata_code": "ABV"
+ },
+ {
+   "name": "Akwa Ibom International Airport",
+   "latitude_deg": 4.8725,
+   "longitude_deg": 8.093,
+   "continent": "AF",
+   "iso_country": "NG",
+   "iso_region": "NG-AK",
+   "municipality": "Uyo",
+   "iata_code": "QUO"
+ },
+ {
+   "name": "Mallam Aminu International Airport",
+   "latitude_deg": 12.0476,
+   "longitude_deg": 8.52462,
+   "continent": "AF",
+   "iso_country": "NG",
+   "iso_region": "NG-KN",
+   "municipality": "Kano",
+   "iata_code": "KAN"
+ },
+ {
+   "name": "Murtala Muhammed International Airport",
+   "latitude_deg": 6.577370167,
+   "longitude_deg": 3.321160078,
+   "continent": "AF",
+   "iso_country": "NG",
+   "iso_region": "NG-LA",
+   "municipality": "Lagos",
+   "iata_code": "LOS"
+ },
+ {
+   "name": "Kuala Lumpur International Airport",
+   "latitude_deg": 2.745579958,
+   "longitude_deg": 101.7099991,
+   "continent": "AS",
+   "iso_country": "MY",
+   "iso_region": "MY-14",
+   "municipality": "Kuala Lumpur",
+   "iata_code": "KUL"
+ },
+ {
+   "name": "Mar de Cortés International Airport",
+   "latitude_deg": 31.351621,
+   "longitude_deg": -113.305864,
+   "continent": "NA",
+   "iso_country": "MX",
+   "iso_region": "MX-SON",
+   "municipality": "Puerto Peñasco",
+   "iata_code": "PPE"
+ },
+ {
+   "name": "General Juan N Alvarez International Airport",
+   "latitude_deg": 16.75709915,
+   "longitude_deg": -99.7539978,
+   "continent": "NA",
+   "iso_country": "MX",
+   "iso_region": "MX-GRO",
+   "municipality": "Acapulco",
+   "iata_code": "ACA"
+ },
+ {
+   "name": "Don Miguel Hidalgo Y Costilla International Airport",
+   "latitude_deg": 20.52179909,
+   "longitude_deg": -103.310997,
+   "continent": "NA",
+   "iso_country": "MX",
+   "iso_region": "MX-JAL",
+   "municipality": "Guadalajara",
+   "iata_code": "GDL"
+ },
+ {
+   "name": "General Ignacio P. Garcia International Airport",
+   "latitude_deg": 29.09589958,
+   "longitude_deg": -111.0479965,
+   "continent": "NA",
+   "iso_country": "MX",
+   "iso_region": "MX-SON",
+   "municipality": "Hermosillo",
+   "iata_code": "HMO"
+ },
+ {
+   "name": "Licenciado Benito Juarez International Airport",
+   "latitude_deg": 19.4363,
+   "longitude_deg": -99.072098,
+   "continent": "NA",
+   "iso_country": "MX",
+   "iso_region": "MX-DIF",
+   "municipality": "Mexico City",
+   "iata_code": "MEX"
+ },
+ {
+   "name": "General Mariano Escobedo International Airport",
+   "latitude_deg": 25.7784996,
+   "longitude_deg": -100.1070023,
+   "continent": "NA",
+   "iso_country": "MX",
+   "iso_region": "MX-NLE",
+   "municipality": "Monterrey",
+   "iata_code": "MTY"
+ },
+ {
+   "name": "Licenciado Gustavo Díaz Ordaz International Airport",
+   "latitude_deg": 20.68009949,
+   "longitude_deg": -105.2539978,
+   "continent": "NA",
+   "iso_country": "MX",
+   "iso_region": "MX-JAL",
+   "municipality": "Puerto Vallarta",
+   "iata_code": "PVR"
+ },
+ {
+   "name": "Los Cabos International Airport",
+   "latitude_deg": 23.15180016,
+   "longitude_deg": -109.7210007,
+   "continent": "NA",
+   "iso_country": "MX",
+   "iso_region": "MX-BCS",
+   "municipality": "San José del Cabo",
+   "iata_code": "SJD"
+ },
+ {
+   "name": "General Abelardo L. Rodríguez International Airport",
+   "latitude_deg": 32.54109955,
+   "longitude_deg": -116.9700012,
+   "continent": "NA",
+   "iso_country": "MX",
+   "iso_region": "MX-BCN",
+   "municipality": "Tijuana",
+   "iata_code": "TIJ"
+ },
+ {
+   "name": "Cancún International Airport",
+   "latitude_deg": 21.03650093,
+   "longitude_deg": -86.87709808,
+   "continent": "NA",
+   "iso_country": "MX",
+   "iso_region": "MX-ROO",
+   "municipality": "Cancún",
+   "iata_code": "CUN"
+ },
+ {
+   "name": "Malé International Airport",
+   "latitude_deg": 4.191830158,
+   "longitude_deg": 73.52909851,
+   "continent": "AS",
+   "iso_country": "MV",
+   "iso_region": "MV-MLE",
+   "municipality": "Malé",
+   "iata_code": "MLE"
+ },
+ {
+   "name": "Sir Charles Gaetan Duval Airport",
+   "latitude_deg": -19.7577,
+   "longitude_deg": 63.361,
+   "continent": "AF",
+   "iso_country": "MU",
+   "iso_region": "MU-VP",
+   "municipality": "Port Mathurin",
+   "iata_code": "RRG"
+ },
+ {
+   "name": "Malta International Airport",
+   "latitude_deg": 35.857498,
+   "longitude_deg": 14.4775,
+   "continent": "EU",
+   "iso_country": "MT",
+   "iso_region": "MT-25",
+   "municipality": "Valletta",
+   "iata_code": "MLA"
+ },
+ {
+   "name": "Nouakchott–Oumtounsy International Airport",
+   "latitude_deg": 18.31,
+   "longitude_deg": -15.9697222,
+   "continent": "AF",
+   "iso_country": "MR",
+   "iso_region": "MR-NKC",
+   "municipality": "Nouakchott",
+   "iata_code": "NKC"
+ },
+ {
+   "name": "Macau International Airport",
+   "latitude_deg": 22.149599,
+   "longitude_deg": 113.592003,
+   "continent": "AS",
+   "iso_country": "MO",
+   "iso_region": "MO-U-A",
+   "municipality": "Macau",
+   "iata_code": "MFM"
+ },
+ {
+   "name": "Mandalay International Airport",
+   "latitude_deg": 21.70219994,
+   "longitude_deg": 95.97789764,
+   "continent": "AS",
+   "iso_country": "MM",
+   "iso_region": "MM-04",
+   "municipality": "Mandalay",
+   "iata_code": "MDL"
+ },
+ {
+   "name": "Yangon International Airport",
+   "latitude_deg": 16.90730095,
+   "longitude_deg": 96.1332016,
+   "continent": "AS",
+   "iso_country": "MM",
+   "iso_region": "MM-06",
+   "municipality": "Yangon",
+   "iata_code": "RGN"
+ },
+ {
+   "name": "Podgorica Airport",
+   "latitude_deg": 42.359402,
+   "longitude_deg": 19.2519,
+   "continent": "EU",
+   "iso_country": "ME",
+   "iso_region": "ME-16",
+   "municipality": "Podgorica",
+   "iata_code": "TGD"
+ },
+ {
+   "name": "CMN",
+   "latitude_deg": 0,
+   "longitude_deg": 0,
+   "continent": "AF",
+   "iso_country": "MA",
+   "iso_region": "MA-CAS",
+   "municipality": "",
+   "iata_code": "CMN"
+ },
+ {
+   "name": "Mohammed V International Airport",
+   "latitude_deg": 33.36750031,
+   "longitude_deg": -7.589970112,
+   "continent": "AF",
+   "iso_country": "MA",
+   "iso_region": "MA-CAS",
+   "municipality": "Casablanca",
+   "iata_code": "CMN"
+ },
+ {
+   "name": "cmn",
+   "latitude_deg": 0,
+   "longitude_deg": 0,
+   "continent": "AF",
+   "iso_country": "MA",
+   "iso_region": "MA-U-A",
+   "municipality": "",
+   "iata_code": ""
+ },
+ {
+   "name": "Tripoli International Airport",
+   "latitude_deg": 32.66350174,
+   "longitude_deg": 13.1590004,
+   "continent": "AF",
+   "iso_country": "LY",
+   "iso_region": "LY-TB",
+   "municipality": "Tripoli",
+   "iata_code": "TIP"
+ },
+ {
+   "name": "Riga International Airport",
+   "latitude_deg": 56.92359924,
+   "longitude_deg": 23.97109985,
+   "continent": "EU",
+   "iso_country": "LV",
+   "iso_region": "LV-RIX",
+   "municipality": "Riga",
+   "iata_code": "RIX"
+ },
+ {
+   "name": "Luxembourg-Findel International Airport",
+   "latitude_deg": 49.6233333,
+   "longitude_deg": 6.2044444,
+   "continent": "EU",
+   "iso_country": "LU",
+   "iso_region": "LU-L",
+   "municipality": "Luxembourg",
+   "iata_code": "LUX"
+ },
+ {
+   "name": "Vilnius International Airport",
+   "latitude_deg": 54.634102,
+   "longitude_deg": 25.285801,
+   "continent": "EU",
+   "iso_country": "LT",
+   "iso_region": "LT-VL",
+   "municipality": "Vilnius",
+   "iata_code": "VNO"
+ },
+ {
+   "name": "Bandaranaike International Colombo Airport",
+   "latitude_deg": 7.180759907,
+   "longitude_deg": 79.88410187,
+   "continent": "AS",
+   "iso_country": "LK",
+   "iso_region": "LK-1",
+   "municipality": "Colombo",
+   "iata_code": "CMB"
+ },
+ {
+   "name": "Mattala Rajapaksa International Airport",
+   "latitude_deg": 6.284467,
+   "longitude_deg": 81.124128,
+   "continent": "AS",
+   "iso_country": "LK",
+   "iso_region": "LK-3",
+   "municipality": "",
+   "iata_code": "HRI"
+ },
+ {
+   "name": "Beirut Rafic Hariri International Airport",
+   "latitude_deg": 33.82089996,
+   "longitude_deg": 35.48839951,
+   "continent": "AS",
+   "iso_country": "LB",
+   "iso_region": "LB-JL",
+   "municipality": "Beirut",
+   "iata_code": "BEY"
+ },
+ {
+   "name": "Almaty Airport",
+   "latitude_deg": 43.35210037,
+   "longitude_deg": 77.04049683,
+   "continent": "AS",
+   "iso_country": "KZ",
+   "iso_region": "KZ-ALM",
+   "municipality": "Almaty",
+   "iata_code": "ALA"
+ },
+ {
+   "name": "Astana International Airport",
+   "latitude_deg": 51.02220154,
+   "longitude_deg": 71.46690369,
+   "continent": "AS",
+   "iso_country": "KZ",
+   "iso_region": "KZ-AKM",
+   "municipality": "Astana",
+   "iata_code": "TSE"
+ },
+ {
+   "name": "Sary-Arka Airport",
+   "latitude_deg": 49.67079926,
+   "longitude_deg": 73.33439636,
+   "continent": "AS",
+   "iso_country": "KZ",
+   "iso_region": "KZ-KAR",
+   "municipality": "Karaganda",
+   "iata_code": "KGF"
+ },
+ {
+   "name": "Owen Roberts International Airport",
+   "latitude_deg": 19.2928009,
+   "longitude_deg": -81.35769653,
+   "continent": "NA",
+   "iso_country": "KY",
+   "iso_region": "KY-U-A",
+   "municipality": "Georgetown",
+   "iata_code": "GCM"
+ },
+ {
+   "name": "Kuwait International Airport",
+   "latitude_deg": 29.22660065,
+   "longitude_deg": 47.96889877,
+   "continent": "AS",
+   "iso_country": "KW",
+   "iso_region": "KW-FA",
+   "municipality": "Kuwait City",
+   "iata_code": "KWI"
+ },
+ {
+   "name": "Muan International Airport",
+   "latitude_deg": 34.991406,
+   "longitude_deg": 126.382814,
+   "continent": "AS",
+   "iso_country": "KR",
+   "iso_region": "KR-46",
+   "municipality": "Piseo-ri (Muan)",
+   "iata_code": "MWX"
+ },
+ {
+   "name": "Kunsan Air Base",
+   "latitude_deg": 35.90380096,
+   "longitude_deg": 126.6159973,
+   "continent": "AS",
+   "iso_country": "KR",
+   "iso_region": "KR-45",
+   "municipality": "Kunsan",
+   "iata_code": "KUV"
+ },
+ {
+   "name": "Jeju International Airport",
+   "latitude_deg": 33.51129913,
+   "longitude_deg": 126.4929962,
+   "continent": "AS",
+   "iso_country": "KR",
+   "iso_region": "KR-49",
+   "municipality": "Jeju City",
+   "iata_code": "CJU"
+ },
+ {
+   "name": "Gimhae International Airport",
+   "latitude_deg": 35.17950058,
+   "longitude_deg": 128.9380035,
+   "continent": "AS",
+   "iso_country": "KR",
+   "iso_region": "KR-26",
+   "municipality": "Busan",
+   "iata_code": "PUS"
+ },
+ {
+   "name": "Incheon International Airport",
+   "latitude_deg": 37.46910095,
+   "longitude_deg": 126.4509964,
+   "continent": "AS",
+   "iso_country": "KR",
+   "iso_region": "KR-28",
+   "municipality": "Seoul",
+   "iata_code": "ICN"
+ },
+ {
+   "name": "Gimpo International Airport",
+   "latitude_deg": 37.5583,
+   "longitude_deg": 126.791,
+   "continent": "AS",
+   "iso_country": "KR",
+   "iso_region": "KR-11",
+   "municipality": "Seoul",
+   "iata_code": "GMP"
+ },
+ {
+   "name": "Cheongju International Airport/Cheongju Air Base (K-59/G-513)",
+   "latitude_deg": 36.717008,
+   "longitude_deg": 127.498741,
+   "continent": "AS",
+   "iso_country": "KR",
+   "iso_region": "KR-43",
+   "municipality": "Cheongju",
+   "iata_code": "CJJ"
+ },
+ {
+   "name": "Phnom Penh International Airport",
+   "latitude_deg": 11.54660034,
+   "longitude_deg": 104.8440018,
+   "continent": "AS",
+   "iso_country": "KH",
+   "iso_region": "KH-8",
+   "municipality": "Phnom Penh",
+   "iata_code": "PNH"
+ },
+ {
+   "name": "Siem Reap International Airport",
+   "latitude_deg": 13.41069984,
+   "longitude_deg": 103.8130035,
+   "continent": "AS",
+   "iso_country": "KH",
+   "iso_region": "KH-17",
+   "municipality": "Siem Reap",
+   "iata_code": "REP"
+ },
+ {
+   "name": "Manas International Airport",
+   "latitude_deg": 43.06129837,
+   "longitude_deg": 74.4776001,
+   "continent": "AS",
+   "iso_country": "KG",
+   "iso_region": "KG-C",
+   "municipality": "Bishkek",
+   "iata_code": "FRU"
+ },
+ {
+   "name": "Jomo Kenyatta International Airport",
+   "latitude_deg": -1.319239974,
+   "longitude_deg": 36.92779922,
+   "continent": "AF",
+   "iso_country": "KE",
+   "iso_region": "KE-110",
+   "municipality": "Nairobi",
+   "iata_code": "NBO"
+ },
+ {
+   "name": "Mombasa Moi International Airport",
+   "latitude_deg": -4.034830093,
+   "longitude_deg": 39.59420013,
+   "continent": "AF",
+   "iso_country": "KE",
+   "iso_region": "KE-300",
+   "municipality": "Mombasa",
+   "iata_code": "MBA"
+ },
+ {
+   "name": "Narita International Airport",
+   "latitude_deg": 35.76470184,
+   "longitude_deg": 140.3860016,
+   "continent": "AS",
+   "iso_country": "JP",
+   "iso_region": "JP-12",
+   "municipality": "Tokyo",
+   "iata_code": "NRT"
+ },
+ {
+   "name": "Kansai International Airport",
+   "latitude_deg": 34.4272995,
+   "longitude_deg": 135.2440033,
+   "continent": "AS",
+   "iso_country": "JP",
+   "iso_region": "JP-27",
+   "municipality": "Osaka",
+   "iata_code": "KIX"
+ },
+ {
+   "name": "New Chitose Airport",
+   "latitude_deg": 42.77519989,
+   "longitude_deg": 141.6920013,
+   "continent": "AS",
+   "iso_country": "JP",
+   "iso_region": "JP-01",
+   "municipality": "Chitose / Tomakomai",
+   "iata_code": "CTS"
+ },
+ {
+   "name": "Fukuoka Airport",
+   "latitude_deg": 33.58589935,
+   "longitude_deg": 130.451004,
+   "continent": "AS",
+   "iso_country": "JP",
+   "iso_region": "JP-40",
+   "municipality": "Fukuoka",
+   "iata_code": "FUK"
+ },
+ {
+   "name": "Kagoshima Airport",
+   "latitude_deg": 31.80340004,
+   "longitude_deg": 130.7189941,
+   "continent": "AS",
+   "iso_country": "JP",
+   "iso_region": "JP-46",
+   "municipality": "Kagoshima",
+   "iata_code": "KOJ"
+ },
+ {
+   "name": "Chubu Centrair International Airport",
+   "latitude_deg": 34.85839844,
+   "longitude_deg": 136.8049927,
+   "continent": "AS",
+   "iso_country": "JP",
+   "iso_region": "JP-23",
+   "municipality": "Tokoname",
+   "iata_code": "NGO"
+ },
+ {
+   "name": "Mt. Fuji Shizuoka Airport",
+   "latitude_deg": 34.79604347,
+   "longitude_deg": 138.1877518,
+   "continent": "AS",
+   "iso_country": "JP",
+   "iso_region": "JP-22",
+   "municipality": "Makinohara / Shimada",
+   "iata_code": "FSZ"
+ },
+ {
+   "name": "Osaka International Airport",
+   "latitude_deg": 34.78549957,
+   "longitude_deg": 135.4380035,
+   "continent": "AS",
+   "iso_country": "JP",
+   "iso_region": "JP-27",
+   "municipality": "Osaka",
+   "iata_code": "ITM"
+ },
+ {
+   "name": "Tokyo Haneda International Airport",
+   "latitude_deg": 35.552299,
+   "longitude_deg": 139.779999,
+   "continent": "AS",
+   "iso_country": "JP",
+   "iso_region": "JP-13",
+   "municipality": "Tokyo",
+   "iata_code": "HND"
+ },
+ {
+   "name": "Naha Airport",
+   "latitude_deg": 26.19580078,
+   "longitude_deg": 127.6460037,
+   "continent": "AS",
+   "iso_country": "JP",
+   "iso_region": "JP-47",
+   "municipality": "Naha",
+   "iata_code": "OKA"
+ },
+ {
+   "name": "Queen Alia International Airport",
+   "latitude_deg": 31.72260094,
+   "longitude_deg": 35.99319839,
+   "continent": "AS",
+   "iso_country": "JO",
+   "iso_region": "JO-AM",
+   "municipality": "Amman",
+   "iata_code": "AMM"
+ },
+ {
+   "name": "Norman Manley International Airport",
+   "latitude_deg": 17.93569946,
+   "longitude_deg": -76.78749847,
+   "continent": "NA",
+   "iso_country": "JM",
+   "iso_region": "JM-01",
+   "municipality": "Kingston",
+   "iata_code": "KIN"
+ },
+ {
+   "name": "Libr",
+   "latitude_deg": 0,
+   "longitude_deg": 0,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-U-A",
+   "municipality": "Brindisi",
+   "iata_code": ""
+ },
+ {
+   "name": "Bari Karol Wojtyła Airport",
+   "latitude_deg": 41.138901,
+   "longitude_deg": 16.760599,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-75",
+   "municipality": "Bari",
+   "iata_code": "BRI"
+ },
+ {
+   "name": "Catania-Fontanarossa Airport",
+   "latitude_deg": 37.466801,
+   "longitude_deg": 15.0664,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-82",
+   "municipality": "Catania",
+   "iata_code": "CTA"
+ },
+ {
+   "name": "Falcone–Borsellino Airport",
+   "latitude_deg": 38.175999,
+   "longitude_deg": 13.091,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-82",
+   "municipality": "Palermo",
+   "iata_code": "PMO"
+ },
+ {
+   "name": "Cagliari Elmas Airport",
+   "latitude_deg": 39.251499,
+   "longitude_deg": 9.05428,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-88",
+   "municipality": "Cagliari",
+   "iata_code": "CAG"
+ },
+ {
+   "name": "Malpensa International Airport",
+   "latitude_deg": 45.6306,
+   "longitude_deg": 8.72811,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-25",
+   "municipality": "Milan",
+   "iata_code": "MXP"
+ },
+ {
+   "name": "Il Caravaggio International Airport",
+   "latitude_deg": 45.673901,
+   "longitude_deg": 9.70417,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-25",
+   "municipality": "Bergamo",
+   "iata_code": "BGY"
+ },
+ {
+   "name": "Turin Airport",
+   "latitude_deg": 45.200802,
+   "longitude_deg": 7.64963,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-21",
+   "municipality": "Torino",
+   "iata_code": "TRN"
+ },
+ {
+   "name": "Genoa Cristoforo Colombo Airport",
+   "latitude_deg": 44.4133,
+   "longitude_deg": 8.8375,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-42",
+   "municipality": "Genova",
+   "iata_code": "GOA"
+ },
+ {
+   "name": "Milano Linate Airport",
+   "latitude_deg": 45.445099,
+   "longitude_deg": 9.27674,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-25",
+   "municipality": "Milan",
+   "iata_code": "LIN"
+ },
+ {
+   "name": "Bologna Guglielmo Marconi Airport",
+   "latitude_deg": 44.5354,
+   "longitude_deg": 11.2887,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-45",
+   "municipality": "Bologna",
+   "iata_code": "BLQ"
+ },
+ {
+   "name": "Treviso-Sant'Angelo Airport",
+   "latitude_deg": 45.648399,
+   "longitude_deg": 12.1944,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-34",
+   "municipality": "Treviso",
+   "iata_code": "TSF"
+ },
+ {
+   "name": "Verona Villafranca Airport",
+   "latitude_deg": 45.395699,
+   "longitude_deg": 10.8885,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-34",
+   "municipality": "Verona",
+   "iata_code": "VRN"
+ },
+ {
+   "name": "Venice Marco Polo Airport",
+   "latitude_deg": 45.505299,
+   "longitude_deg": 12.3519,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-34",
+   "municipality": "Venice",
+   "iata_code": "VCE"
+ },
+ {
+   "name": "Ciampino–G. B. Pastine International Airport",
+   "latitude_deg": 41.7994,
+   "longitude_deg": 12.5949,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-62",
+   "municipality": "Rome",
+   "iata_code": "CIA"
+ },
+ {
+   "name": "Leonardo da Vinci–Fiumicino Airport",
+   "latitude_deg": 41.8002778,
+   "longitude_deg": 12.2388889,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-62",
+   "municipality": "Rome",
+   "iata_code": "FCO"
+ },
+ {
+   "name": "Naples International Airport",
+   "latitude_deg": 40.886002,
+   "longitude_deg": 14.2908,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-72",
+   "municipality": "Nápoli",
+   "iata_code": "NAP"
+ },
+ {
+   "name": "Pisa International Airport",
+   "latitude_deg": 43.683899,
+   "longitude_deg": 10.3927,
+   "continent": "EU",
+   "iso_country": "IT",
+   "iso_region": "IT-52",
+   "municipality": "Pisa",
+   "iata_code": "PSA"
+ },
+ {
+   "name": "Keflavik International Airport",
+   "latitude_deg": 63.98500061,
+   "longitude_deg": -22.60560036,
+   "continent": "EU",
+   "iso_country": "IS",
+   "iso_region": "IS-2",
+   "municipality": "Reykjavík",
+   "iata_code": "KEF"
+ },
+ {
+   "name": "Imam Khomeini International Airport",
+   "latitude_deg": 35.41609955,
+   "longitude_deg": 51.15219879,
+   "continent": "AS",
+   "iso_country": "IR",
+   "iso_region": "IR-07",
+   "municipality": "Tehran",
+   "iata_code": "IKA"
+ },
+ {
+   "name": "Mehrabad International Airport",
+   "latitude_deg": 35.68920135,
+   "longitude_deg": 51.31340027,
+   "continent": "AS",
+   "iso_country": "IR",
+   "iso_region": "IR-07",
+   "municipality": "Tehran",
+   "iata_code": "THR"
+ },
+ {
+   "name": "Mashhad International Airport",
+   "latitude_deg": 36.23519897,
+   "longitude_deg": 59.64099884,
+   "continent": "AS",
+   "iso_country": "IR",
+   "iso_region": "IR-30",
+   "municipality": "Mashhad",
+   "iata_code": "MHD"
+ },
+ {
+   "name": "Shiraz Shahid Dastghaib International Airport",
+   "latitude_deg": 29.53919983,
+   "longitude_deg": 52.58980179,
+   "continent": "AS",
+   "iso_country": "IR",
+   "iso_region": "IR-14",
+   "municipality": "Shiraz",
+   "iata_code": "SYZ"
+ },
+ {
+   "name": "Tabriz International Airport",
+   "latitude_deg": 38.13389969,
+   "longitude_deg": 46.23500061,
+   "continent": "AS",
+   "iso_country": "IR",
+   "iso_region": "IR-01",
+   "municipality": "Tabriz",
+   "iata_code": "TBZ"
+ },
+ {
+   "name": "Baghdad International Airport",
+   "latitude_deg": 33.26250076,
+   "longitude_deg": 44.23460007,
+   "continent": "AS",
+   "iso_country": "IQ",
+   "iso_region": "IQ-BG",
+   "municipality": "Baghdad",
+   "iata_code": "BGW"
+ },
+ {
+   "name": "Basrah International Airport",
+   "latitude_deg": 30.54910088,
+   "longitude_deg": 47.66210175,
+   "continent": "AS",
+   "iso_country": "IQ",
+   "iso_region": "IQ-BA",
+   "municipality": "Basrah",
+   "iata_code": "BSR"
+ },
+ {
+   "name": "Chhatrapati Shivaji International Airport",
+   "latitude_deg": 19.08869934,
+   "longitude_deg": 72.86789703,
+   "continent": "AS",
+   "iso_country": "IN",
+   "iso_region": "IN-MM",
+   "municipality": "Mumbai",
+   "iata_code": "BOM"
+ },
+ {
+   "name": "Dabolim Airport",
+   "latitude_deg": 15.38080025,
+   "longitude_deg": 73.83139801,
+   "continent": "AS",
+   "iso_country": "IN",
+   "iso_region": "IN-GA",
+   "municipality": "Vasco da Gama",
+   "iata_code": "GOI"
+ },
+ {
+   "name": "Netaji Subhash Chandra Bose International Airport",
+   "latitude_deg": 22.65469933,
+   "longitude_deg": 88.44670105,
+   "continent": "AS",
+   "iso_country": "IN",
+   "iso_region": "IN-WB",
+   "municipality": "Kolkata",
+   "iata_code": "CCU"
+ },
+ {
+   "name": "Sri Guru Ram Dass Jee International Airport",
+   "latitude_deg": 31.70960045,
+   "longitude_deg": 74.79730225,
+   "continent": "AS",
+   "iso_country": "IN",
+   "iso_region": "IN-PB",
+   "municipality": "Amritsar",
+   "iata_code": "ATQ"
+ },
+ {
+   "name": "Indira Gandhi International Airport",
+   "latitude_deg": 28.5665,
+   "longitude_deg": 77.103104,
+   "continent": "AS",
+   "iso_country": "IN",
+   "iso_region": "IN-DL",
+   "municipality": "New Delhi",
+   "iata_code": "DEL"
+ },
+ {
+   "name": "Kempegowda International Airport",
+   "latitude_deg": 13.1979,
+   "longitude_deg": 77.706299,
+   "continent": "AS",
+   "iso_country": "IN",
+   "iso_region": "IN-KA",
+   "municipality": "Bangalore",
+   "iata_code": "BLR"
+ },
+ {
+   "name": "Cochin International Airport",
+   "latitude_deg": 10.152,
+   "longitude_deg": 76.401901,
+   "continent": "AS",
+   "iso_country": "IN",
+   "iso_region": "IN-KL",
+   "municipality": "Kochi",
+   "iata_code": "COK"
+ },
+ {
+   "name": "Calicut International Airport",
+   "latitude_deg": 11.13679981,
+   "longitude_deg": 75.95529938,
+   "continent": "AS",
+   "iso_country": "IN",
+   "iso_region": "IN-KL",
+   "municipality": "Calicut",
+   "iata_code": "CCJ"
+ },
+ {
+   "name": "Rajiv Gandhi International Airport",
+   "latitude_deg": 17.23131752,
+   "longitude_deg": 78.42985535,
+   "continent": "AS",
+   "iso_country": "IN",
+   "iso_region": "IN-TG",
+   "municipality": "Hyderabad",
+   "iata_code": "HYD"
+ },
+ {
+   "name": "Chennai International Airport",
+   "latitude_deg": 12.99000549,
+   "longitude_deg": 80.16929626,
+   "continent": "AS",
+   "iso_country": "IN",
+   "iso_region": "IN-TN",
+   "municipality": "Chennai",
+   "iata_code": "MAA"
+ },
+ {
+   "name": "Trivandrum International Airport",
+   "latitude_deg": 8.48211956,
+   "longitude_deg": 76.92009735,
+   "continent": "AS",
+   "iso_country": "IN",
+   "iso_region": "IN-KL",
+   "municipality": "Thiruvananthapuram",
+   "iata_code": "TRV"
+ },
+ {
+   "name": "Ben Gurion International Airport",
+   "latitude_deg": 32.01139832,
+   "longitude_deg": 34.88669968,
+   "continent": "AS",
+   "iso_country": "IL",
+   "iso_region": "IL-M",
+   "municipality": "Tel Aviv",
+   "iata_code": "TLV"
+ },
+ {
+   "name": "Ovda International Airport",
+   "latitude_deg": 29.94029999,
+   "longitude_deg": 34.93579865,
+   "continent": "AS",
+   "iso_country": "IL",
+   "iso_region": "IL-D",
+   "municipality": "Eilat",
+   "iata_code": "VDA"
+ },
+ {
+   "name": "Cork Airport",
+   "latitude_deg": 51.84130096,
+   "longitude_deg": -8.491109848,
+   "continent": "EU",
+   "iso_country": "IE",
+   "iso_region": "IE-C",
+   "municipality": "Cork",
+   "iata_code": "ORK"
+ },
+ {
+   "name": "Dublin Airport",
+   "latitude_deg": 53.42129898,
+   "longitude_deg": -6.270070076,
+   "continent": "EU",
+   "iso_country": "IE",
+   "iso_region": "IE-D",
+   "municipality": "Dublin",
+   "iata_code": "DUB"
+ },
+ {
+   "name": "Shannon Airport",
+   "latitude_deg": 52.70199966,
+   "longitude_deg": -8.924819946,
+   "continent": "EU",
+   "iso_country": "IE",
+   "iso_region": "IE-CE",
+   "municipality": "Limerick",
+   "iata_code": "SNN"
+ },
+ {
+   "name": "Sungai Siring International Airport",
+   "latitude_deg": -0.373611,
+   "longitude_deg": 117.255556,
+   "continent": "AS",
+   "iso_country": "ID",
+   "iso_region": "ID-KI",
+   "municipality": "Samarinda",
+   "iata_code": ""
+ },
+ {
+   "name": "Hasanuddin International Airport",
+   "latitude_deg": -5.061629772,
+   "longitude_deg": 119.5540009,
+   "continent": "AS",
+   "iso_country": "ID",
+   "iso_region": "ID-SN",
+   "municipality": "Ujung Pandang-Celebes Island",
+   "iata_code": "UPG"
+ },
+ {
+   "name": "Ngurah Rai (Bali) International Airport",
+   "latitude_deg": -8.748169899,
+   "longitude_deg": 115.1669998,
+   "continent": "AS",
+   "iso_country": "ID",
+   "iso_region": "ID-BA",
+   "municipality": "Denpasar-Bali Island",
+   "iata_code": "DPS"
+ },
+ {
+   "name": "Juanda International Airport",
+   "latitude_deg": -7.379829884,
+   "longitude_deg": 112.7870026,
+   "continent": "AS",
+   "iso_country": "ID",
+   "iso_region": "ID-JI",
+   "municipality": "Surabaya",
+   "iata_code": "SUB"
+ },
+ {
+   "name": "Dominique Edward Osok Airport",
+   "latitude_deg": -0.894,
+   "longitude_deg": 131.287,
+   "continent": "AS",
+   "iso_country": "ID",
+   "iso_region": "ID-PB",
+   "municipality": "Sorong-Papua Island",
+   "iata_code": "SOQ"
+ },
+ {
+   "name": "Soekarno-Hatta International Airport",
+   "latitude_deg": -6.12556982,
+   "longitude_deg": 106.6559982,
+   "continent": "AS",
+   "iso_country": "ID",
+   "iso_region": "ID-BT",
+   "municipality": "Jakarta",
+   "iata_code": "CGK"
+ },
+ {
+   "name": "Budapest Ferenc Liszt International Airport",
+   "latitude_deg": 47.43690109,
+   "longitude_deg": 19.25559998,
+   "continent": "EU",
+   "iso_country": "HU",
+   "iso_region": "HU-PE",
+   "municipality": "Budapest",
+   "iata_code": "BUD"
+ },
+ {
+   "name": "Zagreb Airport",
+   "latitude_deg": 45.74290085,
+   "longitude_deg": 16.06879997,
+   "continent": "EU",
+   "iso_country": "HR",
+   "iso_region": "HR-21",
+   "municipality": "Zagreb",
+   "iata_code": "ZAG"
+ },
+ {
+   "name": "Chek Lap Kok International Airport",
+   "latitude_deg": 22.30890083,
+   "longitude_deg": 113.9150009,
+   "continent": "AS",
+   "iso_country": "HK",
+   "iso_region": "HK-U-A",
+   "municipality": "Hong Kong",
+   "iata_code": "HKG"
+ },
+ {
+   "name": "Antonio B. Won Pat International Airport",
+   "latitude_deg": 13.48340034,
+   "longitude_deg": 144.7960052,
+   "continent": "OC",
+   "iso_country": "GU",
+   "iso_region": "GU-U-A",
+   "municipality": "Hagåtña, Guam International Airport",
+   "iata_code": "GUM"
+ },
+ {
+   "name": "Eleftherios Venizelos International Airport",
+   "latitude_deg": 37.93640137,
+   "longitude_deg": 23.94449997,
+   "continent": "EU",
+   "iso_country": "GR",
+   "iso_region": "GR-A1",
+   "municipality": "Athens",
+   "iata_code": "ATH"
+ },
+ {
+   "name": "Heraklion International Nikos Kazantzakis Airport",
+   "latitude_deg": 35.33969879,
+   "longitude_deg": 25.18029976,
+   "continent": "EU",
+   "iso_country": "GR",
+   "iso_region": "GR-91",
+   "municipality": "Heraklion",
+   "iata_code": "HER"
+ },
+ {
+   "name": "Thessaloniki Macedonia International Airport",
+   "latitude_deg": 40.5196991,
+   "longitude_deg": 22.97089958,
+   "continent": "EU",
+   "iso_country": "GR",
+   "iso_region": "GR-54",
+   "municipality": "Thessaloniki",
+   "iata_code": "SKG"
+ },
+ {
+   "name": "Pointe-à-Pitre Le Raizet",
+   "latitude_deg": 16.265301,
+   "longitude_deg": -61.531799,
+   "continent": "NA",
+   "iso_country": "GP",
+   "iso_region": "GP-U-A",
+   "municipality": "Pointe-à-Pitre",
+   "iata_code": "PTP"
+ },
+ {
+   "name": "Kotoka International Airport",
+   "latitude_deg": 5.6051898,
+   "longitude_deg": -0.166786,
+   "continent": "AF",
+   "iso_country": "GH",
+   "iso_region": "GH-AA",
+   "municipality": "Accra",
+   "iata_code": "ACC"
+ },
+ {
+   "name": "Tbilisi International Airport",
+   "latitude_deg": 41.6692009,
+   "longitude_deg": 44.95470047,
+   "continent": "AS",
+   "iso_country": "GE",
+   "iso_region": "GE-TB",
+   "municipality": "Tbilisi",
+   "iata_code": "TBS"
+ },
+ {
+   "name": "Belfast International Airport",
+   "latitude_deg": 54.65750122,
+   "longitude_deg": -6.215829849,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-NIR",
+   "municipality": "Belfast",
+   "iata_code": "BFS"
+ },
+ {
+   "name": "George Best Belfast City Airport",
+   "latitude_deg": 54.61809921,
+   "longitude_deg": -5.872499943,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-NIR",
+   "municipality": "Belfast",
+   "iata_code": "BHD"
+ },
+ {
+   "name": "Birmingham International Airport",
+   "latitude_deg": 52.45389938,
+   "longitude_deg": -1.748029947,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Birmingham",
+   "iata_code": "BHX"
+ },
+ {
+   "name": "Manchester Airport",
+   "latitude_deg": 53.35369873,
+   "longitude_deg": -2.274950027,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Manchester",
+   "iata_code": "MAN"
+ },
+ {
+   "name": "Robin Hood Doncaster Sheffield Airport",
+   "latitude_deg": 53.48053781,
+   "longitude_deg": -1.010656357,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Doncaster",
+   "iata_code": "DSA"
+ },
+ {
+   "name": "Cardiff International Airport",
+   "latitude_deg": 51.39670181,
+   "longitude_deg": -3.343329906,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-WLS",
+   "municipality": "Cardiff",
+   "iata_code": "CWL"
+ },
+ {
+   "name": "Bristol Airport",
+   "latitude_deg": 51.382702,
+   "longitude_deg": -2.71909,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Bristol",
+   "iata_code": "BRS"
+ },
+ {
+   "name": "Liverpool John Lennon Airport",
+   "latitude_deg": 53.33359909,
+   "longitude_deg": -2.849720001,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Liverpool",
+   "iata_code": "LPL"
+ },
+ {
+   "name": "London Luton Airport",
+   "latitude_deg": 51.87469864,
+   "longitude_deg": -0.368333012,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "London",
+   "iata_code": "LTN"
+ },
+ {
+   "name": "Bournemouth Airport",
+   "latitude_deg": 50.77999878,
+   "longitude_deg": -1.842499971,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Bournemouth",
+   "iata_code": "BOH"
+ },
+ {
+   "name": "Southampton Airport",
+   "latitude_deg": 50.95029831,
+   "longitude_deg": -1.35679996,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Southampton",
+   "iata_code": "SOU"
+ },
+ {
+   "name": "London Gatwick Airport",
+   "latitude_deg": 51.14810181,
+   "longitude_deg": -0.190277994,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "London",
+   "iata_code": "LGW"
+ },
+ {
+   "name": "London Heathrow Airport",
+   "latitude_deg": 51.4706,
+   "longitude_deg": -0.461941,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "London",
+   "iata_code": "LHR"
+ },
+ {
+   "name": "Leeds Bradford Airport",
+   "latitude_deg": 53.86589813,
+   "longitude_deg": -1.660570025,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Leeds",
+   "iata_code": "LBA"
+ },
+ {
+   "name": "Newcastle Airport",
+   "latitude_deg": 55.03749847,
+   "longitude_deg": -1.691669941,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Newcastle",
+   "iata_code": "NCL"
+ },
+ {
+   "name": "East Midlands Airport",
+   "latitude_deg": 52.83110046,
+   "longitude_deg": -1.328060031,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Nottingham",
+   "iata_code": "EMA"
+ },
+ {
+   "name": "Aberdeen Dyce Airport",
+   "latitude_deg": 57.20190048,
+   "longitude_deg": -2.197779894,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-SCT",
+   "municipality": "Aberdeen",
+   "iata_code": "ABZ"
+ },
+ {
+   "name": "Glasgow International Airport",
+   "latitude_deg": 55.87189865,
+   "longitude_deg": -4.433060169,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-SCT",
+   "municipality": "Glasgow",
+   "iata_code": "GLA"
+ },
+ {
+   "name": "Edinburgh Airport",
+   "latitude_deg": 55.95000076,
+   "longitude_deg": -3.372499943,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-SCT",
+   "municipality": "Edinburgh",
+   "iata_code": "EDI"
+ },
+ {
+   "name": "Norwich International Airport",
+   "latitude_deg": 52.67580032,
+   "longitude_deg": 1.282780051,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Norwich",
+   "iata_code": "NWI"
+ },
+ {
+   "name": "London Stansted Airport",
+   "latitude_deg": 51.88499832,
+   "longitude_deg": 0.234999999,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "London",
+   "iata_code": "STN"
+ },
+ {
+   "name": "Exeter International Airport",
+   "latitude_deg": 50.7344017,
+   "longitude_deg": -3.413889885,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Exeter",
+   "iata_code": "EXT"
+ },
+ {
+   "name": "RAF Brize Norton",
+   "latitude_deg": 51.75,
+   "longitude_deg": -1.58362,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-ENG",
+   "municipality": "Brize Norton",
+   "iata_code": "BZZ"
+ },
+ {
+   "name": "RAF Akrotiri",
+   "latitude_deg": 34.590401,
+   "longitude_deg": 32.9879,
+   "continent": "EU",
+   "iso_country": "GB",
+   "iso_region": "GB-U-A",
+   "municipality": "Akrotiri",
+   "iata_code": "AKT"
+ },
+ {
+   "name": "Bordeaux-Mérignac Airport",
+   "latitude_deg": 44.82830048,
+   "longitude_deg": -0.715556026,
+   "continent": "EU",
+   "iso_country": "FR",
+   "iso_region": "FR-B",
+   "municipality": "Bordeaux/Mérignac",
+   "iata_code": "BOD"
+ },
+ {
+   "name": "Toulouse-Blagnac Airport",
+   "latitude_deg": 43.629101,
+   "longitude_deg": 1.36382,
+   "continent": "EU",
+   "iso_country": "FR",
+   "iso_region": "FR-N",
+   "municipality": "Toulouse/Blagnac",
+   "iata_code": "TLS"
+ },
+ {
+   "name": "Lyon Saint-Exupéry Airport",
+   "latitude_deg": 45.725556,
+   "longitude_deg": 5.081111,
+   "continent": "EU",
+   "iso_country": "FR",
+   "iso_region": "FR-V",
+   "municipality": "Lyon",
+   "iata_code": "LYS"
+ },
+ {
+   "name": "Marseille Provence Airport",
+   "latitude_deg": 43.43927192,
+   "longitude_deg": 5.221424103,
+   "continent": "EU",
+   "iso_country": "FR",
+   "iso_region": "FR-U",
+   "municipality": "Marseille",
+   "iata_code": "MRS"
+ },
+ {
+   "name": "Nice-Côte d'Azur Airport",
+   "latitude_deg": 43.65840149,
+   "longitude_deg": 7.215869904,
+   "continent": "EU",
+   "iso_country": "FR",
+   "iso_region": "FR-U",
+   "municipality": "Nice",
+   "iata_code": "NCE"
+ },
+ {
+   "name": "Charles de Gaulle International Airport",
+   "latitude_deg": 49.01279831,
+   "longitude_deg": 2.549999952,
+   "continent": "EU",
+   "iso_country": "FR",
+   "iso_region": "FR-J",
+   "municipality": "Paris",
+   "iata_code": "CDG"
+ },
+ {
+   "name": "Paris-Orly Airport",
+   "latitude_deg": 48.7233333,
+   "longitude_deg": 2.3794444,
+   "continent": "EU",
+   "iso_country": "FR",
+   "iso_region": "FR-J",
+   "municipality": "Paris",
+   "iata_code": "ORY"
+ },
+ {
+   "name": "EuroAirport Basel-Mulhouse-Freiburg Airport",
+   "latitude_deg": 47.59,
+   "longitude_deg": 7.5291667,
+   "continent": "EU",
+   "iso_country": "FR",
+   "iso_region": "FR-A",
+   "municipality": "Bâle/Mulhouse",
+   "iata_code": "BSL"
+ },
+ {
+   "name": "Helsinki Vantaa Airport",
+   "latitude_deg": 60.31719971,
+   "longitude_deg": 24.9633007,
+   "continent": "EU",
+   "iso_country": "FI",
+   "iso_region": "FI-ES",
+   "municipality": "Helsinki",
+   "iata_code": "HEL"
+ },
+ {
+   "name": "Addis Ababa Bole International Airport",
+   "latitude_deg": 8.977890015,
+   "longitude_deg": 38.79930115,
+   "continent": "AF",
+   "iso_country": "ET",
+   "iso_region": "ET-AA",
+   "municipality": "Addis Ababa",
+   "iata_code": "ADD"
+ },
+ {
+   "name": "Gran Canaria Airport",
+   "latitude_deg": 27.93190002,
+   "longitude_deg": -15.38659954,
+   "continent": "EU",
+   "iso_country": "ES",
+   "iso_region": "ES-CN",
+   "municipality": "Gran Canaria Island",
+   "iata_code": "LPA"
+ },
+ {
+   "name": "Tenerife South Airport",
+   "latitude_deg": 28.04450035,
+   "longitude_deg": -16.57250023,
+   "continent": "EU",
+   "iso_country": "ES",
+   "iso_region": "ES-CN",
+   "municipality": "Tenerife Island",
+   "iata_code": "TFS"
+ },
+ {
+   "name": "Tenerife Norte Airport",
+   "latitude_deg": 28.48270035,
+   "longitude_deg": -16.34149933,
+   "continent": "EU",
+   "iso_country": "ES",
+   "iso_region": "ES-CN",
+   "municipality": "Tenerife Island",
+   "iata_code": "TFN"
+ },
+ {
+   "name": "Alicante International Airport",
+   "latitude_deg": 38.28219986,
+   "longitude_deg": -0.558156013,
+   "continent": "EU",
+   "iso_country": "ES",
+   "iso_region": "ES-V",
+   "municipality": "Alicante",
+   "iata_code": "ALC"
+ },
+ {
+   "name": "Barcelona International Airport",
+   "latitude_deg": 41.29710007,
+   "longitude_deg": 2.078459978,
+   "continent": "EU",
+   "iso_country": "ES",
+   "iso_region": "ES-CT",
+   "municipality": "Barcelona",
+   "iata_code": "BCN"
+ },
+ {
+   "name": "Adolfo Suárez Madrid–Barajas Airport",
+   "latitude_deg": 40.471926,
+   "longitude_deg": -3.56264,
+   "continent": "EU",
+   "iso_country": "ES",
+   "iso_region": "ES-M",
+   "municipality": "Madrid",
+   "iata_code": "MAD"
+ },
+ {
+   "name": "Málaga Airport",
+   "latitude_deg": 36.67490005,
+   "longitude_deg": -4.499110222,
+   "continent": "EU",
+   "iso_country": "ES",
+   "iso_region": "ES-AN",
+   "municipality": "Málaga",
+   "iata_code": "AGP"
+ },
+ {
+   "name": "Palma De Mallorca Airport",
+   "latitude_deg": 39.55170059,
+   "longitude_deg": 2.738810062,
+   "continent": "EU",
+   "iso_country": "ES",
+   "iso_region": "ES-PM",
+   "municipality": "Palma De Mallorca",
+   "iata_code": "PMI"
+ },
+ {
+   "name": "Santiago de Compostela Airport",
+   "latitude_deg": 42.89630127,
+   "longitude_deg": -8.415140152,
+   "continent": "EU",
+   "iso_country": "ES",
+   "iso_region": "ES-GA",
+   "municipality": "Santiago de Compostela",
+   "iata_code": "SCQ"
+ },
+ {
+   "name": "Cairo International Airport",
+   "latitude_deg": 30.12190056,
+   "longitude_deg": 31.40559959,
+   "continent": "AF",
+   "iso_country": "EG",
+   "iso_region": "EG-C",
+   "municipality": "Cairo",
+   "iata_code": "CAI"
+ },
+ {
+   "name": "Hurghada International Airport",
+   "latitude_deg": 27.17830086,
+   "longitude_deg": 33.79940033,
+   "continent": "AF",
+   "iso_country": "EG",
+   "iso_region": "EG-BA",
+   "municipality": "Hurghada",
+   "iata_code": "HRG"
+ },
+ {
+   "name": "Luxor International Airport",
+   "latitude_deg": 25.671,
+   "longitude_deg": 32.7066,
+   "continent": "AF",
+   "iso_country": "EG",
+   "iso_region": "EG-KN",
+   "municipality": "Luxor",
+   "iata_code": "LXR"
+ },
+ {
+   "name": "Lennart Meri Tallinn Airport",
+   "latitude_deg": 59.41329956,
+   "longitude_deg": 24.83279991,
+   "continent": "EU",
+   "iso_country": "EE",
+   "iso_region": "EE-37",
+   "municipality": "Tallinn",
+   "iata_code": "TLL"
+ },
+ {
+   "name": "Cotopaxi International Airport",
+   "latitude_deg": -0.906832993,
+   "longitude_deg": -78.61579895,
+   "continent": "SA",
+   "iso_country": "EC",
+   "iso_region": "EC-X",
+   "municipality": "Latacunga",
+   "iata_code": "LTX"
+ },
+ {
+   "name": "Mariscal Sucre International Airport",
+   "latitude_deg": -0.129166667,
+   "longitude_deg": -78.3575,
+   "continent": "SA",
+   "iso_country": "EC",
+   "iso_region": "EC-P",
+   "municipality": "Quito",
+   "iata_code": "UIO"
+ },
+ {
+   "name": "Houari Boumediene Airport",
+   "latitude_deg": 36.69100189,
+   "longitude_deg": 3.215409994,
+   "continent": "AF",
+   "iso_country": "DZ",
+   "iso_region": "DZ-35",
+   "municipality": "Algiers",
+   "iata_code": "ALG"
+ },
+ {
+   "name": "Punta Cana International Airport",
+   "latitude_deg": 18.56739998,
+   "longitude_deg": -68.36340332,
+   "continent": "NA",
+   "iso_country": "DO",
+   "iso_region": "DO-11",
+   "municipality": "Punta Cana",
+   "iata_code": "PUJ"
+ },
+ {
+   "name": "Las Américas International Airport",
+   "latitude_deg": 18.42970085,
+   "longitude_deg": -69.66889954,
+   "continent": "NA",
+   "iso_country": "DO",
+   "iso_region": "DO-01",
+   "municipality": "Santo Domingo",
+   "iata_code": "SDQ"
+ },
+ {
+   "name": "Billund Airport",
+   "latitude_deg": 55.74029922,
+   "longitude_deg": 9.151780128,
+   "continent": "EU",
+   "iso_country": "DK",
+   "iso_region": "DK-83",
+   "municipality": "Billund",
+   "iata_code": "BLL"
+ },
+ {
+   "name": "Copenhagen Kastrup Airport",
+   "latitude_deg": 55.61790085,
+   "longitude_deg": 12.65600014,
+   "continent": "EU",
+   "iso_country": "DK",
+   "iso_region": "DK-84",
+   "municipality": "Copenhagen",
+   "iata_code": "CPH"
+ },
+ {
+   "name": "Aalborg Airport",
+   "latitude_deg": 57.09275891,
+   "longitude_deg": 9.849243164,
+   "continent": "EU",
+   "iso_country": "DK",
+   "iso_region": "DK-81",
+   "municipality": "Aalborg",
+   "iata_code": "AAL"
+ },
+ {
+   "name": "Berlin-Schönefeld Airport",
+   "latitude_deg": 52.380001,
+   "longitude_deg": 13.5225,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-BR",
+   "municipality": "Berlin",
+   "iata_code": "SXF"
+ },
+ {
+   "name": "Dresden Airport",
+   "latitude_deg": 51.13280106,
+   "longitude_deg": 13.76720047,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-SN",
+   "municipality": "Dresden",
+   "iata_code": "DRS"
+ },
+ {
+   "name": "Frankfurt am Main Airport",
+   "latitude_deg": 50.033333,
+   "longitude_deg": 8.570556,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-HE",
+   "municipality": "Frankfurt am Main",
+   "iata_code": "FRA"
+ },
+ {
+   "name": "Münster Osnabrück Airport",
+   "latitude_deg": 52.13460159,
+   "longitude_deg": 7.684830189,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-NW",
+   "municipality": "Münster",
+   "iata_code": "FMO"
+ },
+ {
+   "name": "Hamburg Airport",
+   "latitude_deg": 53.63040161,
+   "longitude_deg": 9.988229752,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-HH",
+   "municipality": "Hamburg",
+   "iata_code": "HAM"
+ },
+ {
+   "name": "Cologne Bonn Airport",
+   "latitude_deg": 50.86589813,
+   "longitude_deg": 7.142739773,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-NW",
+   "municipality": "Cologne",
+   "iata_code": "CGN"
+ },
+ {
+   "name": "Düsseldorf Airport",
+   "latitude_deg": 51.289501,
+   "longitude_deg": 6.76678,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-NW",
+   "municipality": "Düsseldorf",
+   "iata_code": "DUS"
+ },
+ {
+   "name": "Munich Airport",
+   "latitude_deg": 48.353802,
+   "longitude_deg": 11.7861,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-BY",
+   "municipality": "Munich",
+   "iata_code": "MUC"
+ },
+ {
+   "name": "Nuremberg Airport",
+   "latitude_deg": 49.498699,
+   "longitude_deg": 11.078056,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-BY",
+   "municipality": "Nuremberg",
+   "iata_code": "NUE"
+ },
+ {
+   "name": "Leipzig/Halle Airport",
+   "latitude_deg": 51.423889,
+   "longitude_deg": 12.236389,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-SN",
+   "municipality": "Leipzig",
+   "iata_code": "LEJ"
+ },
+ {
+   "name": "Stuttgart Airport",
+   "latitude_deg": 48.68989944,
+   "longitude_deg": 9.221960068,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-BW",
+   "municipality": "Stuttgart",
+   "iata_code": "STR"
+ },
+ {
+   "name": "Berlin-Tegel Airport",
+   "latitude_deg": 52.5597,
+   "longitude_deg": 13.2877,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-BE",
+   "municipality": "Berlin",
+   "iata_code": "TXL"
+ },
+ {
+   "name": "Hannover Airport",
+   "latitude_deg": 52.46110153,
+   "longitude_deg": 9.685079575,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-NI",
+   "municipality": "Hannover",
+   "iata_code": "HAJ"
+ },
+ {
+   "name": "Bremen Airport",
+   "latitude_deg": 53.04750061,
+   "longitude_deg": 8.786669731,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-HB",
+   "municipality": "Bremen",
+   "iata_code": "BRE"
+ },
+ {
+   "name": "Dortmund Airport",
+   "latitude_deg": 51.5182991,
+   "longitude_deg": 7.612239838,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-NW",
+   "municipality": "Dortmund",
+   "iata_code": "DTM"
+ },
+ {
+   "name": "Karlsruhe Baden-Baden Airport",
+   "latitude_deg": 48.77939987,
+   "longitude_deg": 8.080499649,
+   "continent": "EU",
+   "iso_country": "DE",
+   "iso_region": "DE-BW",
+   "municipality": "Baden-Baden",
+   "iata_code": "FKB"
+ },
+ {
+   "name": "Václav Havel Airport Prague",
+   "latitude_deg": 50.1008,
+   "longitude_deg": 14.26,
+   "continent": "EU",
+   "iso_country": "CZ",
+   "iso_region": "CZ-PR",
+   "municipality": "Prague",
+   "iata_code": "PRG"
+ },
+ {
+   "name": "Larnaca International Airport",
+   "latitude_deg": 34.87509918,
+   "longitude_deg": 33.62490082,
+   "continent": "AS",
+   "iso_country": "CY",
+   "iso_region": "CY-04",
+   "municipality": "Larnarca",
+   "iata_code": "LCA"
+ },
+ {
+   "name": "Paphos International Airport",
+   "latitude_deg": 34.7179985,
+   "longitude_deg": 32.4856987,
+   "continent": "AS",
+   "iso_country": "CY",
+   "iso_region": "CY-06",
+   "municipality": "Paphos",
+   "iata_code": "PFO"
+ },
+ {
+   "name": "José Martí International Airport",
+   "latitude_deg": 22.98920059,
+   "longitude_deg": -82.40910339,
+   "continent": "NA",
+   "iso_country": "CU",
+   "iso_region": "CU-03",
+   "municipality": "Havana",
+   "iata_code": "HAV"
+ },
+ {
+   "name": "Juan Gualberto Gomez International Airport",
+   "latitude_deg": 23.03440094,
+   "longitude_deg": -81.43530273,
+   "continent": "NA",
+   "iso_country": "CU",
+   "iso_region": "CU-04",
+   "municipality": "Varadero",
+   "iata_code": "VRA"
+ },
+ {
+   "name": "El Dorado International Airport",
+   "latitude_deg": 4.70159,
+   "longitude_deg": -74.1469,
+   "continent": "SA",
+   "iso_country": "CO",
+   "iso_region": "CO-CUN",
+   "municipality": "Bogota",
+   "iata_code": "BOG"
+ },
+ {
+   "name": "Beijing Capital International Airport",
+   "latitude_deg": 40.08010101,
+   "longitude_deg": 116.5849991,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-11",
+   "municipality": "Beijing",
+   "iata_code": "PEK"
+ },
+ {
+   "name": "Baita International Airport",
+   "latitude_deg": 40.851398,
+   "longitude_deg": 111.823997,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-15",
+   "municipality": "Hohhot",
+   "iata_code": "HET"
+ },
+ {
+   "name": "Beijing Nanyuan Airport",
+   "latitude_deg": 39.78279877,
+   "longitude_deg": 116.3880005,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-11",
+   "municipality": "Beijing",
+   "iata_code": "NAY"
+ },
+ {
+   "name": "Tianjin Binhai International Airport",
+   "latitude_deg": 39.12440109,
+   "longitude_deg": 117.3460007,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-12",
+   "municipality": "Tianjin",
+   "iata_code": "TSN"
+ },
+ {
+   "name": "Taiyuan Wusu Airport",
+   "latitude_deg": 37.74689865,
+   "longitude_deg": 112.6279984,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-14",
+   "municipality": "Taiyuan",
+   "iata_code": "TYN"
+ },
+ {
+   "name": "Guangzhou Baiyun International Airport",
+   "latitude_deg": 23.39240074,
+   "longitude_deg": 113.2990036,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-44",
+   "municipality": "Guangzhou",
+   "iata_code": "CAN"
+ },
+ {
+   "name": "Changsha Huanghua International Airport",
+   "latitude_deg": 28.18919945,
+   "longitude_deg": 113.2200012,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-43",
+   "municipality": "Changsha",
+   "iata_code": "CSX"
+ },
+ {
+   "name": "Guilin Liangjiang International Airport",
+   "latitude_deg": 25.21809959,
+   "longitude_deg": 110.0390015,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-45",
+   "municipality": "Guilin City",
+   "iata_code": "KWL"
+ },
+ {
+   "name": "Nanning Wuxu Airport",
+   "latitude_deg": 22.60829926,
+   "longitude_deg": 108.1719971,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-45",
+   "municipality": "Nanning",
+   "iata_code": "NNG"
+ },
+ {
+   "name": "Shenzhen Bao'an International Airport",
+   "latitude_deg": 22.63929939,
+   "longitude_deg": 113.810997,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-44",
+   "municipality": "Shenzhen",
+   "iata_code": "SZX"
+ },
+ {
+   "name": "Zhengzhou Xinzheng International Airport",
+   "latitude_deg": 34.5196991,
+   "longitude_deg": 113.8410034,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-41",
+   "municipality": "Zhengzhou",
+   "iata_code": "CGO"
+ },
+ {
+   "name": "Wuhan Tianhe International Airport",
+   "latitude_deg": 30.7838,
+   "longitude_deg": 114.208,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-42",
+   "municipality": "Wuhan",
+   "iata_code": "WUH"
+ },
+ {
+   "name": "Haikou Meilan International Airport",
+   "latitude_deg": 19.93490028,
+   "longitude_deg": 110.4589996,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-46",
+   "municipality": "Haikou",
+   "iata_code": "HAK"
+ },
+ {
+   "name": "Sanya Phoenix International Airport",
+   "latitude_deg": 18.30290031,
+   "longitude_deg": 109.4120026,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-46",
+   "municipality": "Sanya",
+   "iata_code": "SYX"
+ },
+ {
+   "name": "Xi'an Xianyang International Airport",
+   "latitude_deg": 34.447102,
+   "longitude_deg": 108.751999,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-61",
+   "municipality": "Xi'an",
+   "iata_code": "XIY"
+ },
+ {
+   "name": "Kunming Changshui International Airport",
+   "latitude_deg": 25.1019444,
+   "longitude_deg": 102.9291667,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-53",
+   "municipality": "Kunming",
+   "iata_code": "KMG"
+ },
+ {
+   "name": "Xiamen Gaoqi International Airport",
+   "latitude_deg": 24.54400063,
+   "longitude_deg": 118.1279984,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-35",
+   "municipality": "Xiamen",
+   "iata_code": "XMN"
+ },
+ {
+   "name": "Fuzhou Changle International Airport",
+   "latitude_deg": 25.93510056,
+   "longitude_deg": 119.663002,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-35",
+   "municipality": "Fuzhou",
+   "iata_code": "FOC"
+ },
+ {
+   "name": "Hangzhou Xiaoshan International Airport",
+   "latitude_deg": 30.22949982,
+   "longitude_deg": 120.4339981,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-33",
+   "municipality": "Hangzhou",
+   "iata_code": "HGH"
+ },
+ {
+   "name": "Yaoqiang Airport",
+   "latitude_deg": 36.85720062,
+   "longitude_deg": 117.2160034,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-37",
+   "municipality": "Jinan",
+   "iata_code": "TNA"
+ },
+ {
+   "name": "Ningbo Lishe International Airport",
+   "latitude_deg": 29.82670021,
+   "longitude_deg": 121.461998,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-33",
+   "municipality": "Ningbo",
+   "iata_code": "NGB"
+ },
+ {
+   "name": "Nanjing Lukou Airport",
+   "latitude_deg": 31.74200058,
+   "longitude_deg": 118.8619995,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-32",
+   "municipality": "Nanjing",
+   "iata_code": "NKG"
+ },
+ {
+   "name": "Shanghai Pudong International Airport",
+   "latitude_deg": 31.14340019,
+   "longitude_deg": 121.8050003,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-31",
+   "municipality": "Shanghai",
+   "iata_code": "PVG"
+ },
+ {
+   "name": "Shanghai Hongqiao International Airport",
+   "latitude_deg": 31.19790077,
+   "longitude_deg": 121.3359985,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-31",
+   "municipality": "Shanghai",
+   "iata_code": "SHA"
+ },
+ {
+   "name": "Wenzhou Yongqiang Airport",
+   "latitude_deg": 27.91220093,
+   "longitude_deg": 120.8519974,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-33",
+   "municipality": "Wenzhou",
+   "iata_code": "WNZ"
+ },
+ {
+   "name": "Chongqing Jiangbei International Airport",
+   "latitude_deg": 29.71920013,
+   "longitude_deg": 106.6419983,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-50",
+   "municipality": "Chongqing",
+   "iata_code": "CKG"
+ },
+ {
+   "name": "Longdongbao Airport",
+   "latitude_deg": 26.53849983,
+   "longitude_deg": 106.8010025,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-52",
+   "municipality": "Guiyang",
+   "iata_code": "KWE"
+ },
+ {
+   "name": "Chengdu Shuangliu International Airport",
+   "latitude_deg": 30.57850075,
+   "longitude_deg": 103.9469986,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-51",
+   "municipality": "Chengdu",
+   "iata_code": "CTU"
+ },
+ {
+   "name": "Ürümqi Diwopu International Airport",
+   "latitude_deg": 43.90710068,
+   "longitude_deg": 87.47419739,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-65",
+   "municipality": "Ürümqi",
+   "iata_code": "URC"
+ },
+ {
+   "name": "Taiping Airport",
+   "latitude_deg": 45.62340164,
+   "longitude_deg": 126.25,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-23",
+   "municipality": "Harbin",
+   "iata_code": "HRB"
+ },
+ {
+   "name": "Zhoushuizi Airport",
+   "latitude_deg": 38.96569824,
+   "longitude_deg": 121.5390015,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-21",
+   "municipality": "Dalian",
+   "iata_code": "DLC"
+ },
+ {
+   "name": "Taoxian Airport",
+   "latitude_deg": 41.63980103,
+   "longitude_deg": 123.4830017,
+   "continent": "AS",
+   "iso_country": "CN",
+   "iso_region": "CN-21",
+   "municipality": "Shenyang",
+   "iata_code": "SHE"
+ },
+ {
+   "name": "Comodoro Arturo Merino Benítez International Airport",
+   "latitude_deg": -33.39300156,
+   "longitude_deg": -70.78579712,
+   "continent": "SA",
+   "iso_country": "CL",
+   "iso_region": "CL-RM",
+   "municipality": "Santiago",
+   "iata_code": "SCL"
+ },
+ {
+   "name": "Rarotonga International Airport",
+   "latitude_deg": -21.20269966,
+   "longitude_deg": -159.8059998,
+   "continent": "OC",
+   "iso_country": "CK",
+   "iso_region": "CK-U-A",
+   "municipality": "Avarua",
+   "iata_code": "RAR"
+ },
+ {
+   "name": "Geneva Cointrin International Airport",
+   "latitude_deg": 46.23809814,
+   "longitude_deg": 6.108950138,
+   "continent": "EU",
+   "iso_country": "CH",
+   "iso_region": "CH-GE",
+   "municipality": "Geneva",
+   "iata_code": "GVA"
+ },
+ {
+   "name": "Zürich Airport",
+   "latitude_deg": 47.464699,
+   "longitude_deg": 8.54917,
+   "continent": "EU",
+   "iso_country": "CH",
+   "iso_region": "CH-ZH",
+   "municipality": "Zurich",
+   "iata_code": "ZRH"
+ },
+ {
+   "name": "Cyll",
+   "latitude_deg": 53.310365,
+   "longitude_deg": -110.072021,
+   "continent": "NA",
+   "iso_country": "CA",
+   "iso_region": "CA-U-A",
+   "municipality": "",
+   "iata_code": ""
+ },
+ {
+   "name": "Edmonton International Airport",
+   "latitude_deg": 53.30970001,
+   "longitude_deg": -113.5800018,
+   "continent": "NA",
+   "iso_country": "CA",
+   "iso_region": "CA-AB",
+   "municipality": "Edmonton",
+   "iata_code": "YEG"
+ },
+ {
+   "name": "Halifax / Stanfield International Airport",
+   "latitude_deg": 44.88079834,
+   "longitude_deg": -63.50859833,
+   "continent": "NA",
+   "iso_country": "CA",
+   "iso_region": "CA-NS",
+   "municipality": "Halifax",
+   "iata_code": "YHZ"
+ },
+ {
+   "name": "Ottawa Macdonald-Cartier International Airport",
+   "latitude_deg": 45.32249832,
+   "longitude_deg": -75.66919708,
+   "continent": "NA",
+   "iso_country": "CA",
+   "iso_region": "CA-ON",
+   "municipality": "Ottawa",
+   "iata_code": "YOW"
+ },
+ {
+   "name": "Montreal / Pierre Elliott Trudeau International Airport",
+   "latitude_deg": 45.47060013,
+   "longitude_deg": -73.74079895,
+   "continent": "NA",
+   "iso_country": "CA",
+   "iso_region": "CA-QC",
+   "municipality": "Montreal",
+   "iata_code": "YUL"
+ },
+ {
+   "name": "Vancouver International Airport",
+   "latitude_deg": 49.19390106,
+   "longitude_deg": -123.1839981,
+   "continent": "NA",
+   "iso_country": "CA",
+   "iso_region": "CA-BC",
+   "municipality": "Vancouver",
+   "iata_code": "YVR"
+ },
+ {
+   "name": "Winnipeg / James Armstrong Richardson International Airport",
+   "latitude_deg": 49.90999985,
+   "longitude_deg": -97.23989868,
+   "continent": "NA",
+   "iso_country": "CA",
+   "iso_region": "CA-MB",
+   "municipality": "Winnipeg",
+   "iata_code": "YWG"
+ },
+ {
+   "name": "Calgary International Airport",
+   "latitude_deg": 51.11389923,
+   "longitude_deg": -114.0199966,
+   "continent": "NA",
+   "iso_country": "CA",
+   "iso_region": "CA-AB",
+   "municipality": "Calgary",
+   "iata_code": "YYC"
+ },
+ {
+   "name": "Victoria International Airport",
+   "latitude_deg": 48.64690018,
+   "longitude_deg": -123.4260025,
+   "continent": "NA",
+   "iso_country": "CA",
+   "iso_region": "CA-BC",
+   "municipality": "Victoria",
+   "iata_code": "YYJ"
+ },
+ {
+   "name": "St. John's International Airport",
+   "latitude_deg": 47.61859894,
+   "longitude_deg": -52.75189972,
+   "continent": "NA",
+   "iso_country": "CA",
+   "iso_region": "CA-NL",
+   "municipality": "St. John's",
+   "iata_code": "YYT"
+ },
+ {
+   "name": "Lester B. Pearson International Airport",
+   "latitude_deg": 43.67720032,
+   "longitude_deg": -79.63059998,
+   "continent": "NA",
+   "iso_country": "CA",
+   "iso_region": "CA-ON",
+   "municipality": "Toronto",
+   "iata_code": "YYZ"
+ },
+ {
+   "name": "Philip S. W. Goldson International Airport",
+   "latitude_deg": 17.53910065,
+   "longitude_deg": -88.30819702,
+   "continent": "NA",
+   "iso_country": "BZ",
+   "iso_region": "BZ-BZ",
+   "municipality": "Belize City",
+   "iata_code": "BZE"
+ },
+ {
+   "name": "Minsk National Airport",
+   "latitude_deg": 53.88249969,
+   "longitude_deg": 28.03070068,
+   "continent": "EU",
+   "iso_country": "BY",
+   "iso_region": "BY-MI",
+   "municipality": "Minsk",
+   "iata_code": "MSQ"
+ },
+ {
+   "name": "Lynden Pindling International Airport",
+   "latitude_deg": 25.03899956,
+   "longitude_deg": -77.46620178,
+   "continent": "NA",
+   "iso_country": "BS",
+   "iso_region": "BS-NP",
+   "municipality": "Nassau",
+   "iata_code": "NAS"
+ },
+ {
+   "name": "Val de Cans/Júlio Cezar Ribeiro International Airport",
+   "latitude_deg": -1.37925005,
+   "longitude_deg": -48.47629929,
+   "continent": "SA",
+   "iso_country": "BR",
+   "iso_region": "BR-PA",
+   "municipality": "Belém",
+   "iata_code": "BEL"
+ },
+ {
+   "name": "Presidente Juscelino Kubistschek International Airport",
+   "latitude_deg": -15.86916733,
+   "longitude_deg": -47.92083359,
+   "continent": "SA",
+   "iso_country": "BR",
+   "iso_region": "BR-DF",
+   "municipality": "Brasília",
+   "iata_code": "BSB"
+ },
+ {
+   "name": "Tancredo Neves International Airport",
+   "latitude_deg": -19.62444305,
+   "longitude_deg": -43.9719429,
+   "continent": "SA",
+   "iso_country": "BR",
+   "iso_region": "BR-MG",
+   "municipality": "Belo Horizonte",
+   "iata_code": "CNF"
+ },
+ {
+   "name": "Afonso Pena Airport",
+   "latitude_deg": -25.5284996,
+   "longitude_deg": -49.17580032,
+   "continent": "SA",
+   "iso_country": "BR",
+   "iso_region": "BR-PR",
+   "municipality": "Curitiba",
+   "iata_code": "CWB"
+ },
+ {
+   "name": "Hercílio Luz International Airport",
+   "latitude_deg": -27.67027855,
+   "longitude_deg": -48.55250168,
+   "continent": "SA",
+   "iso_country": "BR",
+   "iso_region": "BR-SC",
+   "municipality": "Florianópolis",
+   "iata_code": "FLN"
+ },
+ {
+   "name": "Rio Galeão – Tom Jobim International Airport",
+   "latitude_deg": -22.80999947,
+   "longitude_deg": -43.25055695,
+   "continent": "SA",
+   "iso_country": "BR",
+   "iso_region": "BR-RJ",
+   "municipality": "Rio De Janeiro",
+   "iata_code": "GIG"
+ },
+ {
+   "name": "Guarulhos - Governador André Franco Montoro International Airport",
+   "latitude_deg": -23.43555641,
+   "longitude_deg": -46.47305679,
+   "continent": "SA",
+   "iso_country": "BR",
+   "iso_region": "BR-SP",
+   "municipality": "São Paulo",
+   "iata_code": "GRU"
+ },
+ {
+   "name": "Governador Aluízio Alves International Airport",
+   "latitude_deg": -5.768056,
+   "longitude_deg": -35.376111,
+   "continent": "SA",
+   "iso_country": "BR",
+   "iso_region": "BR-RN",
+   "municipality": "Natal",
+   "iata_code": "NAT"
+ },
+ {
+   "name": "Congonhas Airport",
+   "latitude_deg": -23.62611008,
+   "longitude_deg": -46.65638733,
+   "continent": "SA",
+   "iso_country": "BR",
+   "iso_region": "BR-SP",
+   "municipality": "São Paulo",
+   "iata_code": "CGH"
+ },
+ {
+   "name": "Deputado Luiz Eduardo Magalhães International Airport",
+   "latitude_deg": -12.9086113,
+   "longitude_deg": -38.32249832,
+   "continent": "SA",
+   "iso_country": "BR",
+   "iso_region": "BR-BA",
+   "municipality": "Salvador",
+   "iata_code": "SSA"
+ },
+ {
+   "name": "Brunei International Airport",
+   "latitude_deg": 4.944200039,
+   "longitude_deg": 114.9280014,
+   "continent": "AS",
+   "iso_country": "BN",
+   "iso_region": "BN-BM",
+   "municipality": "Bandar Seri Begawan",
+   "iata_code": "BWN"
+ },
+ {
+   "name": "Bahrain International Airport",
+   "latitude_deg": 26.27079964,
+   "longitude_deg": 50.63359833,
+   "continent": "AS",
+   "iso_country": "BH",
+   "iso_region": "BH-15",
+   "municipality": "Manama",
+   "iata_code": "BAH"
+ },
+ {
+   "name": "Burgas Airport",
+   "latitude_deg": 42.56959915,
+   "longitude_deg": 27.51519966,
+   "continent": "EU",
+   "iso_country": "BG",
+   "iso_region": "BG-02",
+   "municipality": "Burgas",
+   "iata_code": "BOJ"
+ },
+ {
+   "name": "Sofia Airport",
+   "latitude_deg": 42.69669342,
+   "longitude_deg": 23.41143608,
+   "continent": "EU",
+   "iso_country": "BG",
+   "iso_region": "BG-23",
+   "municipality": "Sofia",
+   "iata_code": "SOF"
+ },
+ {
+   "name": "Varna Airport",
+   "latitude_deg": 43.232101,
+   "longitude_deg": 27.8251,
+   "continent": "EU",
+   "iso_country": "BG",
+   "iso_region": "BG-03",
+   "municipality": "Varna",
+   "iata_code": "VAR"
+ },
+ {
+   "name": "Brussels Airport",
+   "latitude_deg": 50.90140152,
+   "longitude_deg": 4.48443985,
+   "continent": "EU",
+   "iso_country": "BE",
+   "iso_region": "BE-BRU",
+   "municipality": "Brussels",
+   "iata_code": "BRU"
+ },
+ {
+   "name": "Brussels South Charleroi Airport",
+   "latitude_deg": 50.459202,
+   "longitude_deg": 4.45382,
+   "continent": "EU",
+   "iso_country": "BE",
+   "iso_region": "BE-WHT",
+   "municipality": "Brussels",
+   "iata_code": "CRL"
+ },
+ {
+   "name": "Liège Airport",
+   "latitude_deg": 50.63740158,
+   "longitude_deg": 5.443220139,
+   "continent": "EU",
+   "iso_country": "BE",
+   "iso_region": "BE-WLG",
+   "municipality": "Liège",
+   "iata_code": "LGG"
+ },
+ {
+   "name": "Sarajevo International Airport",
+   "latitude_deg": 43.82460022,
+   "longitude_deg": 18.3314991,
+   "continent": "EU",
+   "iso_country": "BA",
+   "iso_region": "BA-BIH",
+   "municipality": "Sarajevo",
+   "iata_code": "SJJ"
+ },
+ {
+   "name": "Heydar Aliyev International Airport",
+   "latitude_deg": 40.46749878,
+   "longitude_deg": 50.04669952,
+   "continent": "AS",
+   "iso_country": "AZ",
+   "iso_region": "AZ-BA",
+   "municipality": "Baku",
+   "iata_code": "GYD"
+ },
+ {
+   "name": "Brisbane International Airport",
+   "latitude_deg": -27.38419914,
+   "longitude_deg": 153.1170044,
+   "continent": "OC",
+   "iso_country": "AU",
+   "iso_region": "AU-QLD",
+   "municipality": "Brisbane",
+   "iata_code": "BNE"
+ },
+ {
+   "name": "Melbourne International Airport",
+   "latitude_deg": -37.673302,
+   "longitude_deg": 144.843002,
+   "continent": "OC",
+   "iso_country": "AU",
+   "iso_region": "AU-VIC",
+   "municipality": "Melbourne",
+   "iata_code": "MEL"
+ },
+ {
+   "name": "Adelaide International Airport",
+   "latitude_deg": -34.945,
+   "longitude_deg": 138.531006,
+   "continent": "OC",
+   "iso_country": "AU",
+   "iso_region": "AU-SA",
+   "municipality": "Adelaide",
+   "iata_code": "ADL"
+ },
+ {
+   "name": "Perth International Airport",
+   "latitude_deg": -31.94029999,
+   "longitude_deg": 115.9670029,
+   "continent": "OC",
+   "iso_country": "AU",
+   "iso_region": "AU-WA",
+   "municipality": "Perth",
+   "iata_code": "PER"
+ },
+ {
+   "name": "Canberra International Airport",
+   "latitude_deg": -35.30690002,
+   "longitude_deg": 149.1950073,
+   "continent": "OC",
+   "iso_country": "AU",
+   "iso_region": "AU-ACT",
+   "municipality": "Canberra",
+   "iata_code": "CBR"
+ },
+ {
+   "name": "Sydney Kingsford Smith International Airport",
+   "latitude_deg": -33.94609833,
+   "longitude_deg": 151.177002,
+   "continent": "OC",
+   "iso_country": "AU",
+   "iso_region": "AU-NSW",
+   "municipality": "Sydney",
+   "iata_code": "SYD"
+ },
+ {
+   "name": "Vienna International Airport",
+   "latitude_deg": 48.11029816,
+   "longitude_deg": 16.56970024,
+   "continent": "EU",
+   "iso_country": "AT",
+   "iso_region": "AT-9",
+   "municipality": "Vienna",
+   "iata_code": "VIE"
+ },
+ {
+   "name": "Ministro Pistarini International Airport",
+   "latitude_deg": -34.8222,
+   "longitude_deg": -58.5358,
+   "continent": "SA",
+   "iso_country": "AR",
+   "iso_region": "AR-B",
+   "municipality": "Buenos Aires",
+   "iata_code": "EZE"
+ },
+ {
+   "name": "Zvartnots International Airport",
+   "latitude_deg": 40.14730072,
+   "longitude_deg": 44.39590073,
+   "continent": "AS",
+   "iso_country": "AM",
+   "iso_region": "AM-ER",
+   "municipality": "Yerevan",
+   "iata_code": "EVN"
+ },
+ {
+   "name": "Tirana International Airport Mother Teresa",
+   "latitude_deg": 41.41469955,
+   "longitude_deg": 19.72060013,
+   "continent": "EU",
+   "iso_country": "AL",
+   "iso_region": "AL-11",
+   "municipality": "Tirana",
+   "iata_code": "TIA"
+ },
+ {
+   "name": "Abu Dhabi International Airport",
+   "latitude_deg": 24.43300056,
+   "longitude_deg": 54.65110016,
+   "continent": "AS",
+   "iso_country": "AE",
+   "iso_region": "AE-AZ",
+   "municipality": "Abu Dhabi",
+   "iata_code": "AUH"
+ },
+ {
+   "name": "Dubai International Airport",
+   "latitude_deg": 25.25279999,
+   "longitude_deg": 55.36439896,
+   "continent": "AS",
+   "iso_country": "AE",
+   "iso_region": "AE-DU",
+   "municipality": "Dubai",
+   "iata_code": "DXB"
+ },
+ {
+   "name": "Al Maktoum International Airport",
+   "latitude_deg": 24.896356,
+   "longitude_deg": 55.161389,
+   "continent": "AS",
+   "iso_country": "AE",
+   "iso_region": "AE-DU",
+   "municipality": "Jebel Ali",
+   "iata_code": "DWC"
+ },
+ {
+   "name": "Sharjah International Airport",
+   "latitude_deg": 25.32859993,
+   "longitude_deg": 55.51720047,
+   "continent": "AS",
+   "iso_country": "AE",
+   "iso_region": "AE-SH",
+   "municipality": "Sharjah",
+   "iata_code": "SHJ"
+ }
+]
