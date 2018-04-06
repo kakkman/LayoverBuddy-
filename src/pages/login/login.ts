@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, LoadingController } from 'ionic-angular';
 import { SignupPage } from '../signup/signup';
 import { TabsPage } from '../tabs/tabs';
+
+import { DataProvider } from '../../providers/data/data';
 /**
  * Generated class for the LoginPage page.
  *
@@ -19,7 +21,10 @@ export class LoginPage {
   private username: string = '';
 	private password: string = '';
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, 
+    public navParams: NavParams, 
+    public loadCtrl: LoadingController,
+    public dataProvider: DataProvider) {
   }
 
   ionViewDidLoad() {
@@ -35,7 +40,7 @@ export class LoginPage {
     });
     loader.present();
 
-    this.authPvdr.signin(this.username, this.password).subscribe((success) => {
+    this.dataProvider.signIn(this.username, this.password).subscribe((success) => {
       this.navCtrl.setRoot(TabsPage);
     }, (error) => {
       alert('Invalid username or password');
