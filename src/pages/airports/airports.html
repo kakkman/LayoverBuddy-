@@ -12,7 +12,20 @@
 
 </ion-header>
 
-
 <ion-content padding>
+	<ion-list>
+    <ion-card *ngFor=" let airport of airports">
+      <!--Avatar image, title, and timestamp-->
+      <ion-item>
+        <h3>{{airport.iata_code}}</h3>
+       	<p>{{airport.name}}</p>
+
+      </ion-item>
+  </ion-card>
+</ion-list>
+
+<!--ion-infinite-scroll (ionInfinite)="loadMorePosts($event)">
+ <ion-infinite-scroll-content></ion-infinite-scroll-content>
+</ion-infinite-scroll-->
 
 </ion-content>

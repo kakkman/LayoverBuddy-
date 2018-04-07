@@ -36,6 +36,10 @@ export class DataProvider {
     Parse.serverURL = this.parseServerUrl;
   }
 
+
+///////////////////////////////////////////////////////////////////////////
+// user methods and information
+//////////////////////////////////////////////////////////////////////////
   public signIn(username: string, password: string): Observable<boolean> {
     return new Observable((observer) => {
       Parse.User.logIn(username, password, {
@@ -119,5 +123,40 @@ export class DataProvider {
   }
 
 
+///////////////////////////////////////////////////////////////////////////
+// airport methods and information
+//////////////////////////////////////////////////////////////////////////
+
+  getAllAirports()
+  {
+    var airports = [];
+    var airportDB = Parse.Object.extend('Airports');
+    var airportQuery = new Parse.Query(airportDB).ascending("iata_code");
+
+    airportQuery.find({
+      success: (results) => {
+        for (var i = 0; i < results.length; i++) {
+          var object = results[i];
+
+          let airport = {
+            name: object.get("name"),
+            latitude: object.get("latitude"),
+            longitude: object.get("longitude"),
+            iata_code: object.get("iata_code")
+          };
+          airports.push(airport);
+        }
+      },
+      error: (error) => {
+        alert("Error: " + error.code + " " + error.message);
+      }
+    });
+    return airports;
+  }  
+
+  getAirportsInRange(latitude: number, longitude:number)
+  {
+
+  }
 
 }
