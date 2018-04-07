@@ -45,7 +45,7 @@ export class LoginPage {
     loader.present();
 
     this.dataProvider.signIn(this.username, this.password).subscribe((success) => {
-      this.navCtrl.setRoot(TabsPage);
+      this.navCtrl.setRoot(AirportsPage);
     }, (error) => {
       alert('Invalid username or password');
     });
