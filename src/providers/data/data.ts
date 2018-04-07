@@ -140,8 +140,8 @@ export class DataProvider {
 
           let airport = {
             name: object.get("name"),
-            latitude: object.get("latitude"),
-            longitude: object.get("longitude"),
+            latitude: object.get("latitude_deg"),
+            longitude: object.get("longitude_deg"),
             iata_code: object.get("iata_code")
           };
           airports.push(airport);
@@ -156,7 +156,50 @@ export class DataProvider {
 
   getAirportsInRange(latitude: number, longitude:number)
   {
+    //Each degree of latitude is approximately 69 miles (111 kilometers) apart.
+    //TODO: Calculate proper distances based on latitude and longitude
 
+    if(latitude == undefined || longitude == undefined)
+    {
+      return;
+    }
+
+    console.log("lat");
+    console.log(latitude);
+    var latitudeHigh = latitude +5;
+    var latitudeLow = latitude -5;
+    var longitudeHigh = longitude +5; 
+    var longitudeLow = longitude -5;
+
+    var airports = [];
+    var airportDB = Parse.Object.extend('Airports');
+    var airportQuery = new Parse.Query(airportDB).ascending("iata_code");
+
+    airportQuery = airportQuery.greaterThanOrEqualTo("latitude_deg", latitudeLow);
+    airportQuery = airportQuery.lessThanOrEqualTo("latitude_deg", latitudeHigh);
+    airportQuery = airportQuery.greaterThanOrEqualTo("longitude_deg", longitudeLow);
+    airportQuery = airportQuery.lessThanOrEqualTo("longitude_deg", longitudeHigh);
+
+    airportQuery.find({
+      success: (results) => {
+        for (var i = 0; i < results.length; i++) {
+          var object = results[i];
+          console.log(object);
+
+          let airport = {
+            name: object.get("name"),
+            latitude: object.get("latitude_deg"),
+            longitude: object.get("longitude_deg"),
+            iata_code: object.get("iata_code")
+          };
+          airports.push(airport);
+        }
+      },
+      error: (error) => {
+        alert("Error: " + error.code + " " + error.message);
+      }
+    });
+    return airports;
   }
 
 }

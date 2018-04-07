@@ -41,7 +41,7 @@ export class AirportsPage {
     };
     this.airports = this.dataProvider.getAllAirports();
     this.queriedAirports = this.airports;
-    //this.loadAirportsInRange();
+    this.loadAirportsInRange();
 
   }
 
@@ -50,12 +50,16 @@ export class AirportsPage {
     this.geolocation.getCurrentPosition(this.options).then((pos : Geoposition) => {
     	this.currentPos = pos; 
     	this.userlat = pos.coords.latitude;
-      this.userlong = pos.coords.longitude;    
+      this.userlong = pos.coords.longitude;
+      console.log("posoition");  
+  
       console.log(pos);
+      this.airportsInRange = this.dataProvider.getAirportsInRange(this.userlat, this.userlong)
+
+      
     },(err : PositionError)=>{
       console.log("error : " + err.message);
     });
-    //this.airportsInRange = this.dataProvider.getAirportsInRange(this.userlat, this.userlong)
   }
 
 	//search function for finding a particular airports feed
