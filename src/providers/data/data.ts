@@ -163,9 +163,7 @@ export class DataProvider {
     {
       return;
     }
-
-    console.log("lat");
-    console.log(latitude);
+    //TODO: Calculate distance properly. this proof of concept below works.
     var latitudeHigh = latitude +5;
     var latitudeLow = latitude -5;
     var longitudeHigh = longitude +5; 
@@ -201,5 +199,27 @@ export class DataProvider {
     });
     return airports;
   }
+
+///////////////////////////////////////////////////////////////////////////
+// loading users actively in airport vicinity
+//////////////////////////////////////////////////////////////////////////
+
+//TODO: add users when within range above. live query
+
+addUserToAirport()
+{
+
+}
+
+//TODO: remove users when no longer in range. track users entire time to tell. 
+
+removeUserFromAirport()
+{
+
+}
+
+///////////////////////////////////////////////////////////////////////////
+// private messages between users
+//////////////////////////////////////////////////////////////////////////
 
 }
