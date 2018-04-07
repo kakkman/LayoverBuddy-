@@ -14,13 +14,22 @@
 
 <ion-content padding>
 	<ion-searchbar (ionInput)="searchAirports($event)"></ion-searchbar>
+	<ion-item>Airports within posting range:</ion-item>
+	<ion-list>
+    <ion-card *ngFor=" let airport of airportsInRange">
+      <ion-item (click)="goToAirportFeed(airport)">
+        <h3>{{airport.iata_code}}</h3>
+       	<p>{{airport.name}}</p>
+      </ion-item>
+  	</ion-card>
+	</ion-list>
+	<ion-item>Other Airports:</ion-item>
 	<ion-list>
     <ion-card *ngFor=" let airport of queriedAirports">
       <ion-item (click)="goToAirportFeed(airport)">
         <h3>{{airport.iata_code}}</h3>
        	<p>{{airport.name}}</p>
       </ion-item>
-  </ion-card>
-</ion-list>
-
+  	</ion-card>
+	</ion-list>
 </ion-content>
