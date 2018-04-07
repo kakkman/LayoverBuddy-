@@ -72,10 +72,7 @@ export class DataProvider {
 
   public signUp(username: string, 
     password: string, 
-    email: string, 
-    isStoreOwner: boolean, 
-    storeName: string,
-    /*logoImage: string*/): Observable<boolean> {
+    email: string): Observable<boolean> {
     return new Observable((observer) => {
       var user = new Parse.User();
       user.set('username', username);
