@@ -16,7 +16,7 @@
 	<ion-searchbar (ionInput)="searchAirports($event)"></ion-searchbar>
 	<ion-list>
     <ion-card *ngFor=" let airport of queriedAirports">
-      <ion-item>
+      <ion-item (click)="goToAirportFeed(airport)">
         <h3>{{airport.iata_code}}</h3>
        	<p>{{airport.name}}</p>
       </ion-item>

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
@@ -7,8 +7,16 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
 
+	public airport;
+	public iata_code;
+	public name;
+  constructor(public navCtrl: NavController,
+   public navParams: NavParams) {
+
+  	this.airport = this.navParams.get('airport');
+  	this.iata_code = this.airport.iata_code;
+  	this.name = this.airport.name;
   }
 
 }

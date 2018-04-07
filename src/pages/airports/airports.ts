@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
 import { Geolocation, GeolocationOptions, Geoposition, PositionError } from '@ionic-native/geolocation';
+
+import { HomePage } from '../home/home';
+
 import { DataProvider } from '../../providers/data/data';
 
 /**
@@ -56,7 +58,7 @@ export class AirportsPage {
     //this.airportsInRange = this.dataProvider.getAirportsInRange(this.userlat, this.userlong)
   }
 
-//search function for finding a particular airports feed
+	//search function for finding a particular airports feed
   searchAirports(searchbar) { 
 		// Reset items back to all of the items
 		this.queriedAirports = this.airports;
@@ -77,6 +79,14 @@ export class AirportsPage {
 		    }
 			});
 		}
+
+	//navigation to specific airport feed
+	goToAirportFeed(airport)
+	{
+		this.navCtrl.push(HomePage, {
+			airport: airport
+		});
+	}
 
 
   ionViewDidLoad() {
