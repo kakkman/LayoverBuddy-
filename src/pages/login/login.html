@@ -15,8 +15,6 @@
 
 <ion-content padding>
 	<form (submit)="doSignin()">
-    <ion-list inset padding>
-
       <ion-item>
         <ion-label stacked>Username</ion-label>
         <ion-input type="text" [(ngModel)]="username" name="username"></ion-input>
@@ -28,8 +26,9 @@
           <button ion-button block type="submit" class="btn">
       Login
     </button>
+  </form>
 
-  <button ion-button block type [navPush]="SignupPage" class="btn">
+  <button ion-button block type [navPush]="signup" class="btn">
     Create a new account
   </button>
 
@@ -41,7 +40,6 @@
     Login With Facebook
   </button-->
 
-    </ion-list>
-    </form>
+   
 
 </ion-content>

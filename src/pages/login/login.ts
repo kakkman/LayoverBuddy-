@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, LoadingController } from 'ionic-angular';
 import { SignupPage } from '../signup/signup';
 import { TabsPage } from '../tabs/tabs';
+import { AirportsPage } from '../airports/airports';
 
 import { DataProvider } from '../../providers/data/data';
 /**
@@ -21,10 +22,13 @@ export class LoginPage {
   private username: string = '';
 	private password: string = '';
 
+  public signup;
+
   constructor(public navCtrl: NavController, 
     public navParams: NavParams, 
     public loadCtrl: LoadingController,
     public dataProvider: DataProvider) {
+    this.signup = SignupPage;
   }
 
   ionViewDidLoad() {
