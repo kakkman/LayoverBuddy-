@@ -123,6 +123,10 @@ export class DataProvider {
     });
   }
 
+  public isCurrentUser(user)
+  {
+    return (Parse.User.current() == user.parse_object);
+  }
 
 ///////////////////////////////////////////////////////////////////////////
 // airport methods and information
@@ -144,6 +148,7 @@ export class DataProvider {
             latitude: object.get("latitude_deg"),
             longitude: object.get("longitude_deg"),
             iata_code: object.get("iata_code"),
+            parse_object: object
           };
           airports.push(airport);
         }
@@ -244,6 +249,10 @@ export class DataProvider {
   {
     var users = [];
     var userDB = Parse.Object.extend('User');
+    console.log("getting airport from method");
+    console.log(airport);
+    console.log(airport.parse_object)
+
     var userQuery = new Parse.Query(userDB).equalTo('current_airport', airport.parse_object);
     //userQuery = userQuery.equalTo("hide_location", false);
 
@@ -272,5 +281,4 @@ export class DataProvider {
   ///////////////////////////////////////////////////////////////////////////
   // private messages between users
   //////////////////////////////////////////////////////////////////////////
-
 }
