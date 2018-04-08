@@ -84,9 +84,16 @@ export class AirportsPage {
 			});
 		}
 
-	//navigation to specific airport feed
+	//navigation to specific airport feed 
+
 	goToAirportFeed(airport)
 	{
+		if(this.airportsInRange.indexOf(airport) > -1)
+		{
+			console.log(airport);
+			console.log(airport.id);
+			this.dataProvider.addUserToAirport(airport);
+		}
 		this.navCtrl.push(HomePage, {
 			airport: airport
 		});

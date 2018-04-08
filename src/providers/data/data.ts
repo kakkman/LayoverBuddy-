@@ -189,7 +189,8 @@ export class DataProvider {
             name: object.get("name"),
             latitude: object.get("latitude_deg"),
             longitude: object.get("longitude_deg"),
-            iata_code: object.get("iata_code")
+            iata_code: object.get("iata_code"),
+            id: object.id
           };
           airports.push(airport);
         }
@@ -222,12 +223,19 @@ export class DataProvider {
   //requires watching the user the entire time
   addUserToAirport(airport)
   {
-    Parse.User.current().set("airport", airport);
-    Parse.User.current().save(null, {
-      success: (response) => {
+    var airportDB = Parse.Object.extend('Airports');
+    var query = new Parse.Query(airportDB).get(airport.id, {
+      success: function (airport) {
+        if (airport) {
+          Parse.User.current().set("current_airport", airport);
+          Parse.User.current().save(null, {
+            success: (response) => {
 
-      }, error: (error) => {
+            }, error: (error) => {
 
+            }
+          });
+        }
       }
     });
   }
