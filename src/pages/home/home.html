@@ -15,7 +15,7 @@
   <ion-item>Active Users</ion-item>
   <ion-list>
     <ion-card *ngFor=" let user of activeUsers">
-      <ion-item>
+      <ion-item  (click)="viewUser(user)">
         <h3>{{user.name}}</h3>
       </ion-item>
     </ion-card>
