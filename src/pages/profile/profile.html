@@ -2,10 +2,19 @@
   <ion-navbar>
     <ion-title>
       Profile
+      {{user.name}}
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+	<button ion-button block type (click)="sendMessage()" class="btn" *ngIf="!isCurrentUser">
+    Send Private Message
+  </button>
+  <button ion-button block type (click)="inviteToGroup()" class="btn" *ngIf="!isCurrentUser">
+    Invite to Group Message
+  </button>
+
 
 </ion-content>
