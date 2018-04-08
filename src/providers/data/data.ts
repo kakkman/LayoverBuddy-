@@ -190,7 +190,7 @@ export class DataProvider {
             latitude: object.get("latitude_deg"),
             longitude: object.get("longitude_deg"),
             iata_code: object.get("iata_code"),
-            parse_object: results[i]
+            parse_object: object
           };
           airports.push(airport);
         }
@@ -243,17 +243,20 @@ export class DataProvider {
   getActiveUsersAtAirport(airport)
   {
     var users = [];
-    var userDB = Parse.Object.extend('Users');
-    var userQuery = new Parse.Query(userDB).equalTo("current_airport", airport.parse_object);
+    var userDB = Parse.Object.extend('User');
+    var userQuery = new Parse.Query(userDB).equalTo('current_airport', airport.parse_object);
     //userQuery = userQuery.equalTo("hide_location", false);
 
     userQuery.find({
       success: (results) => {
+        console.log('success');
+        console.log(results);
         for (var i = 0; i < results.length; i++) {
           var object = results[i];
 
           let user = {
-            name: object.get("name")
+            name: object.get("username"),
+            parse_object: object
           };
           console.log(user);
           users.push(user);
