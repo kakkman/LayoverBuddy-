@@ -40,6 +40,7 @@ export class DataProvider {
 ///////////////////////////////////////////////////////////////////////////
 // user methods and information
 //////////////////////////////////////////////////////////////////////////
+
   public signIn(username: string, password: string): Observable<boolean> {
     return new Observable((observer) => {
       Parse.User.logIn(username, password, {
@@ -151,6 +152,7 @@ export class DataProvider {
         alert("Error: " + error.code + " " + error.message);
       }
     });
+    console.log(airports.length);
     return airports;
   }  
 
@@ -182,7 +184,6 @@ export class DataProvider {
       success: (results) => {
         for (var i = 0; i < results.length; i++) {
           var object = results[i];
-          console.log(object);
 
           let airport = {
             name: object.get("name"),
@@ -200,26 +201,71 @@ export class DataProvider {
     return airports;
   }
 
-///////////////////////////////////////////////////////////////////////////
-// loading users actively in airport vicinity
-//////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////////////////
+  // loading users actively in airport vicinity
+  //////////////////////////////////////////////////////////////////////////
 
-//TODO: add users when within range above. live query
+  //hides or unhides user from airport lists
+  public toggleHideUser() {
+    var currentStatus = Parse.User.current().get("hide_location");
+    Parse.User.current().set("hide_location", !currentStatus);
+    Parse.User.current().save(null, {
+      success: (response) => {
 
-addUserToAirport()
-{
+      }, error: (error) => {
 
-}
+      }
+    });
+  }
 
-//TODO: remove users when no longer in range. track users entire time to tell. 
+  //TODO: add users when within range above. live query
+  //requires watching the user the entire time
+  addUserToAirport(airport)
+  {
+    Parse.User.current().set("airport", airport);
+    Parse.User.current().save(null, {
+      success: (response) => {
 
-removeUserFromAirport()
-{
+      }, error: (error) => {
 
-}
+      }
+    });
+  }
 
-///////////////////////////////////////////////////////////////////////////
-// private messages between users
-//////////////////////////////////////////////////////////////////////////
+  //TODO: remove users when no longer in range. track users entire time to tell. 
+
+  removeUserFromAirport()
+  {
+    this.addUserToAirport(null);
+  }
+
+  populateActiveUsersAtAirport(airport)
+  {
+    var users = [];
+    var userDB = Parse.Object.extend('Users');
+    var userQuery = new Parse.Query(userDB).equalTo("current_airport", airport);
+    userQuery = userQuery.equalTo("hide_location", false);
+
+    userQuery.find({
+      success: (results) => {
+        for (var i = 0; i < results.length; i++) {
+          var object = results[i];
+
+          let user = {
+            name: object.get("name")
+          };
+          users.push(user);
+        }
+      },
+      error: (error) => {
+        alert("Error: " + error.code + " " + error.message);
+      }
+    });
+    return users;
+  }
+
+  ///////////////////////////////////////////////////////////////////////////
+  // private messages between users
+  //////////////////////////////////////////////////////////////////////////
 
 }
