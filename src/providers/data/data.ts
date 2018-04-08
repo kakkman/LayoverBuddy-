@@ -143,7 +143,7 @@ export class DataProvider {
             name: object.get("name"),
             latitude: object.get("latitude_deg"),
             longitude: object.get("longitude_deg"),
-            iata_code: object.get("iata_code")
+            iata_code: object.get("iata_code"),
           };
           airports.push(airport);
         }
@@ -190,7 +190,7 @@ export class DataProvider {
             latitude: object.get("latitude_deg"),
             longitude: object.get("longitude_deg"),
             iata_code: object.get("iata_code"),
-            id: object.id
+            parse_object: results[i]
           };
           airports.push(airport);
         }
@@ -223,19 +223,12 @@ export class DataProvider {
   //requires watching the user the entire time
   addUserToAirport(airport)
   {
-    var airportDB = Parse.Object.extend('Airports');
-    var query = new Parse.Query(airportDB).get(airport.id, {
-      success: function (airport) {
-        if (airport) {
-          Parse.User.current().set("current_airport", airport);
-          Parse.User.current().save(null, {
-            success: (response) => {
+    Parse.User.current().set("current_airport", airport.parse_object);
+    Parse.User.current().save(null, {
+      success: (response) => {
 
-            }, error: (error) => {
+      }, error: (error) => {
 
-            }
-          });
-        }
       }
     });
   }
@@ -247,12 +240,12 @@ export class DataProvider {
     this.addUserToAirport(null);
   }
 
-  populateActiveUsersAtAirport(airport)
+  getActiveUsersAtAirport(airport)
   {
     var users = [];
     var userDB = Parse.Object.extend('Users');
-    var userQuery = new Parse.Query(userDB).equalTo("current_airport", airport);
-    userQuery = userQuery.equalTo("hide_location", false);
+    var userQuery = new Parse.Query(userDB).equalTo("current_airport", airport.parse_object);
+    //userQuery = userQuery.equalTo("hide_location", false);
 
     userQuery.find({
       success: (results) => {
@@ -262,6 +255,7 @@ export class DataProvider {
           let user = {
             name: object.get("name")
           };
+          console.log(user);
           users.push(user);
         }
       },
