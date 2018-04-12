@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 import { DataProvider } from '../../providers/data/data';
+import { Chat } from '../chat/chat'
 
 @Component({
   selector: 'page-profile',
@@ -16,6 +17,11 @@ export class ProfilePage {
   constructor(public navCtrl: NavController, public navParams: NavParams, public dataProvider: DataProvider) {
   	this.user = this.navParams.get('user');
   	this.name = this.user.name;
+  }
+
+  sendMessage(){
+
+    this.navCtrl.push(Chat);
   }
 
 }

@@ -8,14 +8,20 @@ import { InboxPage } from '../pages/inbox/inbox';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { AirportsPage } from '../pages/airports/airports';
+import { Chat } from '../pages/chat/chat'
 
 import { SignupPage } from '../pages/signup/signup';
 import { LoginPage } from '../pages/login/login';
+import { HttpClientModule } from "@angular/common/http";
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { DataProvider } from '../providers/data/data';
 import { Geolocation } from '@ionic-native/geolocation';
+//import { EmojiProvider } from '../providers/emoji';
+import { EmojiProvider } from '../providers/emoji/emoji';
+import { ChatProvider } from '../providers/chat/chat';
 
 
 @NgModule({
@@ -25,12 +31,14 @@ import { Geolocation } from '@ionic-native/geolocation';
     InboxPage,
     HomePage,
     TabsPage,
+    Chat,
     SignupPage,
     LoginPage,
     AirportsPage,
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -40,6 +48,7 @@ import { Geolocation } from '@ionic-native/geolocation';
     InboxPage,
     HomePage,
     TabsPage,
+    Chat,
     SignupPage,
     LoginPage,
     AirportsPage,
@@ -50,7 +59,9 @@ import { Geolocation } from '@ionic-native/geolocation';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     DataProvider,
-    Geolocation
+    EmojiProvider,
+    Geolocation,
+    ChatProvider
   ]
 })
 export class AppModule {}
