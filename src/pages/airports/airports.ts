@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Geolocation, GeolocationOptions, Geoposition, PositionError } from '@ionic-native/geolocation';
 
 import { HomePage } from '../home/home';
+import { TabsPage } from '../tabs/tabs';
 
 import { DataProvider } from '../../providers/data/data';
 
@@ -54,7 +55,7 @@ export class AirportsPage {
       console.log("posoition");  
   
       console.log(pos);
-      this.airportsInRange = this.dataProvider.getAirportsInRange(this.userlat, this.userlong)
+      this.airportsInRange = this.dataProvider.getAirportsInRange(this.userlat, this.userlong);
 
       
     },(err : PositionError)=>{
@@ -94,8 +95,8 @@ export class AirportsPage {
 			console.log(airport.id);
 			this.dataProvider.addUserToAirport(airport);
 		}
-		this.navCtrl.push(HomePage, {
-			airport: airport
+		this.dataProvider.saveAirport(airport);
+    this.navCtrl.push(TabsPage, {
 		});
 	}
 

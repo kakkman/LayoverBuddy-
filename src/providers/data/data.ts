@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
+import { Storage } from '@ionic/storage';
 
 import { Parse } from 'parse';
 import { ENV } from '../../app/app.constant';
@@ -26,7 +27,7 @@ export class DataProvider {
   private parseServerUrl: string = ENV.parseServerUrl;
   private parseJsId: string = ENV.parseJsId;
 
-  constructor() {
+  constructor(public storage: Storage) {
   	this.parseInitialize();
     console.log('Hello AuthProvider Provider');
   }
@@ -205,6 +206,15 @@ export class DataProvider {
       }
     });
     return airports;
+  }
+
+  saveAirport(airport) {
+    let newData = JSON.stringify(airport);
+    this.storage.set('airport', newData);
+  }
+
+  getAirport() {
+    return this.storage.get('airport');
   }
 
   ///////////////////////////////////////////////////////////////////////////

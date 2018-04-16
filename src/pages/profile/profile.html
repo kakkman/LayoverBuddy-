@@ -1,13 +1,24 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
       Profile
-      {{user.name}}
     </ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="editProfile()" *ngIf="isCurrentUser">Edit</button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+  <div class="info" text-center padding>
+    <img height="210" src="https://vignette.wikia.nocookie.net/spongebob/images/a/ac/Spongebobwithglasses.jpeg/revision/latest?cb=20121014113150"><br/>
+    <h4>{{name}}, {{age}}</h4>
+  </div>
+  <div class="info" padding>
+    {{bio}}
+  </div>
+
 
 	<button ion-button block type (click)="sendMessage()" class="btn" *ngIf="!isCurrentUser">
     Send Private Message

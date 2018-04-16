@@ -12,11 +12,13 @@ export class ProfilePage {
 
 	public user;
 
-	public name;
-	public email;
+	public name = "Adam";
+	public email = "";
+  public bio = "Test bio";
+  public age = "21";
   constructor(public navCtrl: NavController, public navParams: NavParams, public dataProvider: DataProvider) {
-  	this.user = this.navParams.get('user');
-  	this.name = this.user.name;
+  	//this.user = this.navParams.get('user');
+  	//this.name = this.user.name;
   }
 
   sendMessage(){

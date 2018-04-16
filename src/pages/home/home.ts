@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, Events } from 'ionic-angular';
 
 import { ProfilePage } from '../../pages/profile/profile';
 
@@ -19,11 +19,15 @@ export class HomePage {
   constructor(public navCtrl: NavController,
    public navParams: NavParams,
    public dataProvider: DataProvider) {
-
-  	this.airport = this.navParams.get('airport');
-  	this.iata_code = "";//this.airport.iata_code;
-  	this.name = this.airport.name;
-  	this.activeUsers = this.dataProvider.getActiveUsersAtAirport(this.airport);
+     this.dataProvider.getAirport().then((airport) => {
+       if (airport) {
+         this.airport = JSON.parse(airport);
+         this.iata_code = this.airport.iata_code;
+         this.name = this.airport.name;
+         this.activeUsers = this.dataProvider.getActiveUsersAtAirport(this.airport);
+       }
+     });
+     
   }
 
   public viewUser(user)

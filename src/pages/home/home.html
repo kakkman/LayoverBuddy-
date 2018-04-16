@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>{{iata_code}} - {{name}}</ion-title>
 
 
@@ -12,7 +12,7 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-item>Active Users</ion-item>
+  <ion-item style="text-align: center">Active Users</ion-item>
   <ion-list>
     <ion-card *ngFor=" let user of activeUsers">
       <ion-item  (click)="viewUser(user)">
