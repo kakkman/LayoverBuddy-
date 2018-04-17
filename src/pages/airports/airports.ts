@@ -5,6 +5,7 @@ import { Geolocation, GeolocationOptions, Geoposition, PositionError } from '@io
 import { HomePage } from '../home/home';
 
 import { DataProvider } from '../../providers/data/data';
+import { TabsPage } from '../tabs/tabs';
 
 /**
  * Generated class for the AirportsPage page.
@@ -47,6 +48,7 @@ export class AirportsPage {
 
   loadAirportsInRange()
   {
+  	console.log("attempting to get geolocation");
     this.geolocation.getCurrentPosition(this.options).then((pos : Geoposition) => {
     	this.currentPos = pos; 
     	this.userlat = pos.coords.latitude;
@@ -90,11 +92,9 @@ export class AirportsPage {
 	{
 		if(this.airportsInRange.indexOf(airport) > -1)
 		{
-			console.log(airport);
-			console.log(airport.id);
 			this.dataProvider.addUserToAirport(airport);
 		}
-		this.navCtrl.push(HomePage, {
+		this.navCtrl.push(TabsPage, {
 			airport: airport
 		});
 	}

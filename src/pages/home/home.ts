@@ -20,8 +20,10 @@ export class HomePage {
    public navParams: NavParams,
    public dataProvider: DataProvider) {
 
-  	this.airport = this.navParams.get('airport');
-  	this.iata_code = "";//this.airport.iata_code;
+    console.log("printing passed airport information");
+    console.log(this.navParams.data);
+  	this.airport = this.navParams.data;
+  	this.iata_code = this.airport.iata_code;
   	this.name = this.airport.name;
   	this.activeUsers = this.dataProvider.getActiveUsersAtAirport(this.airport);
   }
