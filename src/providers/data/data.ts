@@ -209,12 +209,20 @@ export class DataProvider {
   }
 
   saveAirport(airport) {
-    let newData = JSON.stringify(airport);
+    let newData = JSON.stringify(this.flatten(airport));
     this.storage.set('airport', newData);
   }
 
   getAirport() {
     return this.storage.get('airport');
+  }
+
+  flatten(airport) {
+    var result = Object.create(airport);
+    for(var key in result) {
+      result[key] = result[key];
+    }
+    return result;
   }
 
   ///////////////////////////////////////////////////////////////////////////
@@ -239,11 +247,12 @@ export class DataProvider {
   addUserToAirport(airport)
   {
     Parse.User.current().set("current_airport", airport.parse_object);
+    console.log("Got here!");
     Parse.User.current().save(null, {
       success: (response) => {
 
       }, error: (error) => {
-
+        console.log("Could not save");
       }
     });
   }
@@ -261,7 +270,7 @@ export class DataProvider {
     var userDB = Parse.Object.extend('User');
     console.log("getting airport from method");
     console.log(airport);
-    console.log(airport.parse_object)
+    //console.log(airport.parse_object);
 
     var userQuery = new Parse.Query(userDB).equalTo('current_airport', airport.parse_object);
     //userQuery = userQuery.equalTo("hide_location", false);

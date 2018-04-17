@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Events } from 'ionic-angular';
 import { Geolocation, GeolocationOptions, Geoposition, PositionError } from '@ionic-native/geolocation';
 
 import { HomePage } from '../home/home';
@@ -35,7 +35,8 @@ export class AirportsPage {
   constructor(public navCtrl: NavController, 
   	public navParams: NavParams,
   	public dataProvider: DataProvider,
-  	public geolocation: Geolocation) {
+  	public geolocation: Geolocation,
+    public events: Events) {
 
   	this.options = {
       enableHighAccuracy : false
@@ -95,8 +96,11 @@ export class AirportsPage {
 			console.log(airport.id);
 			this.dataProvider.addUserToAirport(airport);
 		}
+    console.log("PARSE OBJECT IS " + airport.parse_object)
 		this.dataProvider.saveAirport(airport);
+    this.events.publish("pass", airport.parse_object);
     this.navCtrl.push(TabsPage, {
+
 		});
 	}
 
