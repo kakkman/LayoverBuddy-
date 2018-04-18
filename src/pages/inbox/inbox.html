@@ -8,10 +8,20 @@
 
 <ion-content>
   <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
+    <ion-card *ngFor=" let chat of chats">
+      <ion-item (click)="goToChat(chat)">
+        <ion-grid>
+          <ion-row>
+            <h3>put list of participants here</h3>
+            <h1>date</h1>
+          </ion-row>
+          <ion-row>
+            <p>last message here</p>
+            <p> timestamp here </p>
+          </ion-row>
+        </ion-grid>
+
+      </ion-item>
+    </ion-card>
   </ion-list>
 </ion-content>

@@ -7,14 +7,14 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>airports</ion-title>
+    <ion-title>Airports</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 <ion-content padding>
 	<ion-searchbar (ionInput)="searchAirports($event)"></ion-searchbar>
-	<ion-item>Airports within posting range:</ion-item>
+	<ion-item>Airports Within Range:</ion-item>
 	<ion-list>
     <ion-card *ngFor=" let airport of airportsInRange">
       <ion-item (click)="goToAirportFeed(airport)">
