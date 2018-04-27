@@ -13,14 +13,16 @@
 </ion-header>
 
 
-<ion-content padding>
-	<form (submit)="doSignin()">
-      <ion-item>
-        <ion-label stacked>Username</ion-label>
+<ion-content padding text-center>
+  <img src="assets/imgs/logo.png" style="width:200px;height:200px;" alt="LayoverBuddy Logo"> 
+
+	<form (submit)="doSignin()" id="container">
+      <ion-item id="rounded">
+        <ion-label fixed>Username</ion-label>
         <ion-input type="text" [(ngModel)]="username" name="username"></ion-input>
       </ion-item>
-      <ion-item>
-        <ion-label stacked>Password</ion-label>
+      <ion-item id="rounded">
+        <ion-label fixed>Password</ion-label>
         <ion-input type="password" [(ngModel)]="password" name="password"></ion-input>
       </ion-item>
           <button ion-button block type="submit" class="btn">
