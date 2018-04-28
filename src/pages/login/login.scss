@@ -1,5 +1,17 @@
 page-login {
-		background-color: #8DE3F9;
+		    #rounded {
+        width: 100%;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 10px;
+        margin-bottom: 10px;  
+    }
+
+    #container {
+        width: 90; 
+        margin-left:5%; 
+        margin-right: 5%; 
+    }
 
 }
 
