@@ -20,7 +20,7 @@ export class SignupPage {
 
 	password: string = '';
 	username: string = '';
-	verify: string = '';
+	confirm: string = '';
 	email: string = '';
 
   constructor(public navCtrl: NavController, 

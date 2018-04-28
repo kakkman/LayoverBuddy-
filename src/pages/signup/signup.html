@@ -15,31 +15,29 @@
 
 <ion-content padding>
 
-  <form (submit)="doRegister()">
-    <ion-list padding inset scroll="false">
+  <div id="container">
+    <form (submit)="doRegister()">
+      <ion-list padding inset scroll="false">
 
-      <ion-item>
-        <ion-label stacked>Username</ion-label>
-        <ion-input type="text" [(ngModel)]="username" name="username"></ion-input>
-      </ion-item>
-      <ion-item>
-        <ion-label stacked>Password</ion-label>
-        <ion-input type="password" [(ngModel)]="password" name="password"></ion-input>
-      </ion-item>
-      <ion-item>
-        <ion-label stacked>Verify Password</ion-label>
-        <ion-input type="password" [(ngModel)]="confirm" name="verify"></ion-input>
-      </ion-item>
-      <ion-item>
-        <ion-label stacked>Email</ion-label>
-        <ion-input type="email" [(ngModel)]="email" name="confirm"></ion-input>
-      </ion-item>
-      <div padding>
-        <button ion-button color="accent" block [disabled]="email.length == '0' || username.length == '0' || password.length == '0' || confirm.length == '0'">Register</button>
-      </div>
+        <ion-item id="rounded">
+          <ion-input type="email" [(ngModel)]="email" name="confirm" placeholder="email"></ion-input>
+        </ion-item>
+        <ion-item id="rounded">
+          <ion-input type="text" [(ngModel)]="username" name="username" placeholder="username"></ion-input>
+        </ion-item>
+        <ion-item id="rounded">
+          <ion-input type="password" [(ngModel)]="password" name="password" placeholder="password"></ion-input>
+        </ion-item>
+        <ion-item id="rounded">
+          <ion-input type="password" [(ngModel)]="confirm" name="confirm" placeholder="verify password"></ion-input>
+        </ion-item>
+        <div padding>
+          <button ion-button color="accent" block [disabled]="email.length == '0' || username.length == '0' || password.length == '0' || confirm.length == '0'">Register</button>
+        </div>
 
-    </ion-list>
-  </form>
+      </ion-list>
+    </form>
+  </div>
 
 
 </ion-content>
