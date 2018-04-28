@@ -17,6 +17,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { DataProvider } from '../providers/data/data';
 import { Geolocation } from '@ionic-native/geolocation';
 
+import { Facebook } from '@ionic-native/facebook';
+
 
 @NgModule({
   declarations: [
@@ -50,7 +52,8 @@ import { Geolocation } from '@ionic-native/geolocation';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     DataProvider,
-    Geolocation
+    Geolocation,
+    Facebook
   ]
 })
 export class AppModule {}

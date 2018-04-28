@@ -88,4 +88,9 @@
         <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="To locate you" />
     </plugin>
     <engine name="ios" spec="4.5.4" />
+    <plugin name="cordova-plugin-facebook4" spec="^2.0.0">
+        <variable name="APP_ID" value="588413428183077" />
+        <variable name="APP_NAME" value="LayoverBuddy" />
+        <variable name="ANDROID_SDK_VERSION" value="4.+" />
+    </plugin>
 </widget>
