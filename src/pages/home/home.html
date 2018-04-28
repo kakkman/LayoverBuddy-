@@ -2,7 +2,11 @@
   <ion-navbar>
     <ion-title>{{iata_code}} - {{name}}</ion-title>
 
-
+    <ion-buttons left>
+      <button (click) = "chooseNewAirport()" ion-button icon-only>
+        <ion-icon name='arrow-back' is-active="false"></ion-icon>
+      </button>
+    </ion-buttons>
     <ion-buttons right>
       <button (click) = "createGroup()" ion-button icon-only>
         <ion-icon name='add' is-active="false"></ion-icon>

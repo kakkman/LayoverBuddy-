@@ -34,6 +34,10 @@ export class AirportsPage {
 
   public currentSearchString = "";
 
+//for hiding the tabs when navigating back to choose a new airport
+  public tabBarElement: any;
+
+
   constructor(public navCtrl: NavController, 
   	public navParams: NavParams,
   	public dataProvider: DataProvider,
@@ -45,7 +49,24 @@ export class AirportsPage {
     this.airports = this.dataProvider.getAllAirports();
     this.queriedAirports = this.airports;
     this.loadAirportsInRange();
+    this.tabBarElement = document.querySelector('.tabbar.show-tabbar')
 
+
+  }
+
+  ionViewWillEnter() {
+    if(this.tabBarElement != null)
+    {
+      this.tabBarElement.style.display = 'none';
+    }
+  }
+
+  ionViewWillLeave() {
+    if(this.tabBarElement != null)
+    {
+      this.tabBarElement.style.display = 'flex';
+    }
+    
   }
 
   loadAirportsInRange()
@@ -103,7 +124,7 @@ export class AirportsPage {
 		{
 			this.dataProvider.addUserToAirport(airport);
 		}
-		this.navCtrl.push(TabsPage, {
+		this.navCtrl.setRoot(TabsPage, {
 			airport: airport
 		});
 	}

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 import { ProfilePage } from '../../pages/profile/profile';
+import { AirportsPage } from '../../pages/airports/airports';
 
 import { DataProvider } from '../../providers/data/data';
 @Component({
@@ -38,6 +39,12 @@ export class HomePage {
   public createGroup()
   {
 
+  }
+
+  public chooseNewAirport()
+  {
+        this.navCtrl.setRoot(AirportsPage, {
+    });
   }
 
 }
