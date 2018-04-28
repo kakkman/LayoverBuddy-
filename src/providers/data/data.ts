@@ -49,30 +49,11 @@ export class DataProvider {
           observer.complete();
         },
         error: function (user, error) {
-          // If the user inputs the email instead of the username
-          var userQuery = new Parse.Query(Parse.User);
-
-          userQuery.equalTo('email', username);
-          userQuery.first().then(function (success) {
-            var username = success.toJSON().username; 
-            Parse.User.logIn(username, password, {
-              success: function (user) {
-                observer.next(true);
-                observer.complete();
-              },
-              error: function (user, error) {
-                observer.error(error);
-                observer.complete();
-              }
-            });
-          }, function (error) {
             observer.error(error);
             observer.complete();
-          });
-          
-        }
-      });
-    });
+          }
+        });
+    });       
   }
 
   public signUp(username: string, 
