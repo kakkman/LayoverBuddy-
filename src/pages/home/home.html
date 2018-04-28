@@ -16,9 +16,13 @@
   <ion-list>
     <ion-card *ngFor=" let user of activeUsers">
       <ion-item  (click)="viewUser(user)">
+        <ion-avatar item-start>
+          <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"> 
+        </ion-avatar>
         <h3>{{user.name}}</h3>
+
       </ion-item>
     </ion-card>
-  </ion-list>
+  </ion-list>    
 
 </ion-content>
