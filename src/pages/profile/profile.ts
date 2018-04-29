@@ -17,8 +17,8 @@ export class ProfilePage {
   public bio = "Test bio";
   public age = "21";
   constructor(public navCtrl: NavController, public navParams: NavParams, public dataProvider: DataProvider) {
-  	this.user = this.dataProvider.currentUser();
-  	this.name = this.user.name;
+  	this.user = this.navParams.data;
+  	this.name = this.user.username;
   }
 
   sendMessage(){

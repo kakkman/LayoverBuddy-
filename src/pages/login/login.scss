@@ -1,3 +1,59 @@
 page-login {
+	#rounded {
+        width: 100%;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 10px;
+        margin-bottom: 10px;  
+    }
+
+    #container {
+        width: 90; 
+        margin-left:5%; 
+        margin-right: 5%; 
+    }
+
+    .item-md.item-input.input-has-focus .item-inner {
+      border-bottom-color: transparent !important;
+      box-shadow: none !important;
+    }
+
+    .list-md .item-input.input-has-focus:last-child {
+      border-bottom-color: transparent !important;
+      box-shadow: none !important;
+    }
+
+    .list-md .item-input.input-has-focus:last-child .item-inner {
+      box-shadow: none;
+    }
+
+    .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus) .item-inner {
+      border-bottom-color: transparent !important;
+      box-shadow: none !important;
+    }
+
+    .list-md .item-input.ng-valid.input-has-value:not(.input-has-focus):last-child {
+      border-bottom-color: transparent !important;
+      box-shadow: none !important;
+    }
+
+    .list-md .item-input.ng-valid.input-has-value:not(.input-has-focus):last-child .item-inner {
+      box-shadow: none;
+    }
+
+    .item-md.item-input.ng-invalid.ng-touched:not(.input-has-focus) .item-inner {
+      border-bottom-color: transparent !important;
+      box-shadow: none !important;
+    }
+
+    .list-md .item-input.ng-invalid.ng-touched:not(.input-has-focus):last-child {
+      border-bottom-color: transparent !important;
+      box-shadow: none !important;
+    }
 
 }
+
+ion-content {
+	background: #8DE3F9;
+}
+

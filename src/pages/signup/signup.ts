@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, LoadingController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, LoadingController, AlertController } from 'ionic-angular';
 
 import { AirportsPage } from '../airports/airports';
 
@@ -20,13 +20,14 @@ export class SignupPage {
 
 	password: string = '';
 	username: string = '';
-	verify: string = '';
+	confirm: string = '';
 	email: string = '';
 
   constructor(public navCtrl: NavController, 
   	public navParams: NavParams,
   	public loadCtrl: LoadingController,
-  	public dataProvider: DataProvider) {
+  	public dataProvider: DataProvider,
+    public alertCtrl: AlertController) {
   }
 
   ionViewDidLoad() {
@@ -46,8 +47,19 @@ export class SignupPage {
         this.navCtrl.setRoot(AirportsPage);
         loader.dismissAll();
     }, (error) => {
+      loader.dismiss().then( () => {
+        let alert = this.alertCtrl.create({
+          message: error.message,
+          buttons: [
+            {
+              text: "Ok",
+              role: 'cancel'
+            }
+          ]
+        });
+        alert.present();
+      });
     	console.log(error);
-      loader.dismissAll();
     });
   }
 

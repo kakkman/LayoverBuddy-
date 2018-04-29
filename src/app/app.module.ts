@@ -24,6 +24,8 @@ import { Geolocation } from '@ionic-native/geolocation';
 import { EmojiProvider } from '../providers/emoji/emoji';
 import { ChatProvider } from '../providers/chat/chat';
 
+import { Facebook } from '@ionic-native/facebook';
+
 
 @NgModule({
   declarations: [

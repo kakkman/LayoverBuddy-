@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, LoadingController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, LoadingController, Loading, AlertController } from 'ionic-angular';
 import { SignupPage } from '../signup/signup';
 import { TabsPage } from '../tabs/tabs';
 import { AirportsPage } from '../airports/airports';
@@ -27,7 +27,8 @@ export class LoginPage {
   constructor(public navCtrl: NavController, 
     public navParams: NavParams, 
     public loadCtrl: LoadingController,
-    public dataProvider: DataProvider) {
+    public dataProvider: DataProvider,
+    public alertCtrl: AlertController) {
     this.signup = SignupPage;
   }
 
@@ -35,20 +36,32 @@ export class LoginPage {
     console.log('ionViewDidLoad LoginPage');
   }
 
-
   public doSignin() {
     let loader = this.loadCtrl.create({
       content: 'Signing in...',
-      duration: 500
-
     });
     loader.present();
 
     this.dataProvider.signIn(this.username, this.password).subscribe((success) => {
-      this.navCtrl.setRoot(AirportsPage);
+      loader.dismiss().then(() => {
+        this.navCtrl.setRoot(AirportsPage);
+      });
+      
+      console.log(success);
     }, (error) => {
-      alert('Invalid username or password');
+      loader.dismiss().then( () => {
+        let alert = this.alertCtrl.create({
+          message: error.message,
+          buttons: [
+            {
+              text: "Ok",
+              role: 'cancel'
+            }
+          ]
+        });
+        alert.present();
+      });
+      console.log(error);
     });
   }
-
 }

@@ -6,6 +6,7 @@ import { HomePage } from '../home/home';
 import { TabsPage } from '../tabs/tabs';
 
 import { DataProvider } from '../../providers/data/data';
+import { TabsPage } from '../tabs/tabs';
 
 /**
  * Generated class for the AirportsPage page.
@@ -32,6 +33,12 @@ export class AirportsPage {
 
   public queriedAirports = [];
 
+  public currentSearchString = "";
+
+//for hiding the tabs when navigating back to choose a new airport
+  public tabBarElement: any;
+
+
   constructor(public navCtrl: NavController, 
   	public navParams: NavParams,
   	public dataProvider: DataProvider,
@@ -44,11 +51,29 @@ export class AirportsPage {
     this.airports = this.dataProvider.getAllAirports();
     this.queriedAirports = this.airports;
     this.loadAirportsInRange();
+    this.tabBarElement = document.querySelector('.tabbar.show-tabbar')
 
+
+  }
+
+  ionViewWillEnter() {
+    if(this.tabBarElement != null)
+    {
+      this.tabBarElement.style.display = 'none';
+    }
+  }
+
+  ionViewWillLeave() {
+    if(this.tabBarElement != null)
+    {
+      this.tabBarElement.style.display = 'flex';
+    }
+    
   }
 
   loadAirportsInRange()
   {
+  	console.log("attempting to get geolocation");
     this.geolocation.getCurrentPosition(this.options).then((pos : Geoposition) => {
     	this.currentPos = pos; 
     	this.userlat = pos.coords.latitude;
@@ -67,24 +92,31 @@ export class AirportsPage {
 	//search function for finding a particular airports feed
   searchAirports(searchbar) { 
 		// Reset items back to all of the items
-		this.queriedAirports = this.airports;
+    var input = searchbar.srcElement.value;// set q to the value of the searchbar
+    this.currentSearchString = searchbar.srcElement.value;// set q to the value of the searchbar
 
-		var query = searchbar.srcElement.value;// set q to the value of the searchbar
-		if (!query) { // if the value is an empty string don't filter the items
-		  return;
-			}
-		this.queriedAirports = this.queriedAirports.filter((result) => {
-			if(result.name && query) {
-		    	if (result.name.toLowerCase().indexOf(query.toLowerCase()) > -1) { //checks the string against the value of the name property
-		        	return true;
-		        }
-		        if (result.iata_code.toLowerCase().indexOf(query.toLowerCase()) > -1){
-		        	return true;
-		      	}
-		      	return false;
-		    }
-			});
-		}
+    if(this.currentSearchString != "" && this.currentSearchString != undefined)
+    {
+      console.log("this is the current search string");
+      console.log(this.currentSearchString);
+  		this.queriedAirports = this.airports;
+
+  		if (!this.currentSearchString) { // if the value is an empty string don't filter the items
+  		  return;
+  			}
+  		this.queriedAirports = this.queriedAirports.filter((result) => {
+  			if(result.name && this.currentSearchString) {
+  		    	if (result.name.toLowerCase().indexOf(this.currentSearchString.toLowerCase()) > -1) { //checks the string against the value of the name property
+  		        	return true;
+  		        }
+  		        if (result.iata_code.toLowerCase().indexOf(this.currentSearchString.toLowerCase()) > -1){
+  		        	return true;
+  		      	}
+  		      	return false;
+  		    }
+  			});
+    }
+	}
 
 	//navigation to specific airport feed 
 
@@ -92,15 +124,11 @@ export class AirportsPage {
 	{
 		if(this.airportsInRange.indexOf(airport) > -1)
 		{
-			console.log(airport);
-			console.log(airport.id);
 			this.dataProvider.addUserToAirport(airport);
 		}
-    console.log("PARSE OBJECT IS " + airport.parse_object)
-		this.dataProvider.saveAirport(airport);
-    this.events.publish("pass", airport.parse_object);
-    this.navCtrl.push(TabsPage, {
-
+		this.navCtrl.setRoot(TabsPage, {
+			airport: airport,
+      userInfo: this.dataProvider.currentUser()
 		});
 	}
 
