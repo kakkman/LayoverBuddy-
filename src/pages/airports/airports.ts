@@ -125,7 +125,8 @@ export class AirportsPage {
 			this.dataProvider.addUserToAirport(airport);
 		}
 		this.navCtrl.setRoot(TabsPage, {
-			airport: airport
+			airport: airport,
+      userInfo: this.dataProvider.currentUser()
 		});
 	}
 
