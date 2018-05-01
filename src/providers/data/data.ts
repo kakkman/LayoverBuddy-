@@ -249,23 +249,6 @@ export class DataProvider {
     return airports;
   }
 
-  saveAirport(airport) {
-    let newData = JSON.stringify(this.flatten(airport));
-    this.storage.set('airport', newData);
-  }
-
-  getAirport() {
-    return this.storage.get('airport');
-  }
-
-  flatten(airport) {
-    var result = Object.create(airport);
-    for(var key in result) {
-      result[key] = result[key];
-    }
-    return result;
-  }
-
   ///////////////////////////////////////////////////////////////////////////
   // loading users actively in airport vicinity
   //////////////////////////////////////////////////////////////////////////

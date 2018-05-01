@@ -67,7 +67,8 @@ import { Facebook } from '@ionic-native/facebook';
     DataProvider,
     EmojiProvider,
     Geolocation,
-    ChatProvider
+    ChatProvider,
+    Facebook,
   ]
 })
 export class AppModule {}
