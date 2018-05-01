@@ -85,4 +85,6 @@
         <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="To locate you" />
     </plugin>
     <engine name="ios" spec="~4.5.4" />
+    <plugin name="parse-push-plugin" spec="https://github.com/taivo/parse-push-plugin" />
+    <plugin name="cordova-plugin-firebase" spec="^1.0.3" />
 </widget>

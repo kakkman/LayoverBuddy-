@@ -54,7 +54,7 @@ export class DataProvider {
 
           userQuery.equalTo('email', username);
           userQuery.first().then(function (success) {
-            var username = success.toJSON().username; 
+            var username = success.toJSON().username;
             Parse.User.logIn(username, password, {
               success: function (user) {
                 observer.next(true);
@@ -69,14 +69,14 @@ export class DataProvider {
             observer.error(error);
             observer.complete();
           });
-          
+
         }
       });
     });
   }
 
-  public signUp(username: string, 
-    password: string, 
+  public signUp(username: string,
+    password: string,
     email: string): Observable<boolean> {
     return new Observable((observer) => {
       var user = new Parse.User();
@@ -159,7 +159,7 @@ export class DataProvider {
     });
     console.log(airports.length);
     return airports;
-  }  
+  }
 
   getAirportsInRange(latitude: number, longitude:number)
   {
@@ -173,7 +173,7 @@ export class DataProvider {
     //TODO: Calculate distance properly. this proof of concept below works.
     var latitudeHigh = latitude +5;
     var latitudeLow = latitude -5;
-    var longitudeHigh = longitude +5; 
+    var longitudeHigh = longitude +5;
     var longitudeLow = longitude -5;
 
     var airports = [];
@@ -238,7 +238,7 @@ export class DataProvider {
     });
   }
 
-  //TODO: remove users when no longer in range. track users entire time to tell. 
+  //TODO: remove users when no longer in range. track users entire time to tell.
 
   removeUserFromAirport()
   {
@@ -265,7 +265,8 @@ export class DataProvider {
 
           let user = {
             name: object.get("username"),
-            parse_object: object
+            parse_object: object,
+            id: object.id
           };
           console.log(user);
           users.push(user);

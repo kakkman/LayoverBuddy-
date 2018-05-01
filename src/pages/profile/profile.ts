@@ -12,16 +12,20 @@ export class ProfilePage {
 
 	public user;
 
-	public name;
-	public email;
+
+  public name;
+  public email;
   constructor(public navCtrl: NavController, public navParams: NavParams, public dataProvider: DataProvider) {
   	this.user = this.navParams.get('user');
   	this.name = this.user.name;
+
   }
 
   sendMessage(){
 
-    this.navCtrl.push(Chat);
+    this.navCtrl.push(Chat, {
+			toUser: this.user
+		});
   }
 
 }

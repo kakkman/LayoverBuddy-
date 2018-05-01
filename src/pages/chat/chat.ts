@@ -2,6 +2,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { IonicPage, NavParams } from 'ionic-angular';
 import { Events, Content } from 'ionic-angular';
 import { ChatProvider, ChatMessage, UserInfo } from "../../providers/chat/chat";
+import { DataProvider } from '../../providers/data/data';
 
 @IonicPage()
 @Component({
@@ -11,26 +12,25 @@ import { ChatProvider, ChatMessage, UserInfo } from "../../providers/chat/chat";
 export class Chat {
 
   @ViewChild(Content) content: Content;
-  @ViewChild('chat_input') messageInput: ElementRef;
+   @ViewChild('chat_input') messageInput: ElementRef;
   msgList: ChatMessage[] = [];
   user: UserInfo;
   toUser: UserInfo;
   editorMsg = '';
   showEmojiPicker = false;
+  numMsg = 0;
 
   constructor(navParams: NavParams,
               private chatService:  ChatProvider,
-              private events: Events,) {
+              private events: Events,public dataProvider: DataProvider) {
     // Get the navParams toUserId parameter
-    this.toUser = {
-      id: navParams.get('toUserId'),
-      name: navParams.get('toUserName')
-    };
+    this.toUser =  navParams.get("toUser");
+
     // Get mock user information
-    this.chatService.getUserInfo()
-    .then((res) => {
-      this.user = res
-    });
+    this.user =  this.dataProvider.currentUser();
+
+
+
   }
 
   ionViewWillLeave() {
@@ -71,20 +71,53 @@ export class Chat {
    */
   getMsg() {
     // Get mock message list
-    return this.chatService
-    .getMsgList()
-    .subscribe(res => {
+    // if(this.numMsg !== this.msgList.length){
+      this.msgList = this.chatService
+      .getMsgList(this.user, this.toUser);
+    /*  this.numMsg = this.msgList.length;
+      return this.msgList;
+    }*/
+
+
+    var self= this;
+    setTimeout( function(){
+
+      self.getMsg(); }, 3000);
+    //  this.scrollToBottom();
+  //  if(this.numMsg !== this.msgList.length){
+  //    console.log("returns msg List");
+  //    this.numMsg = this.msgList.length;
+      return this.msgList;
+  //  }
+//});
+
+
+    /*.subscribe(res => {
       this.msgList = res;
       this.scrollToBottom();
-    });
+    });*/
   }
 
-  /**
+/*  isSameList() {
+    var testMsgList = [];
+
+    testMsgList = this.chatService
+    .getMsgList(this.user, this.toUser);
+
+    if (testMsgList.length === this.msgList.length){
+      return true;
+    } else {
+      return false;
+    }
+  }*/
+
+  /**1
    * @name sendMsg
    */
   sendMsg() {
     if (!this.editorMsg.trim()) return;
 
+     console.log(this.toUser.id);
     // Mock message
     const id = Date.now().toString();
     let newMsg: ChatMessage = {
@@ -98,7 +131,7 @@ export class Chat {
       status: 'pending'
     };
 
-    this.pushNewMsg(newMsg);
+
     this.editorMsg = '';
 
     if (!this.showEmojiPicker) {
@@ -118,7 +151,7 @@ export class Chat {
    * @name pushNewMsg
    * @param msg
    */
-  pushNewMsg(msg: ChatMessage) {
+  pushNewMsg(msg) {
     const userId = this.user.id,
       toUserId = this.toUser.id;
     // Verify user relationships
