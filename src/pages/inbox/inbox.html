@@ -8,10 +8,20 @@
 
 <ion-content>
   <ion-list>
-    <ion-card *ngFor=" let user of convos">
-      <ion-item  (click)="viewUser(user)">
-        <h3>{{user.get('username')}}</h3>
+    <ion-card *ngFor=" let chat of chats">
+      <ion-item (click)="goToChat(chat)">
+        <ion-grid>
+          <ion-row>
+            <h3>put list of participants here</h3>
+            <h1>date</h1>
+          </ion-row>
+          <ion-row>
+            <p>last message here</p>
+            <p> timestamp here </p>
+          </ion-row>
+        </ion-grid>
+
       </ion-item>
     </ion-card>
-    </ion-list>
+  </ion-list>
 </ion-content>

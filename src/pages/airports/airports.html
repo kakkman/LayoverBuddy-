@@ -7,29 +7,33 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>airports</ion-title>
+    <ion-title>Airports</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 <ion-content padding>
-	<ion-searchbar (ionInput)="searchAirports($event)"></ion-searchbar>
-	<ion-item>Airports within posting range:</ion-item>
-	<ion-list>
-    <ion-card *ngFor=" let airport of airportsInRange">
-      <ion-item (click)="goToAirportFeed(airport)">
-        <h3>{{airport.iata_code}}</h3>
-       	<p>{{airport.name}}</p>
-      </ion-item>
-  	</ion-card>
-	</ion-list>
-	<ion-item>Other Airports:</ion-item>
-	<ion-list>
-    <ion-card *ngFor=" let airport of queriedAirports">
-      <ion-item (click)="goToAirportFeed(airport)">
-        <h3>{{airport.iata_code}}</h3>
-       	<p>{{airport.name}}</p>
-      </ion-item>
-  	</ion-card>
-	</ion-list>
+	<ion-searchbar (ionInput)="searchAirports($event)" (ionCancel)="currentSearchString=''" (ionClear)="currentSearchString=''"[showCancelButton]="true"  placeholder="Search All Airports"></ion-searchbar>
+  <div *ngIf="currentSearchString == '' || currentSearchString == undefined">
+    <ion-item style="text-align: center">Local Airports: </ion-item>
+  	<ion-list>
+      <ion-card *ngFor=" let airport of airportsInRange">
+        <ion-item (click)="goToAirportFeed(airport)">
+          <h3>{{airport.iata_code}}</h3>
+         	<p>{{airport.name}}</p>
+        </ion-item>
+    	</ion-card>
+  	</ion-list>
+  </div>
+  <div *ngIf="currentSearchString != '' && currentSearchString != undefined">
+	  <ion-list>
+      <ion-item style="text-align: center">All Airports:</ion-item>
+      <ion-card *ngFor=" let airport of queriedAirports" >
+        <ion-item (click)="goToAirportFeed(airport)">
+          <h3>{{airport.iata_code}}</h3>
+         	<p>{{airport.name}}</p>
+        </ion-item>
+    	</ion-card>
+	  </ion-list>
+  </div>
 </ion-content>

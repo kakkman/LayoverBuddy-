@@ -16,16 +16,8 @@ export class ProfilePage {
   public name;
   public email;
   constructor(public navCtrl: NavController, public navParams: NavParams, public dataProvider: DataProvider) {
-  	this.user = this.navParams.get('user');
-  	this.name = this.user.name;
-
-  }
-
-  sendMessage(){
-
-    this.navCtrl.push(Chat, {
-			toUser: this.user
-		});
+  	this.user = this.navParams.data;
+  	this.name = this.user.username;
   }
 
 }

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 import { ProfilePage } from '../../pages/profile/profile';
+import { AirportsPage } from '../../pages/airports/airports';
 
 import { DataProvider } from '../../providers/data/data';
 @Component({
@@ -20,8 +21,10 @@ export class HomePage {
    public navParams: NavParams,
    public dataProvider: DataProvider) {
 
-  	this.airport = this.navParams.get('airport');
-  	this.iata_code = "";//this.airport.iata_code;
+    console.log("printing passed airport information");
+    console.log(this.navParams.data);
+  	this.airport = this.navParams.data;
+  	this.iata_code = this.airport.iata_code;
   	this.name = this.airport.name;
   	this.activeUsers = this.dataProvider.getActiveUsersAtAirport(this.airport);
   }
@@ -36,6 +39,12 @@ export class HomePage {
   public createGroup()
   {
 
+  }
+
+  public chooseNewAirport()
+  {
+        this.navCtrl.setRoot(AirportsPage, {
+    });
   }
 
 }
