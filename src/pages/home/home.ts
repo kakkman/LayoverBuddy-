@@ -43,7 +43,7 @@ export class HomePage {
 
   public chooseNewAirport()
   {
-        this.navCtrl.setRoot(AirportsPage, {
+        this.navCtrl.push(AirportsPage, {
     });
   }
 

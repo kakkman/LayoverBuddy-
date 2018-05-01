@@ -15,7 +15,7 @@
 <ion-content padding>
 	<ion-searchbar (ionInput)="searchAirports($event)" (ionCancel)="currentSearchString=''" (ionClear)="currentSearchString=''"[showCancelButton]="true"  placeholder="Search All Airports"></ion-searchbar>
   <div *ngIf="currentSearchString == '' || currentSearchString == undefined">
-    <ion-item style="text-align: center">Local Airports: </ion-item>
+    <p style="text-align: center">Local Airports: </p>
   	<ion-list>
       <ion-card *ngFor=" let airport of airportsInRange">
         <ion-item (click)="goToAirportFeed(airport)">
@@ -27,7 +27,7 @@
   </div>
   <div *ngIf="currentSearchString != '' && currentSearchString != undefined">
 	  <ion-list>
-      <ion-item style="text-align: center">All Airports:</ion-item>
+      <p style="text-align: center">All Airports:</p>
       <ion-card *ngFor=" let airport of queriedAirports" >
         <ion-item (click)="goToAirportFeed(airport)">
           <h3>{{airport.iata_code}}</h3>
