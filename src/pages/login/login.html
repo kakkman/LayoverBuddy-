@@ -26,6 +26,9 @@
     <button ion-button block type [navPush]="signup" class="btn">
       Create a New Account
     </button>
+     <button ion-button block type (click)="facebookLogin()" class="btn">
+      Login with Facebook
+    </button>
   </div>
 
   <!--button ion-button block type (click)="goToResetPassword()" class="btn">

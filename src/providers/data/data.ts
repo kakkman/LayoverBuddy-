@@ -5,6 +5,7 @@ import { Storage } from '@ionic/storage';
 import { Parse } from 'parse';
 import { ENV } from '../../app/app.constant';
 
+import { Facebook } from '@ionic-native/facebook';
 
 /*
   Generated class for the DataProvider provider.
@@ -27,7 +28,7 @@ export class DataProvider {
   private parseServerUrl: string = ENV.parseServerUrl;
   private parseJsId: string = ENV.parseJsId;
 
-  constructor(public storage: Storage) {
+  constructor(public facebook: Facebook) {
   	this.parseInitialize();
     console.log('Hello AuthProvider Provider');
   }
@@ -123,6 +124,52 @@ export class DataProvider {
     return (Parse.User.current() == user.parse_object);
   }
 
+  public facebookLogin(authData)
+  {
+    /*return Parse.FacebookUtils.logIn(authData, {
+        success: function(user) {
+          console.log(user);
+          if (!user.existed()) {
+            return("User signed up and logged in through Facebook!");
+          } else {
+            return("User logged in through Facebook!");
+          }
+        },
+        error: function(user, error) {
+          return("User cancelled the Facebook login or did not fully authorize.");
+        }
+      }); */
+
+    return Parse.FacebookUtils.logIn(authData, {
+
+        success: function(user) {
+            if (!user.existed()) {
+                this.facebook.api("/me?fields=name,email",["public_profile", "email"]).then(info => {
+                    user.save(null, {
+                        success: function(user) {
+                            user.set('name', info.name);
+                            user.set('email', info.email);
+                            user.save();
+
+                            // You should redirect the user to another page after a successful login.
+                        },
+                        error: function(user, error) {
+                            alert('Failed to save user to database with error: ' + error.message);
+                        }
+                    });
+                });
+            } else {
+                alert("User logged in through Facebook!");
+                
+                // You should redirect the user to another page after a successful login.
+            }
+        },
+        error: function(user, error) {
+          alert(user +'\n' + error)
+            console.log("User cancelled the Facebook login or did not fully authorize.");
+        }
+    });
+  }
 ///////////////////////////////////////////////////////////////////////////
 // airport methods and information
 //////////////////////////////////////////////////////////////////////////
@@ -166,10 +213,10 @@ export class DataProvider {
       return;
     }
     //TODO: Calculate distance properly. this proof of concept below works.
-    var latitudeHigh = latitude +5;
-    var latitudeLow = latitude -5;
-    var longitudeHigh = longitude +5; 
-    var longitudeLow = longitude -5;
+    var latitudeHigh = latitude + 0.5;
+    var latitudeLow = latitude - 0.5;
+    var longitudeHigh = longitude + 0.5; 
+    var longitudeLow = longitude - 0.5;
 
     var airports = [];
     var airportDB = Parse.Object.extend('Airports');
