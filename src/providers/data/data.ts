@@ -95,6 +95,19 @@ export class DataProvider {
     return null
   }
 
+  public getCurrentUser() {
+    Parse.User.enableUnsafeCurrentUser();
+    var u = Parse.User.current();
+    var userCopy = {
+      name: u.get("name"),
+      username: u.get("username"),
+      age: u.get("age"),
+      bio: u.get("bio"),
+      id: u.id
+    }
+    return userCopy;
+  }
+
   public authenticated(): boolean {
     return this.currentUser() !== null;
   }
@@ -264,7 +277,11 @@ export class DataProvider {
           var object = results[i];
 
           let user = {
-            name: object.get("username"),
+            username: object.get("username"),
+            name: object.get("name"),
+            age: object.get("age"),
+            bio: object.get("bio"),
+            id: object.id,
             parse_object: object
           };
           console.log(user);

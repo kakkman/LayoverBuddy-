@@ -40,16 +40,9 @@ export class HomePage {
 
   }
 
-<<<<<<< HEAD
-  ionViewDidLoad() {
-
-  }
-=======
   public chooseNewAirport()
   {
         this.navCtrl.setRoot(AirportsPage, {
     });
   }
-
->>>>>>> updated-navigation
 }

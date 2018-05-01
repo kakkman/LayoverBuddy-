@@ -6,7 +6,6 @@ import { HomePage } from '../home/home';
 import { TabsPage } from '../tabs/tabs';
 
 import { DataProvider } from '../../providers/data/data';
-import { TabsPage } from '../tabs/tabs';
 
 /**
  * Generated class for the AirportsPage page.
@@ -126,9 +125,11 @@ export class AirportsPage {
 		{
 			this.dataProvider.addUserToAirport(airport);
 		}
+    var userInfo = this.dataProvider.getCurrentUser();
+    console.log(userInfo);
 		this.navCtrl.setRoot(TabsPage, {
 			airport: airport,
-      userInfo: this.dataProvider.currentUser()
+      userInfo: userInfo
 		});
 	}
 

@@ -19,5 +19,6 @@ export class TabsPage {
 
   constructor(public navParams: NavParams) {
   	this.airport = this.navParams.get('airport');
+  	this.userInfo = this.navParams.get('userInfo');
   }
 }
