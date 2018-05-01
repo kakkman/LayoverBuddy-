@@ -83,33 +83,14 @@ export class Chat {
     setTimeout( function(){
 
       self.getMsg(); }, 3000);
-    //  this.scrollToBottom();
-  //  if(this.numMsg !== this.msgList.length){
-  //    console.log("returns msg List");
-  //    this.numMsg = this.msgList.length;
+
+      this.numMsg = this.msgList.length;
+      console.log(this.numMsg);
       return this.msgList;
-  //  }
-//});
 
-
-    /*.subscribe(res => {
-      this.msgList = res;
-      this.scrollToBottom();
-    });*/
   }
 
-/*  isSameList() {
-    var testMsgList = [];
 
-    testMsgList = this.chatService
-    .getMsgList(this.user, this.toUser);
-
-    if (testMsgList.length === this.msgList.length){
-      return true;
-    } else {
-      return false;
-    }
-  }*/
 
   /**1
    * @name sendMsg
@@ -117,7 +98,8 @@ export class Chat {
   sendMsg() {
     if (!this.editorMsg.trim()) return;
 
-     console.log(this.toUser.id);
+     console.log(this.toUser.name);
+
     // Mock message
     const id = Date.now().toString();
     let newMsg: ChatMessage = {
@@ -126,6 +108,7 @@ export class Chat {
       userName: this.user.name,
       userAvatar: this.user.avatar,
       toUserId: this.toUser.id,
+      toUserName: this.toUser.name,
       time: Date.now(),
       message: this.editorMsg,
       status: 'pending'

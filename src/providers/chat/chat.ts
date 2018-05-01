@@ -12,6 +12,7 @@ export class ChatMessage {
   userName: string;
   userAvatar: string;
   toUserId: string;
+  toUserName: string;
   time: number | string;
   message: string;
   status: string;
@@ -122,6 +123,7 @@ export class ChatProvider {
       success: function(results){
             message.set("UserID",results[0]);
             message.set("Message", msg.message);
+            message.set("toUserName", msg.toUserName);
             var toUser = Parse.Object.extend('User');
             var queryTo = new Parse.Query(toUser);
             queryTo.equalTo("objectId" , msg.toUserId);

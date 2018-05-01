@@ -9,7 +9,7 @@
 <ion-content>
 
   <div class="message-wrap">
-
+<ng-container *ngIf="msgList.length > numMsg">
     <div *ngFor="let m of msgList"
     class="message"
     [class.left]=" m.get('UserID').id === toUser.id "
@@ -29,6 +29,7 @@
         </div>
       </div>
     </div>
+  </ng-container>
     </div>
 
 
