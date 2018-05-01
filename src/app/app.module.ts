@@ -9,6 +9,7 @@ import { InboxPage } from '../pages/inbox/inbox';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { AirportsPage } from '../pages/airports/airports';
+import { EditProfilePage } from '../pages/edit-profile/edit-profile';
 import { Chat } from '../pages/chat/chat'
 
 import { SignupPage } from '../pages/signup/signup';
@@ -38,6 +39,7 @@ import { Facebook } from '@ionic-native/facebook';
     SignupPage,
     LoginPage,
     AirportsPage,
+    EditProfilePage,
   ],
   imports: [
     BrowserModule,
@@ -56,7 +58,7 @@ import { Facebook } from '@ionic-native/facebook';
     SignupPage,
     LoginPage,
     AirportsPage,
-
+    EditProfilePage,
   ],
   providers: [
     StatusBar,

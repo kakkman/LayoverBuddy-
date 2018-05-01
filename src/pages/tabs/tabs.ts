@@ -16,6 +16,7 @@ export class TabsPage {
   tab3Root = InboxPage;
 
   public airport;
+  public userInfo;
 
   constructor(public navParams: NavParams) {
   	this.airport = this.navParams.get('airport');
