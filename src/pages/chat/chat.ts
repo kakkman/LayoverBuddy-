@@ -2,6 +2,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { IonicPage, NavParams } from 'ionic-angular';
 import { Events, Content } from 'ionic-angular';
 import { ChatProvider, ChatMessage, UserInfo } from "../../providers/chat/chat";
+import { DataProvider } from '../../providers/data/data';
 
 @IonicPage()
 @Component({
@@ -11,26 +12,25 @@ import { ChatProvider, ChatMessage, UserInfo } from "../../providers/chat/chat";
 export class Chat {
 
   @ViewChild(Content) content: Content;
-  @ViewChild('chat_input') messageInput: ElementRef;
+   @ViewChild('chat_input') messageInput: ElementRef;
   msgList: ChatMessage[] = [];
   user: UserInfo;
   toUser: UserInfo;
   editorMsg = '';
   showEmojiPicker = false;
+  numMsg = 0;
 
   constructor(navParams: NavParams,
               private chatService:  ChatProvider,
-              private events: Events,) {
+              private events: Events,public dataProvider: DataProvider) {
     // Get the navParams toUserId parameter
-    this.toUser = {
-      id: navParams.get('toUserId'),
-      name: navParams.get('toUserName')
-    };
+    this.toUser =  navParams.get("toUser");
+
     // Get mock user information
-    this.chatService.getUserInfo()
-    .then((res) => {
-      this.user = res
-    });
+    this.user =  this.dataProvider.currentUser();
+
+
+
   }
 
   ionViewWillLeave() {
@@ -71,19 +71,34 @@ export class Chat {
    */
   getMsg() {
     // Get mock message list
-    return this.chatService
-    .getMsgList()
-    .subscribe(res => {
-      this.msgList = res;
-      this.scrollToBottom();
-    });
+    // if(this.numMsg !== this.msgList.length){
+      this.msgList = this.chatService
+      .getMsgList(this.user, this.toUser);
+    /*  this.numMsg = this.msgList.length;
+      return this.msgList;
+    }*/
+
+
+    var self= this;
+    setTimeout( function(){
+
+      self.getMsg(); }, 3000);
+
+      this.numMsg = this.msgList.length;
+      console.log(this.numMsg);
+      return this.msgList;
+
   }
 
-  /**
+
+
+  /**1
    * @name sendMsg
    */
   sendMsg() {
     if (!this.editorMsg.trim()) return;
+
+     console.log(this.toUser.name);
 
     // Mock message
     const id = Date.now().toString();
@@ -93,12 +108,13 @@ export class Chat {
       userName: this.user.name,
       userAvatar: this.user.avatar,
       toUserId: this.toUser.id,
+      toUserName: this.toUser.name,
       time: Date.now(),
       message: this.editorMsg,
       status: 'pending'
     };
 
-    this.pushNewMsg(newMsg);
+
     this.editorMsg = '';
 
     if (!this.showEmojiPicker) {
@@ -118,7 +134,7 @@ export class Chat {
    * @name pushNewMsg
    * @param msg
    */
-  pushNewMsg(msg: ChatMessage) {
+  pushNewMsg(msg) {
     const userId = this.user.id,
       toUserId = this.toUser.id;
     // Verify user relationships

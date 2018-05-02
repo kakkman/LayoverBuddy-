@@ -6,19 +6,18 @@
   </ion-navbar>
 </ion-header>
 
+
+
 <ion-content>
   <ion-list>
-    <ion-card *ngFor=" let chat of chats">
-      <ion-item (click)="goToChat(chat)">
+    <ion-card *ngFor=" let chat of convos">
+      <ion-item (click)="sendMessage(chat)">
         <ion-grid>
           <ion-row>
-            <h3>put list of participants here</h3>
-            <h1>date</h1>
+            <h3>{{chat.get('toUserName')}}</h3>
+
           </ion-row>
-          <ion-row>
-            <p>last message here</p>
-            <p> timestamp here </p>
-          </ion-row>
+
         </ion-grid>
 
       </ion-item>

@@ -27,6 +27,7 @@ export class ProfilePage {
   	this.age = this.user.age;
   	this.id = this.user.id;
   	try {
+  		this.user = this.navParams.get('user');
   		this.name = this.navParams.get('user').name;
 		this.age = this.navParams.get('user').age;
 		this.bio = this.navParams.get('user').bio;
@@ -46,9 +47,12 @@ export class ProfilePage {
   	});
   }
 
+
   sendMessage(){
 
-    this.navCtrl.push(Chat);
+    this.navCtrl.push(Chat, {
+			toUser: this.user
+		});
   }
 
   editProfile() {

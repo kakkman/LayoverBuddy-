@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>{{toUser.name}}</ion-title>
+    <ion-title>{{toUser.username}}</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -9,26 +9,29 @@
 <ion-content>
 
   <div class="message-wrap">
+<ng-container *ngIf="msgList.length > numMsg">
+    <div *ngFor="let m of msgList"
+    class="message"
+    [class.left]=" m.get('UserID').id === toUser.id "
+    [class.right]=" m.get('UserID').id === user.id "
+         >
 
-    <div *ngFor="let msg of msgList"
-         class="message"
-         [class.left]=" msg.userId === toUser.id "
-         [class.right]=" msg.userId === user.id ">
-      <img class="user-img" [src]="msg.userAvatar" alt="" src="">
-      <ion-spinner name="dots" *ngIf="msg.status === 'pending'"></ion-spinner>
+      <img class="user-img"  alt="" src="">
+      <ion-spinner name="dots" *ngIf="m.status === 'pending'"></ion-spinner>
       <div class="msg-detail">
         <div class="msg-info">
           <p>
-            {{msg.userName}}&nbsp;&nbsp;&nbsp;{{msg.time }}</p>
+            &nbsp;&nbsp;&nbsp;</p>
         </div>
         <div class="msg-content">
           <span class="triangle"></span>
-          <p class="line-breaker ">{{msg.message}}</p>
+          <p class="line-breaker ">{{m.get('Message')}}</p>
         </div>
       </div>
     </div>
+  </ng-container>
+    </div>
 
-  </div>
 
 </ion-content>
 

@@ -21,7 +21,7 @@ export class HomePage {
    public dataProvider: DataProvider) {
 
     console.log("printing passed airport information");
-    console.log(this.navParams.data);
+    console.log(this.navParams.data); 
   	this.airport = this.navParams.data;
   	this.iata_code = this.airport.iata_code;
   	this.name = this.airport.name;

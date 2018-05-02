@@ -51,15 +51,34 @@ export class DataProvider {
           observer.complete();
         },
         error: function (user, error) {
+          // If the user inputs the email instead of the username
+          var userQuery = new Parse.Query(Parse.User);
+
+          userQuery.equalTo('email', username);
+          userQuery.first().then(function (success) {
+            var username = success.toJSON().username;
+            Parse.User.logIn(username, password, {
+              success: function (user) {
+                observer.next(true);
+                observer.complete();
+              },
+              error: function (user, error) {
+                observer.error(error);
+                observer.complete();
+              }
+            });
+          }, function (error) {
             observer.error(error);
             observer.complete();
-          }
-        });
-    });       
+          });
+
+        }
+      });
+    });
   }
 
-  public signUp(username: string, 
-    password: string, 
+  public signUp(username: string,
+    password: string,
     email: string): Observable<boolean> {
     return new Observable((observer) => {
       var user = new Parse.User();
@@ -201,7 +220,7 @@ export class DataProvider {
     });
     console.log(airports.length);
     return airports;
-  }  
+  }
 
   getAirportsInRange(latitude: number, longitude:number)
   {
@@ -213,11 +232,11 @@ export class DataProvider {
       return;
     }
     //TODO: Calculate distance properly. this proof of concept below works.
+
     var latitudeHigh = latitude + 0.5;
     var latitudeLow = latitude - 0.5;
     var longitudeHigh = longitude + 0.5; 
     var longitudeLow = longitude - 0.5;
-
     var airports = [];
     var airportDB = Parse.Object.extend('Airports');
     var airportQuery = new Parse.Query(airportDB).ascending("iata_code");
@@ -281,7 +300,7 @@ export class DataProvider {
     });
   }
 
-  //TODO: remove users when no longer in range. track users entire time to tell. 
+  //TODO: remove users when no longer in range. track users entire time to tell.
 
   removeUserFromAirport()
   {

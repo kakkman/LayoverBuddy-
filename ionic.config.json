@@ -1,6 +1,6 @@
 {
   "name": "LayoverBuddy",
-  "app_id": "",
+  "app_id": "da922ea4",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
