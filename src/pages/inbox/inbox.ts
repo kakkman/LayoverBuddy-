@@ -28,32 +28,6 @@ export class InboxPage {
 
   }
 
-  sendMessage(msg){
-    var toUser = Parse.Object.extend('User');
-    var self = this;
-
-    console.log(msg.get('toUser').id);
-    var queryTo = new Parse.Query(toUser);
-    queryTo.equalTo("objectId" , msg.get('toUser').id);
-    queryTo.limit(1);
-    queryTo.find({
-        success: function(toResults){
-            console.log(toResults[0]);
-           self.newUser = toResults[0];
-           console.log(self.newUser);
-           this.navCtrl.push(Chat, {
-       toUser: self.newUser
-     });
-     }
-       })
-       /*.then(function(value) {
-
-          this.navCtrl.push(Chat, {
-      toUser: this.newUser
-    });
-
-  });*/
-}
 
   getConvos(){
     var conversations = [];

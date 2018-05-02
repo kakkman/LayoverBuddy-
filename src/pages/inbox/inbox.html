@@ -11,7 +11,7 @@
 <ion-content>
   <ion-list>
     <ion-card *ngFor=" let chat of convos">
-      <ion-item (click)="sendMessage(chat)">
+      <ion-item >
         <ion-grid>
           <ion-row>
             <h3>{{chat.get('toUserName')}}</h3>
